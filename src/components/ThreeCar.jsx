@@ -73,21 +73,21 @@ function CarFallback() {
         </div>
 
         <h3 className="font-display font-bold text-xl text-white mt-2 flex items-center justify-center space-x-2">
-          <span>Autopilot ML Active</span>
+          <span>Valuation Engine Ready</span>
         </h3>
         <p className="text-secondary-text text-xs mt-2 max-w-sm">
-          Interactive 3D model paused. Valuation models and neural networks are fully operational.
+          Interactive 3D model preview paused. Resale appraisal and vehicle valuation features are fully operational.
         </p>
 
         <div className="flex flex-wrap items-center justify-center gap-2 mt-4">
           <span className="text-[10px] font-mono px-2.5 py-1 bg-brand-primary/10 border border-brand-primary/20 text-brand-primary rounded-md">
-            XGBoost v2.1
+            Instant Estimate
           </span>
           <span className="text-[10px] font-mono px-2.5 py-1 bg-brand-accent/10 border border-brand-accent/20 text-brand-accent rounded-md">
-            CatBoost v1.2
+            Fair Market Rating
           </span>
           <span className="text-[10px] font-mono px-2.5 py-1 bg-emerald-500/10 border border-emerald-500/20 text-emerald-400 rounded-md">
-            RandomForest
+            PDF Export Ready
           </span>
         </div>
       </div>
@@ -492,7 +492,7 @@ export default function ThreeCar() {
             scale: { delay: 1.2, duration: 0.5 },
             y: { duration: 5, repeat: Infinity, ease: 'easeInOut' }
           }}
-          className="absolute top-[-5%] md:top-[-6%] left-1/2 z-20 pointer-events-none flex flex-col items-center filter drop-shadow-[0_12px_24px_rgba(0,0,0,0.5)]"
+          className="absolute top-1 md:top-2 lg:top-3 left-1/2 z-20 pointer-events-none flex flex-col items-center filter drop-shadow-[0_12px_24px_rgba(0,0,0,0.5)]"
         >
           {/* Glass HUD panel */}
           <div className="glass-panel border border-white/10 rounded-2xl px-6 py-3 bg-[#050816]/90 backdrop-blur-md flex flex-col items-center space-y-1 hover:border-brand-primary/40 transition-colors duration-300">

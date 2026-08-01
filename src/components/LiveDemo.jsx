@@ -39,9 +39,9 @@ export default function LiveDemo() {
     setShowResult(false);
     
     const phases = [
-      { text: 'Simulating mock database queries...', delay: 0 },
-      { text: 'Evaluating sample pricing deviations...', delay: 500 },
-      { text: 'Calibrating odometer benchmarks...', delay: 1000 }
+      { text: 'Analyzing vehicle parameters...', delay: 0 },
+      { text: 'Evaluating market price indicators...', delay: 500 },
+      { text: 'Generating valuation summary...', delay: 1000 }
     ];
 
     phases.forEach((p) => {
@@ -105,24 +105,24 @@ export default function LiveDemo() {
   }
 
   return (
-    <section id="live-demo" className="py-14 relative z-10">
+    <section id="live-demo" className="py-24 md:py-36 relative z-10">
       <div className="max-w-7xl mx-auto px-6 md:px-12">
         
-        {/* Header */}
-        <div className="text-center max-w-3xl mx-auto mb-12 space-y-4">
+        {/* Section Header */}
+        <div className="text-center max-w-3xl mx-auto mb-16 space-y-4">
           <motion.div
             initial={{ opacity: 0, scale: 0.95 }}
             whileInView={{ opacity: 1, scale: 1 }}
             viewport={{ once: true }}
-            className="inline-flex items-center space-x-2 px-3 py-1 rounded-full bg-brand-primary/10 border border-brand-primary/20"
+            className="inline-flex items-center space-x-2 px-3.5 py-1 rounded-full bg-brand-primary/10 border border-brand-primary/20"
           >
-            <span className="text-[10px] font-bold text-brand-primary uppercase tracking-widest">
-              INTERACTIVE DEMO
+            <span className="text-[10px] font-bold text-brand-primary uppercase tracking-widest font-mono">
+              INTERACTIVE DEMO CONSOLE
             </span>
           </motion.div>
           
-          <h2 className="font-display font-extrabold text-3xl sm:text-4xl text-white tracking-tight">
-            See the Prediction in Action
+          <h2 className="font-display font-extrabold text-3xl sm:text-5xl text-white tracking-tight leading-[1.08]">
+            See the Prediction in <span className="text-gradient-primary">Action.</span>
           </h2>
           
           <p className="text-secondary-text text-sm sm:text-base max-w-xl mx-auto">
@@ -130,19 +130,22 @@ export default function LiveDemo() {
           </p>
         </div>
 
-        {/* Layout split */}
+        {/* Layout Asymmetric split: 5 cols input, 7 cols console */}
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 items-stretch max-w-5xl mx-auto">
           
-          {/* Left Card: Vehicle Input Form */}
-          <div className="lg:col-span-6">
-            <GlowCard className="h-full" glowColor="rgba(37, 99, 235, 0.08)">
+          {/* Left Card: Vehicle Input Form (Secondary Card) */}
+          <div className="lg:col-span-5">
+            <GlowCard variant="secondary" className="h-full" glowColor="rgba(37, 99, 235, 0.08)">
               <div className="flex flex-col justify-between h-full space-y-6 text-left">
                 <div className="space-y-1.5">
-                  <div className="flex items-center space-x-2">
-                    <Sliders className="w-4.5 h-4.5 text-brand-primary" />
-                    <h3 className="font-display font-bold text-base text-white">Vehicle Specifications</h3>
+                  <div className="flex items-center justify-between">
+                    <div className="flex items-center space-x-2">
+                      <Sliders className="w-4.5 h-4.5 text-brand-primary" />
+                      <h3 className="font-display font-bold text-base text-white">Vehicle Spec Sheet</h3>
+                    </div>
+                    <span className="text-[9px] font-mono font-bold text-secondary-text bg-white/5 px-2 py-0.5 rounded">INPUT</span>
                   </div>
-                  <p className="text-xs text-secondary-text">
+                  <p className="text-xs text-secondary-text leading-relaxed">
                     Review specifications for a pre-owned vehicle to benchmark market value.
                   </p>
                 </div>
@@ -225,9 +228,9 @@ export default function LiveDemo() {
             </GlowCard>
           </div>
 
-          {/* Right Card: Output Screen */}
-          <div className="lg:col-span-6">
-            <GlowCard className="h-full" glowColor="rgba(16, 185, 129, 0.08)">
+          {/* Right Card: Output Screen (Primary Card) */}
+          <div className="lg:col-span-7">
+            <GlowCard variant="primary" className="h-full" glowColor="rgba(16, 185, 129, 0.12)">
               <div className="flex flex-col justify-center items-center h-full min-h-[300px] relative text-center">
                 
                 {/* 1. Placeholder State */}

@@ -41,9 +41,9 @@ export default function Navbar() {
 
           {/* Logo */}
           <a href="#home" className="flex items-center space-x-2.5 group">
-            <div className="relative w-8 h-8 rounded-lg bg-gradient-to-tr from-brand-primary/20 to-brand-primary/10 flex items-center justify-center border border-white/10 group-hover:border-brand-primary/40 transition-all duration-300">
+            <div className="relative w-8.5 h-8.5 rounded-xl bg-gradient-to-tr from-brand-primary/20 to-brand-primary/10 flex items-center justify-center border border-white/10 group-hover:border-brand-primary/40 transition-all duration-300">
               <Activity className="w-4.5 h-4.5 text-brand-primary group-hover:scale-105 transition-transform duration-300" />
-              <div className="absolute inset-0 rounded-lg bg-brand-primary/15 blur-sm opacity-0 group-hover:opacity-100 transition-opacity duration-300 -z-10" />
+              <div className="absolute inset-0 rounded-xl bg-brand-primary/15 blur-sm opacity-0 group-hover:opacity-100 transition-opacity duration-300 -z-10" />
             </div>
             <span className="font-display font-bold text-lg tracking-tight text-white group-hover:text-white/90 transition-colors duration-300">
               Drive<span className="text-brand-primary">Worth</span>

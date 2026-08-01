@@ -53,9 +53,9 @@ export default function Hero() {
   ];
 
   return (
-    <section id="home" className="relative pt-32 pb-8 overflow-hidden flex flex-col items-center">
-      {/* Aurora spotlight behind the text */}
-      <div className="absolute top-[-10%] left-1/2 -translate-x-1/2 w-[70%] h-[400px] bg-gradient-to-b from-brand-primary/10 via-brand-primary/2 to-transparent rounded-full blur-[100px] pointer-events-none -z-10" />
+    <section id="home" className="relative pt-36 md:pt-44 pb-12 overflow-hidden flex flex-col items-center">
+      {/* Ambient spotlight glow behind header */}
+      <div className="absolute top-[-5%] left-1/2 -translate-x-1/2 w-[80%] h-[450px] bg-gradient-to-b from-brand-primary/12 via-brand-primary/2 to-transparent rounded-full blur-[120px] pointer-events-none -z-10" />
 
       <div className="max-w-7xl mx-auto px-6 md:px-12 w-full text-center relative z-10">
 
@@ -64,23 +64,27 @@ export default function Hero() {
           variants={containerVariants}
           initial="hidden"
           animate="visible"
-          className="flex flex-col items-center max-w-4xl mx-auto space-y-6"
+          className="flex flex-col items-center max-w-4xl mx-auto space-y-7"
         >
-          {/* Brand/AI Badge */}
+          {/* Brand Badge */}
           <motion.div
             variants={itemVariants}
-            className="inline-flex items-center space-x-2 px-3 py-1 rounded-full bg-white/[0.03] border border-white/10 shadow-[0_4px_12px_rgba(0,0,0,0.2)] backdrop-blur-md"
+            className="inline-flex items-center space-x-2.5 px-4 py-1.5 rounded-full bg-white/[0.03] border border-white/10 shadow-[0_4px_20px_rgba(0,0,0,0.3)] backdrop-blur-md hover:border-brand-primary/30 transition-colors"
           >
             <Sparkles className="w-3.5 h-3.5 text-brand-primary animate-pulse" />
-            <span className="text-[10px] font-bold tracking-widest text-secondary-text uppercase">
-              Automotive Appraisal Platform
+            <span className="text-[10px] font-bold tracking-widest text-white/90 uppercase font-mono">
+              AUTOMOTIVE APPRAISAL PLATFORM
+            </span>
+            <span className="w-1 h-1 rounded-full bg-brand-primary/40" />
+            <span className="text-[10px] font-bold text-emerald-400 font-mono">
+              INSTANT ESTIMATES
             </span>
           </motion.div>
 
           {/* Core H1 */}
           <motion.h1
             variants={itemVariants}
-            className="font-display font-extrabold text-4xl sm:text-6xl lg:text-7xl tracking-tight leading-[1.05] text-white"
+            className="font-display font-extrabold text-5xl sm:text-7xl lg:text-8xl tracking-tight leading-[0.98] text-white"
           >
             Know Your Car's <br />
             <span className="text-gradient-primary">True Worth.</span>
@@ -97,18 +101,18 @@ export default function Hero() {
           {/* Action Buttons */}
           <motion.div
             variants={itemVariants}
-            className="flex flex-col sm:flex-row items-center justify-center gap-3 w-full sm:w-auto pt-2"
+            className="flex flex-col sm:flex-row items-center justify-center gap-3.5 w-full sm:w-auto pt-2"
           >
             <a
               href="#live-demo"
-              className="w-full sm:w-auto px-7 py-3.5 btn-glow-primary rounded-full cursor-pointer flex items-center justify-center space-x-2 text-xs font-bold"
+              className="w-full sm:w-auto px-8 py-4 btn-glow-primary rounded-full cursor-pointer flex items-center justify-center space-x-2.5 text-xs font-bold tracking-wide"
             >
               <span>Start Prediction</span>
               <ArrowRight className="w-4 h-4" />
             </a>
             <a
               href="#live-demo"
-              className="w-full sm:w-auto px-7 py-3.5 btn-glass rounded-full cursor-pointer flex items-center justify-center space-x-2 text-xs font-bold"
+              className="w-full sm:w-auto px-8 py-4 btn-glass rounded-full cursor-pointer flex items-center justify-center space-x-2 text-xs font-bold tracking-wide"
             >
               <Play className="w-3.5 h-3.5 text-brand-accent fill-brand-accent" />
               <span>See Demo</span>
@@ -118,10 +122,10 @@ export default function Hero() {
           {/* Bullet Ticks */}
           <motion.div
             variants={itemVariants}
-            className="flex flex-wrap items-center justify-center gap-x-6 gap-y-2 pt-2 border-t border-white/5 w-full max-w-lg"
+            className="flex flex-wrap items-center justify-center gap-x-8 gap-y-2.5 pt-4 mt-2 border-t border-white/5 w-full max-w-xl"
           >
             {bullets.map((bullet) => (
-              <div key={bullet} className="flex items-center space-x-1.5 text-xs text-secondary-text">
+              <div key={bullet} className="flex items-center space-x-2 text-xs text-secondary-text">
                 <CheckCircle2 className="w-4 h-4 text-emerald-400 shrink-0" />
                 <span className="font-semibold text-white/90">{bullet}</span>
               </div>
@@ -134,7 +138,7 @@ export default function Hero() {
           initial={{ opacity: 0, scale: 0.96, y: 30 }}
           animate={{ opacity: 1, scale: 1, y: 0 }}
           transition={{ duration: 1.2, ease: 'easeOut', delay: 0.4 }}
-          className="w-full relative mt-6 md:mt-8 flex flex-col items-center justify-center"
+          className="w-full relative mt-12 md:mt-16 lg:mt-20 flex flex-col items-center justify-center"
         >
           {/* Radial aura glow directly beneath model */}
           <div className="absolute w-[80%] md:w-[60%] h-[250px] top-[40%] left-1/2 -translate-x-1/2 rounded-full bg-brand-primary/10 blur-[100px] -z-10 pointer-events-none" />

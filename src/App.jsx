@@ -2,6 +2,7 @@ import React from 'react';
 import Background from './components/Background';
 import Navbar from './components/Navbar';
 import Hero from './components/Hero';
+import Stats from './components/Stats';
 import Problem from './components/Problem';
 import Solution from './components/Solution';
 import LiveDemo from './components/LiveDemo';
@@ -23,7 +24,10 @@ export default function App() {
         {/* 1. Fullscreen Hero Section with 3D sports car centerpiece */}
         <Hero />
 
-        {/* 2. The Problem Section */}
+        {/* 2. Live Telemetry & Statistics Ribbon */}
+        <Stats />
+
+        {/* 3. The Problem Section */}
         <Problem />
 
         {/* 3. The Solution / How It Works Section */}

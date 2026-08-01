@@ -19,53 +19,53 @@ export default function Background() {
 
   return (
     <div className="fixed inset-0 w-full h-full -z-50 bg-luxury-bg overflow-hidden select-none pointer-events-none">
-      {/* Aurora Ambient Glow Layers */}
-      <div className="absolute inset-0 bg-aurora-glow opacity-70" />
+      {/* Soft Edge Vignette for depth */}
+      <div className="absolute inset-0 bg-vignette z-10 pointer-events-none" />
+
+      {/* Layered Radial Glows */}
+      <div className="absolute inset-0 bg-aurora-glow opacity-60" />
       
-      {/* Animated Mesh Glow Background */}
-      <div className="absolute inset-0 animated-mesh-glow opacity-40" />
+      {/* Animated Subtle Mesh Glow */}
+      <div className="absolute inset-0 animated-mesh-glow opacity-30" />
 
-      {/* Premium Dots Grid */}
-      <div className="absolute inset-0 bg-grid-dots opacity-40" />
+      {/* Faint Grid Texture */}
+      <div className="absolute inset-0 bg-grid-dots opacity-30" />
+      <div className="absolute inset-0 bg-grid-cyber opacity-05" />
 
-      {/* Cyber Grid for tech feeling, blended softly */}
-      <div className="absolute inset-0 bg-grid-cyber opacity-10" />
-
-      {/* Radial Blur Spheres (Soft SaaS Glows) */}
+      {/* Deep Radial Glow Spheres */}
       <motion.div
         animate={{
-          x: [0, 40, -20, 0],
-          y: [0, -30, 30, 0],
+          x: [0, 30, -20, 0],
+          y: [0, -25, 25, 0],
         }}
         transition={{
-          duration: 20,
+          duration: 22,
           repeat: Infinity,
           ease: 'easeInOut',
         }}
-        className="absolute top-[-10%] left-[-10%] w-[60vw] h-[60vw] rounded-full bg-brand-primary/10 blur-[130px] pulse-circle"
+        className="absolute top-[-15%] left-[-10%] w-[65vw] h-[65vw] rounded-full bg-brand-primary/10 blur-[150px] pulse-circle"
       />
 
       <motion.div
         animate={{
-          x: [0, -30, 40, 0],
-          y: [0, 40, -20, 0],
+          x: [0, -30, 30, 0],
+          y: [0, 30, -20, 0],
         }}
         transition={{
-          duration: 25,
+          duration: 28,
           repeat: Infinity,
           ease: 'easeInOut',
         }}
-        className="absolute bottom-[-10%] right-[-10%] w-[70vw] h-[70vw] rounded-full bg-brand-accent/5 blur-[160px] pulse-circle"
+        className="absolute bottom-[-15%] right-[-10%] w-[75vw] h-[75vw] rounded-full bg-brand-accent/5 blur-[180px] pulse-circle"
       />
 
       {/* Center ambient glow underneath content focus */}
-      <div className="absolute top-[30%] left-[20%] w-[60%] h-[40%] rounded-full bg-indigo-500/5 blur-[140px] pointer-events-none" />
+      <div className="absolute top-[35%] left-[25%] w-[50%] h-[40%] rounded-full bg-indigo-500/5 blur-[160px] pointer-events-none" />
 
-      {/* Subtle Light Rays / Top Spotlights */}
-      <div className="absolute top-0 left-1/2 -translate-x-1/2 w-[1px] h-[500px] bg-gradient-to-b from-brand-primary/20 via-brand-primary/5 to-transparent blur-[2px] opacity-60" />
-      <div className="absolute top-0 left-[49%] -translate-x-1/2 w-[3px] h-[350px] bg-gradient-to-b from-indigo-500/10 via-transparent to-transparent blur-[6px] opacity-40" />
+      {/* Subtle Top Spotlight Ray */}
+      <div className="absolute top-0 left-1/2 -translate-x-1/2 w-[600px] h-[350px] bg-gradient-to-b from-brand-primary/10 via-brand-primary/2 to-transparent blur-[90px] opacity-70" />
 
-      {/* Floating Sparkles/Particles */}
+      {/* Floating Ambient Particles */}
       {particles.map((p) => (
         <motion.div
           key={p.id}
@@ -77,9 +77,9 @@ export default function Background() {
             height: `${p.size}px`,
           }}
           animate={{
-            y: [0, -60, 0],
-            x: [0, Math.random() * 15 - 7.5, 0],
-            opacity: [0.1, 0.6, 0.1],
+            y: [0, -50, 0],
+            x: [0, Math.random() * 12 - 6, 0],
+            opacity: [0.05, 0.4, 0.05],
           }}
           transition={{
             duration: p.duration,
