@@ -1,8 +1,11 @@
 import React from 'react';
+import { useNavigate } from 'react-router-dom';
 import { motion } from 'framer-motion';
 import { Sparkles, ArrowRight } from 'lucide-react';
 
 export default function CTA() {
+  const navigate = useNavigate();
+
   return (
     <section id="cta" className="py-20 md:py-32 relative z-10 overflow-hidden">
       <div className="max-w-7xl mx-auto px-6 md:px-12 relative">
@@ -33,23 +36,23 @@ export default function CTA() {
 
           {/* Description */}
           <p className="text-secondary-text text-sm sm:text-base mt-4 max-w-xl mx-auto leading-relaxed font-normal">
-            Start predicting resale values and make smarter buying or selling decisions. Empower your automotive appraisal today.
+            Estimate used car resale values based on vehicle specifications and historical dataset patterns.
           </p>
 
           {/* Action Button */}
           <div className="mt-8 flex justify-center">
-            <a 
-              href="#live-demo"
+            <button 
+              onClick={() => navigate('/predict')}
               className="px-9 py-4.5 btn-glow-primary rounded-full cursor-pointer flex items-center space-x-2.5 text-sm font-bold tracking-wide transition-all"
             >
-              <span>Start Free Prediction</span>
+              <span>Predict Resale Price</span>
               <ArrowRight className="w-4.5 h-4.5" />
-            </a>
+            </button>
           </div>
 
           {/* Subtext telemetry */}
           <p className="text-[11px] text-secondary-text/60 mt-5 font-mono">
-            No registration fee. PDF Appraisal Certificate generation included.
+            Direct used-car resale price prediction. PDF appraisal report included.
           </p>
         </motion.div>
       </div>

@@ -5,8 +5,6 @@ export default function Footer() {
   const quickLinks = [
     { name: 'Overview', href: '#home' },
     { name: 'How It Works', href: '#solution' },
-    { name: 'Live Demo', href: '#live-demo' },
-    { name: 'Why DriveWorth', href: '#why-choose' },
   ];
 
   const socialLinks = [
@@ -35,7 +33,7 @@ export default function Footer() {
             </a>
             
             <p className="text-secondary-text text-xs leading-relaxed font-normal">
-              DriveWorth helps buyers and sellers make confident, informed used car decisions with fast and reliable market valuations.
+              DriveWorth is a used car resale value estimation platform that estimates price from vehicle attributes and historical dataset patterns.
             </p>
 
             <div className="flex items-center space-x-2.5 pt-1">
@@ -75,7 +73,7 @@ export default function Footer() {
 
         </div>
 
-        {/* Thin Divider & Subtle Left-Aligned Copyright */}
+        {/* Thin Divider & Subtle Copyright */}
         <div className="pt-6 border-t border-white/5 flex items-center justify-between text-xs text-secondary-text/60 font-sans">
           <p>© 2026 DriveWorth. All rights reserved.</p>
         </div>

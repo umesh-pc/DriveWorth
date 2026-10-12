@@ -1,53 +1,53 @@
 import React from 'react';
 import { motion } from 'framer-motion';
-import { Sliders, Search, Cpu, ArrowUpRight, CheckCircle } from 'lucide-react';
+import { Sliders, Search, Cpu, TrendingUp, FileText } from 'lucide-react';
 
 export default function Solution() {
   const steps = [
     {
       id: 1,
       title: 'Enter Vehicle Details',
-      desc: 'Provide basic parameters like brand, model year, odometer reading, and region.',
+      desc: 'Select vehicle attributes including brand, model, age, kilometres driven, fuel type, transmission, engine capacity, power, and mileage.',
       icon: <Sliders className="w-5 h-5 text-brand-primary group-hover:rotate-12 transition-transform duration-300" />,
       color: 'from-brand-primary/20 to-brand-primary/5',
       glow: 'shadow-[0_0_20px_rgba(37,99,235,0.2)]',
-      time: '< 3s'
+      time: 'Step 1'
     },
     {
       id: 2,
-      title: 'Analyze Information',
-      desc: 'Our engine compiles transactions, listings, and localized market indicators.',
+      title: 'Validate Vehicle Specs',
+      desc: 'Vehicle specifications are verified and processed to determine valuation criteria.',
       icon: <Search className="w-5 h-5 text-indigo-400 group-hover:scale-110 transition-transform duration-300" />,
       color: 'from-indigo-500/20 to-indigo-500/5',
       glow: 'shadow-[0_0_20px_rgba(99,102,241,0.2)]',
-      time: '< 5ms'
+      time: 'Step 2'
     },
     {
       id: 3,
-      title: 'Estimate Market Value',
-      desc: 'Establish true valuation curves based on supply patterns and condition tiers.',
+      title: 'Valuation Estimation',
+      desc: 'Calculates the estimated resale value based on patterns from historical used-car dataset records.',
       icon: <Cpu className="w-5 h-5 text-violet-400 group-hover:pulse transition-transform duration-300" />,
       color: 'from-violet-500/20 to-violet-500/5',
       glow: 'shadow-[0_0_20px_rgba(139,92,246,0.2)]',
-      time: '< 2ms'
+      time: 'Step 3'
     },
     {
       id: 4,
-      title: 'Compare Prices',
-      desc: 'Calculate variations between seller ask prices and fair market estimates.',
-      icon: <ArrowUpRight className="w-5 h-5 text-brand-accent group-hover:translate-x-1 group-hover:-translate-y-1 transition-transform duration-300" />,
+      title: 'Display Prediction Result',
+      desc: 'View the predicted resale value alongside a comprehensive summary of configured vehicle specifications.',
+      icon: <TrendingUp className="w-5 h-5 text-brand-accent group-hover:scale-110 transition-transform duration-300" />,
       color: 'from-brand-accent/20 to-brand-accent/5',
       glow: 'shadow-[0_0_20px_rgba(249,115,22,0.2)]',
-      time: 'Instant'
+      time: 'Step 4'
     },
     {
       id: 5,
-      title: 'Receive Instant Result',
-      desc: 'Export a digital appraisal report highlighting deal ratings and saving profiles.',
-      icon: <CheckCircle className="w-5 h-5 text-emerald-400 group-hover:scale-110 transition-transform duration-300" />,
+      title: 'Download PDF Report',
+      desc: 'Instantly download an official PDF appraisal document containing vehicle details and predicted resale value.',
+      icon: <FileText className="w-5 h-5 text-emerald-400 group-hover:scale-110 transition-transform duration-300" />,
       color: 'from-emerald-500/20 to-emerald-500/5',
       glow: 'shadow-[0_0_20px_rgba(16,185,129,0.2)]',
-      time: 'PDF Export'
+      time: 'Step 5'
     }
   ];
 
@@ -68,7 +68,7 @@ export default function Solution() {
               className="inline-flex items-center space-x-2 px-3.5 py-1 rounded-full bg-brand-primary/10 border border-brand-primary/20"
             >
               <span className="text-[10px] font-bold text-brand-primary uppercase tracking-widest font-mono">
-                VALUATION PIPELINE
+                PREDICTION PIPELINE
               </span>
             </motion.div>
             
@@ -78,14 +78,14 @@ export default function Solution() {
           </div>
 
           <p className="text-secondary-text text-sm max-w-md leading-relaxed font-normal">
-            A comprehensive, transparent appraisal process that handles heavy market computing behind the scenes to deliver instant values.
+            A clear and structured prediction process that transforms vehicle specifications into an accurate resale value estimate.
           </p>
         </div>
 
-        {/* Pipeline container (Horizontal steps on desktop, vertical on mobile) */}
+        {/* Pipeline container */}
         <div className="relative flex flex-col lg:flex-row items-stretch justify-between gap-8 lg:gap-4 mt-4">
           
-          {/* Glowing connector line behind steps (Desktop only) */}
+          {/* Glowing connector line behind steps */}
           <div className="hidden lg:block absolute top-[32px] left-[5%] right-[5%] h-[2px] bg-gradient-to-r from-brand-primary/40 via-indigo-500/40 via-violet-500/40 via-brand-accent/40 to-emerald-500/40 -z-10" />
           
           {steps.map((step, index) => (

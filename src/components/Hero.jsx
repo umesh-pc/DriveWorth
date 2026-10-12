@@ -1,9 +1,12 @@
-import React, { useState, useEffect } from 'react';
-import { motion, AnimatePresence } from 'framer-motion';
-import { Sparkles, ArrowRight, Play, Cpu, ShieldCheck, Terminal, CheckCircle2, Car, Calendar, Fuel, Settings, Compass, Award, Tag } from 'lucide-react';
+import React from 'react';
+import { useNavigate } from 'react-router-dom';
+import { motion } from 'framer-motion';
+import { Sparkles, ArrowRight, ShieldCheck, CheckCircle2, Car, Calendar, Fuel, Settings, Compass, Award, Tag, FileText } from 'lucide-react';
 import ThreeCar from './ThreeCar';
 
 export default function Hero() {
+  const navigate = useNavigate();
+
   const containerVariants = {
     hidden: { opacity: 0 },
     visible: {
@@ -28,28 +31,10 @@ export default function Hero() {
     },
   };
 
-  // State to rotate scanning variables on the Left HUD
-  const [scanStep, setScanStep] = useState(0);
-  const scanDetails = [
-    { title: 'Odometer Mileage', status: 'Verifying listings...', val: '45,000 km' },
-    { title: 'Regional Indexes', status: 'Mapping geographic data...', val: 'Mumbai Region' },
-    { title: 'Market Demand', status: 'Calibrating interest index...', val: 'High Demand' },
-    { title: 'Vehicle History', status: 'Calculating depreciation...', val: '2020 Model' }
-  ];
-
-  useEffect(() => {
-    const timer = setInterval(() => {
-      setScanStep((prev) => (prev + 1) % scanDetails.length);
-    }, 2800);
-    return () => clearInterval(timer);
-  }, []);
-
-
-
   const bullets = [
-    'Instant Price Estimation',
-    'Compare Vehicles',
-    'Save Prediction History'
+    'Resale Price Prediction',
+    'Data-Driven Valuation',
+    'Instant PDF Report Download'
   ];
 
   return (
@@ -77,7 +62,7 @@ export default function Hero() {
             </span>
             <span className="w-1 h-1 rounded-full bg-brand-primary/40" />
             <span className="text-[10px] font-bold text-emerald-400 font-mono">
-              INSTANT ESTIMATES
+              RESALE VALUATION
             </span>
           </motion.div>
 
@@ -95,28 +80,21 @@ export default function Hero() {
             variants={itemVariants}
             className="text-sm sm:text-base md:text-lg text-secondary-text max-w-2xl leading-relaxed font-normal"
           >
-            Get an accurate resale value in seconds using intelligent data analysis. Compare prices, evaluate deals, and make confident buying or selling decisions.
+            Estimate a used car's resale value based on its vehicle specifications and historical dataset patterns.
           </motion.p>
 
-          {/* Action Buttons */}
+          {/* Action Button */}
           <motion.div
             variants={itemVariants}
             className="flex flex-col sm:flex-row items-center justify-center gap-3.5 w-full sm:w-auto pt-2"
           >
-            <a
-              href="#live-demo"
+            <button
+              onClick={() => navigate('/predict')}
               className="w-full sm:w-auto px-8 py-4 btn-glow-primary rounded-full cursor-pointer flex items-center justify-center space-x-2.5 text-xs font-bold tracking-wide"
             >
-              <span>Start Prediction</span>
+              <span>Predict Resale Price</span>
               <ArrowRight className="w-4 h-4" />
-            </a>
-            <a
-              href="#live-demo"
-              className="w-full sm:w-auto px-8 py-4 btn-glass rounded-full cursor-pointer flex items-center justify-center space-x-2 text-xs font-bold tracking-wide"
-            >
-              <Play className="w-3.5 h-3.5 text-brand-accent fill-brand-accent" />
-              <span>See Demo</span>
-            </a>
+            </button>
           </motion.div>
 
           {/* Bullet Ticks */}
@@ -157,7 +135,6 @@ export default function Hero() {
             >
               <div className="glass-panel border border-white/10 bg-[#050816]/80 backdrop-blur-md rounded-3xl p-6 shadow-[0_20px_50px_rgba(0,0,0,0.6)] relative overflow-hidden group">
                 <div className="absolute inset-0 bg-gradient-to-tr from-transparent via-white/[0.03] to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500 pointer-events-none" />
-                {/* Subtle top reflection */}
                 <div className="absolute top-0 left-0 w-full h-[1px] bg-gradient-to-r from-transparent via-brand-primary/20 to-transparent" />
                 
                 <div className="flex items-center justify-between pb-3.5 border-b border-white/10">
@@ -186,9 +163,9 @@ export default function Hero() {
                   <div className="space-y-0.5 border-t border-white/[0.05] pt-3 col-span-2 sm:col-span-1">
                     <span className="text-[13.5px] font-medium text-secondary-text/90 flex items-center gap-1.5">
                       <Calendar className="w-3.5 h-3.5 text-brand-primary shrink-0" />
-                      Year
+                      Age
                     </span>
-                    <span className="text-[16.5px] font-bold text-white block">2018</span>
+                    <span className="text-[16.5px] font-bold text-white block">8 Years</span>
                   </div>
                   <div className="space-y-0.5 border-t border-white/[0.05] pt-3 col-span-2 sm:col-span-1">
                     <span className="text-[13.5px] font-medium text-secondary-text/90 flex items-center gap-1.5">
@@ -215,7 +192,7 @@ export default function Hero() {
               </div>
             </motion.div>
 
-            {/* Right HUD Panel - Sample Prediction (Desktop Only) */}
+            {/* Right HUD Panel - Valuation Summary (Desktop Only) */}
             <motion.div
               initial={{ opacity: 0, x: 30 }}
               animate={{ opacity: 1, x: 0 }}
@@ -225,7 +202,6 @@ export default function Hero() {
             >
               <div className="glass-panel border border-white/10 bg-[#050816]/80 backdrop-blur-md rounded-3xl p-6 shadow-[0_20px_50px_rgba(0,0,0,0.6)] relative overflow-hidden group">
                 <div className="absolute inset-0 bg-gradient-to-tr from-transparent via-white/[0.03] to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500 pointer-events-none" />
-                {/* Subtle top reflection */}
                 <div className="absolute top-0 left-0 w-full h-[1px] bg-gradient-to-r from-transparent via-brand-accent/20 to-transparent" />
                 
                 <div className="flex items-center justify-between pb-3.5 border-b border-white/10">
@@ -233,50 +209,31 @@ export default function Hero() {
                     <Sparkles className="w-5 h-5 text-brand-accent animate-pulse" />
                     Valuation
                   </span>
-                  <span className="text-[10px] font-mono text-brand-accent font-bold bg-brand-accent/10 px-2 py-0.5 rounded-full border border-brand-accent/20">DEMO</span>
+                  <span className="text-[10px] font-mono text-brand-accent font-bold bg-brand-accent/10 px-2 py-0.5 rounded-full border border-brand-accent/20">VALUATION ENGINE</span>
                 </div>
 
                 <div className="space-y-4 pt-2 font-sans">
                   
                   {/* Vehicle details */}
                   <div className="flex justify-between items-center">
-                    <span className="text-[13.5px] font-medium text-secondary-text/90">Vehicle Details</span>
+                    <span className="text-[13.5px] font-medium text-secondary-text/90">Vehicle</span>
                     <span className="text-[16.5px] font-bold text-white font-sans">Ferrari 458</span>
                   </div>
 
                   {/* Estimated Value Block */}
                   <div className="flex flex-col space-y-1 border-t border-white/[0.05] pt-3">
-                    <span className="text-[13.5px] font-medium text-secondary-text/90">Estimated Market Value</span>
+                    <span className="text-[13.5px] font-medium text-secondary-text/90">Predicted Resale Value</span>
                     <span className="text-[44px] font-bold text-brand-primary leading-none tracking-tight">
                       ₹2,15,00,000
                     </span>
                   </div>
 
-                  {/* Pricing Summary */}
-                  <div className="grid grid-cols-1 gap-2.5 border-t border-b border-white/10 py-3.5 text-[13.5px]">
-                    <div className="flex justify-between items-center">
-                      <span className="font-medium text-secondary-text/90">Seller Price</span>
-                      <span className="font-bold text-white text-[17px]">₹2,20,00,000</span>
-                    </div>
-                    <div className="flex justify-between items-center">
-                      <span className="font-medium text-secondary-text/90">Difference</span>
-                      <span className="font-bold text-amber-500 flex items-center gap-1 text-[14px]">
-                        <span>▲</span>
-                        <span>₹5,00,000 (Above Value)</span>
-                      </span>
-                    </div>
-                    <div className="flex justify-between items-center">
-                      <span className="font-medium text-secondary-text/90 text-left">Suggested Range</span>
-                      <span className="font-bold text-emerald-400 font-mono text-[13.5px]">₹2,12,00,000 - ₹2,17,00,000</span>
-                    </div>
-                  </div>
-
-                  {/* Rating / Status badge */}
-                  <div className="flex justify-between items-center bg-amber-500/10 border border-amber-500/20 rounded-xl p-3">
-                    <span className="text-[13.5px] font-medium text-secondary-text/90">Deal Rating</span>
-                    <span className="text-amber-400 font-bold text-[14.5px] flex items-center gap-1">
-                      <span>🟡</span>
-                      <span>Fair Deal</span>
+                  {/* Report Download Badge */}
+                  <div className="flex justify-between items-center bg-brand-primary/10 border border-brand-primary/20 rounded-xl p-3">
+                    <span className="text-[13.5px] font-medium text-secondary-text/90">Appraisal PDF</span>
+                    <span className="text-brand-primary font-bold text-[13px] flex items-center gap-1">
+                      <FileText className="w-4 h-4" />
+                      <span>Ready to Export</span>
                     </span>
                   </div>
 
@@ -285,7 +242,7 @@ export default function Hero() {
                 <div className="flex items-center space-x-1.5 pt-3.5 text-[11px] text-secondary-text/80 font-mono border-t border-white/10 mt-2">
                   <ShieldCheck className="w-4 h-4 text-emerald-500" />
                   <span>Status:</span>
-                  <span className="text-emerald-400 font-bold">Active</span>
+                  <span className="text-emerald-400 font-bold">Valuation Engine Active</span>
                 </div>
               </div>
             </motion.div>

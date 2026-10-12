@@ -60,6 +60,24 @@ body {
   box-shadow: 0 12px 40px 0 rgba(0, 0, 0, 0.5);
 }
 
+/* Stationary Card Panel (Zero hover lifting, zero mouse tilt, zero floating) */
+.glass-panel-stationary {
+  background: rgba(5, 8, 22, 0.85) !important;
+  backdrop-filter: blur(24px) !important;
+  -webkit-backdrop-filter: blur(24px) !important;
+  border: 1px solid rgba(255, 255, 255, 0.1) !important;
+  box-shadow: 0 12px 40px 0 rgba(0, 0, 0, 0.5) !important;
+  transform: none !important;
+  transition: border-color 0.3s ease !important;
+}
+
+.glass-panel-stationary:hover {
+  transform: none !important;
+  box-shadow: 0 12px 40px 0 rgba(0, 0, 0, 0.5) !important;
+  border-color: rgba(255, 255, 255, 0.1) !important;
+  background: rgba(5, 8, 22, 0.85) !important;
+}
+
 .glass-card {
   background: rgba(255, 255, 255, 0.03);
   backdrop-filter: blur(16px);
@@ -79,7 +97,6 @@ body {
 }
 
 /* 3-Tier Card Hierarchy System */
-/* Tier 1: Primary Feature Card (High impact, mouse spotlight, glowing stroke) */
 .glass-card-primary {
   position: relative;
   background: radial-gradient(circle at 50% 0%, rgba(37, 99, 235, 0.1) 0%, rgba(5, 8, 22, 0.85) 70%);
@@ -90,18 +107,8 @@ body {
     0 20px 50px -10px rgba(0, 0, 0, 0.6),
     0 0 30px -5px rgba(37, 99, 235, 0.25);
   border-radius: 24px;
-  transition: transform 0.4s cubic-bezier(0.16, 1, 0.3, 1), border-color 0.4s ease, box-shadow 0.4s ease;
 }
 
-.glass-card-primary:hover {
-  border-color: rgba(37, 99, 235, 0.6);
-  box-shadow: 
-    0 25px 60px -10px rgba(0, 0, 0, 0.7),
-    0 0 45px 0 rgba(37, 99, 235, 0.35);
-  transform: translateY(-6px);
-}
-
-/* Tier 2: Secondary Information Card (Subtle container, refined padding, soft lift) */
 .glass-card-secondary {
   background: rgba(255, 255, 255, 0.02);
   backdrop-filter: blur(12px);
@@ -109,25 +116,11 @@ body {
   border: 1px solid rgba(255, 255, 255, 0.07);
   box-shadow: 0 8px 24px 0 rgba(0, 0, 0, 0.3);
   border-radius: 20px;
-  transition: transform 0.4s cubic-bezier(0.16, 1, 0.3, 1), border-color 0.4s ease, background 0.4s ease;
 }
 
-.glass-card-secondary:hover {
-  background: rgba(255, 255, 255, 0.04);
-  border-color: rgba(255, 255, 255, 0.16);
-  transform: translateY(-4px);
-}
-
-/* Tier 3: Minimal Transparent Content Block (No border container, pure breathing space) */
 .glass-card-minimal {
   background: transparent;
   border: 1px solid transparent;
-  padding: 0;
-  transition: all 0.3s ease;
-}
-
-.glass-card-minimal:hover {
-  background: transparent;
 }
 
 /* Soft Vignette Overlay */
@@ -143,35 +136,14 @@ body {
   font-weight: 600;
   border-radius: 9999px;
   overflow: hidden;
-  transition: all 0.3s ease;
+  transition: background 0.3s ease, box-shadow 0.3s ease;
   box-shadow: 0 4px 15px rgba(37, 99, 235, 0.4);
-}
-
-.btn-glow-primary::before {
-  content: '';
-  position: absolute;
-  top: 0;
-  left: -100%;
-  width: 100%;
-  height: 100%;
-  background: linear-gradient(
-    90deg,
-    transparent,
-    rgba(255, 255, 255, 0.2),
-    transparent
-  );
-  transition: 0.5s;
-}
-
-.btn-glow-primary:hover::before {
-  left: 100%;
 }
 
 .btn-glow-primary:hover {
   box-shadow: 
-    0 0 25px 5px rgba(37, 99, 235, 0.6),
+    0 0 25px 5px rgba(37, 99, 235, 0.5),
     0 4px 20px rgba(37, 99, 235, 0.4);
-  transform: translateY(-2px);
 }
 
 .btn-glow-accent {
@@ -181,49 +153,26 @@ body {
   font-weight: 600;
   border-radius: 9999px;
   overflow: hidden;
-  transition: all 0.3s ease;
+  transition: background 0.3s ease, box-shadow 0.3s ease;
   box-shadow: 0 4px 15px rgba(249, 115, 22, 0.4);
-}
-
-.btn-glow-accent::before {
-  content: '';
-  position: absolute;
-  top: 0;
-  left: -100%;
-  width: 100%;
-  height: 100%;
-  background: linear-gradient(
-    90deg,
-    transparent,
-    rgba(255, 255, 255, 0.2),
-    transparent
-  );
-  transition: 0.5s;
-}
-
-.btn-glow-accent:hover::before {
-  left: 100%;
 }
 
 .btn-glow-accent:hover {
   box-shadow: 
-    0 0 25px 5px rgba(249, 115, 22, 0.6),
+    0 0 25px 5px rgba(249, 115, 22, 0.5),
     0 4px 20px rgba(249, 115, 22, 0.4);
-  transform: translateY(-2px);
 }
 
 .btn-glass {
   background: rgba(255, 255, 255, 0.05);
   border: 1px solid rgba(255, 255, 255, 0.1);
   color: #ffffff;
-  transition: all 0.3s ease;
+  transition: background 0.3s ease, border-color 0.3s ease;
 }
 
 .btn-glass:hover {
   background: rgba(255, 255, 255, 0.1);
   border-color: rgba(255, 255, 255, 0.25);
-  box-shadow: 0 4px 15px rgba(255, 255, 255, 0.05);
-  transform: translateY(-2px);
 }
 
 /* Background Grids and Lighting FX */
@@ -247,106 +196,6 @@ body {
   -webkit-text-fill-color: transparent;
 }
 
-/* Animated Particles / Light Rays styling */
-@keyframes float {
-  0% { transform: translateY(0px) rotate(0deg); opacity: 0.3; }
-  50% { transform: translateY(-20px) rotate(180deg); opacity: 0.8; }
-  100% { transform: translateY(0px) rotate(360deg); opacity: 0.3; }
-}
-
-@keyframes pulse-slow {
-  0%, 100% { opacity: 0.4; transform: scale(1); }
-  50% { opacity: 0.8; transform: scale(1.15); }
-}
-
-@keyframes moving-mesh {
-  0% { background-position: 0% 50%; }
-  50% { background-position: 100% 50%; }
-  100% { background-position: 0% 50%; }
-}
-
-.animated-mesh-glow {
-  background: radial-gradient(circle at 30% 20%, rgba(37, 99, 235, 0.18) 0%, transparent 40%),
-              radial-gradient(circle at 70% 60%, rgba(249, 115, 22, 0.12) 0%, transparent 45%),
-              radial-gradient(circle at 50% 50%, rgba(15, 23, 42, 0.5) 0%, transparent 100%);
-  background-size: 200% 200%;
-  animation: moving-mesh 15s ease infinite;
-}
-
-.pulse-circle {
-  animation: pulse-slow 8s ease-in-out infinite;
-}
-
-.floating-particle {
-  animation: float 12s linear infinite;
-}
-
-/* Premium Glow Card Styles with Cursor Follow & 3D Tilt */
-.glow-card-container {
-  position: relative;
-  border-radius: 24px;
-  background: rgba(255, 255, 255, 0.01);
-  border: 1px solid rgba(255, 255, 255, 0.04);
-  transition: border-color 0.5s ease, transform 0.2s cubic-bezier(0.25, 1, 0.5, 1), box-shadow 0.5s ease;
-  transform-style: preserve-3d;
-  will-change: transform;
-}
-
-.glow-card-container::before {
-  content: "";
-  position: absolute;
-  inset: -1px;
-  border-radius: 24px;
-  padding: 1px;
-  background: radial-gradient(
-    400px circle at var(--mouse-x, 0px) var(--mouse-y, 0px),
-    rgba(255, 255, 255, 0.08),
-    transparent 50%
-  );
-  -webkit-mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
-  -webkit-mask-composite: xor;
-  mask-composite: exclude;
-  pointer-events: none;
-  z-index: 2;
-  opacity: 0;
-  transition: opacity 0.5s ease;
-}
-
-.glow-card-container:hover::before {
-  opacity: 1;
-}
-
-.glow-card-inner {
-  position: relative;
-  width: 100%;
-  height: 100%;
-  border-radius: 23px;
-  background: rgba(5, 8, 22, 0.7);
-  backdrop-filter: blur(12px);
-  -webkit-backdrop-filter: blur(12px);
-  padding: 24px;
-  overflow: hidden;
-  z-index: 1;
-}
-
-.glow-card-glow {
-  position: absolute;
-  inset: 0;
-  background: radial-gradient(
-    300px circle at var(--mouse-x, 0px) var(--mouse-y, 0px),
-    var(--glow-color, rgba(37, 99, 235, 0.06)),
-    transparent 60%
-  );
-  opacity: 0;
-  transition: opacity 0.5s ease;
-  pointer-events: none;
-  z-index: 0;
-}
-
-.glow-card-container:hover .glow-card-glow {
-  opacity: 1;
-}
-
 /* Dots Grid Background */
 .bg-grid-dots {
   background-size: 24px 24px;
@@ -361,4 +210,3 @@ body {
     radial-gradient(circle at 50% 50%, rgba(99, 102, 241, 0.1) 0%, transparent 50%);
   filter: blur(80px);
 }
-

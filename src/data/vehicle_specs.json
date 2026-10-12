@@ -1,0 +1,7412 @@
+[
+  {
+    "brand": "Audi",
+    "model": "A4",
+    "fuel_type": "Diesel",
+    "transmission": "Automatic",
+    "engine": 1968,
+    "max_power": 147.51,
+    "mileage": 16.55,
+    "seats": 5
+  },
+  {
+    "brand": "Audi",
+    "model": "A4",
+    "fuel_type": "Diesel",
+    "transmission": "Automatic",
+    "engine": 1968,
+    "max_power": 187.74,
+    "mileage": 18.25,
+    "seats": 5
+  },
+  {
+    "brand": "Audi",
+    "model": "A4",
+    "fuel_type": "Diesel",
+    "transmission": "Automatic",
+    "engine": 1968,
+    "max_power": 140.8,
+    "mileage": 15.2,
+    "seats": 5
+  },
+  {
+    "brand": "Audi",
+    "model": "A4",
+    "fuel_type": "Diesel",
+    "transmission": "Automatic",
+    "engine": 1968,
+    "max_power": 174.33,
+    "mileage": 17.11,
+    "seats": 5
+  },
+  {
+    "brand": "Audi",
+    "model": "A4",
+    "fuel_type": "Diesel",
+    "transmission": "Automatic",
+    "engine": 1968,
+    "max_power": 140.0,
+    "mileage": 16.55,
+    "seats": 5
+  },
+  {
+    "brand": "Audi",
+    "model": "A4",
+    "fuel_type": "Diesel",
+    "transmission": "Automatic",
+    "engine": 2967,
+    "max_power": 241.4,
+    "mileage": 14.94,
+    "seats": 5
+  },
+  {
+    "brand": "Audi",
+    "model": "A4",
+    "fuel_type": "Petrol",
+    "transmission": "Automatic",
+    "engine": 1395,
+    "max_power": 147.51,
+    "mileage": 17.84,
+    "seats": 5
+  },
+  {
+    "brand": "Audi",
+    "model": "A4",
+    "fuel_type": "Petrol",
+    "transmission": "Automatic",
+    "engine": 1781,
+    "max_power": 163.2,
+    "mileage": 12.3,
+    "seats": 5
+  },
+  {
+    "brand": "Audi",
+    "model": "A4",
+    "fuel_type": "Petrol",
+    "transmission": "Automatic",
+    "engine": 1798,
+    "max_power": 167.62,
+    "mileage": 15.64,
+    "seats": 5
+  },
+  {
+    "brand": "Audi",
+    "model": "A4",
+    "fuel_type": "Petrol",
+    "transmission": "Automatic",
+    "engine": 1984,
+    "max_power": 132.0,
+    "mileage": 10.8,
+    "seats": 5
+  },
+  {
+    "brand": "Audi",
+    "model": "A6",
+    "fuel_type": "Diesel",
+    "transmission": "Automatic",
+    "engine": 1968,
+    "max_power": 174.33,
+    "mileage": 17.68,
+    "seats": 5
+  },
+  {
+    "brand": "Audi",
+    "model": "A6",
+    "fuel_type": "Diesel",
+    "transmission": "Automatic",
+    "engine": 1968,
+    "max_power": 187.74,
+    "mileage": 18.53,
+    "seats": 5
+  },
+  {
+    "brand": "Audi",
+    "model": "A6",
+    "fuel_type": "Diesel",
+    "transmission": "Automatic",
+    "engine": 2698,
+    "max_power": 179.5,
+    "mileage": 12.4,
+    "seats": 5
+  },
+  {
+    "brand": "Audi",
+    "model": "A6",
+    "fuel_type": "Diesel",
+    "transmission": "Automatic",
+    "engine": 2967,
+    "max_power": 241.38,
+    "mileage": 14.57,
+    "seats": 5
+  },
+  {
+    "brand": "Audi",
+    "model": "A6",
+    "fuel_type": "Petrol",
+    "transmission": "Automatic",
+    "engine": 1798,
+    "max_power": 187.74,
+    "mileage": 15.26,
+    "seats": 5
+  },
+  {
+    "brand": "Audi",
+    "model": "A6",
+    "fuel_type": "Petrol",
+    "transmission": "Automatic",
+    "engine": 1984,
+    "max_power": 241.3,
+    "mileage": 17.01,
+    "seats": 5
+  },
+  {
+    "brand": "Audi",
+    "model": "A6",
+    "fuel_type": "Petrol",
+    "transmission": "Automatic",
+    "engine": 1984,
+    "max_power": 177.01,
+    "mileage": 13.53,
+    "seats": 5
+  },
+  {
+    "brand": "Audi",
+    "model": "A6",
+    "fuel_type": "Petrol",
+    "transmission": "Automatic",
+    "engine": 2773,
+    "max_power": 201.0,
+    "mileage": 10.4,
+    "seats": 5
+  },
+  {
+    "brand": "Audi",
+    "model": "A8",
+    "fuel_type": "Diesel",
+    "transmission": "Automatic",
+    "engine": 2967,
+    "max_power": 246.7,
+    "mileage": 11.8,
+    "seats": 5
+  },
+  {
+    "brand": "Audi",
+    "model": "A8",
+    "fuel_type": "Diesel",
+    "transmission": "Automatic",
+    "engine": 2967,
+    "max_power": 246.74,
+    "mileage": 16.77,
+    "seats": 4
+  },
+  {
+    "brand": "Audi",
+    "model": "A8",
+    "fuel_type": "Petrol",
+    "transmission": "Automatic",
+    "engine": 4163,
+    "max_power": 349.5,
+    "mileage": 8.5,
+    "seats": 5
+  },
+  {
+    "brand": "Audi",
+    "model": "Q7",
+    "fuel_type": "Diesel",
+    "transmission": "Automatic",
+    "engine": 2967,
+    "max_power": 241.4,
+    "mileage": 12.07,
+    "seats": 7
+  },
+  {
+    "brand": "Audi",
+    "model": "Q7",
+    "fuel_type": "Diesel",
+    "transmission": "Automatic",
+    "engine": 2967,
+    "max_power": 245.0,
+    "mileage": 14.75,
+    "seats": 7
+  },
+  {
+    "brand": "Audi",
+    "model": "Q7",
+    "fuel_type": "Diesel",
+    "transmission": "Automatic",
+    "engine": 4134,
+    "max_power": 335.2,
+    "mileage": 11.33,
+    "seats": 7
+  },
+  {
+    "brand": "Datsun",
+    "model": "GO",
+    "fuel_type": "Petrol",
+    "transmission": "Automatic",
+    "engine": 1198,
+    "max_power": 76.43,
+    "mileage": 19.59,
+    "seats": 5
+  },
+  {
+    "brand": "Datsun",
+    "model": "GO",
+    "fuel_type": "Petrol",
+    "transmission": "Automatic",
+    "engine": 1198,
+    "max_power": 76.43,
+    "mileage": 18.57,
+    "seats": 7
+  },
+  {
+    "brand": "Datsun",
+    "model": "GO",
+    "fuel_type": "Petrol",
+    "transmission": "Manual",
+    "engine": 1198,
+    "max_power": 67.0,
+    "mileage": 19.44,
+    "seats": 7
+  },
+  {
+    "brand": "Datsun",
+    "model": "GO",
+    "fuel_type": "Petrol",
+    "transmission": "Manual",
+    "engine": 1198,
+    "max_power": 67.0,
+    "mileage": 20.62,
+    "seats": 7
+  },
+  {
+    "brand": "Datsun",
+    "model": "GO",
+    "fuel_type": "Petrol",
+    "transmission": "Manual",
+    "engine": 1198,
+    "max_power": 67.06,
+    "mileage": 20.63,
+    "seats": 5
+  },
+  {
+    "brand": "Datsun",
+    "model": "GO",
+    "fuel_type": "Petrol",
+    "transmission": "Manual",
+    "engine": 1198,
+    "max_power": 67.0,
+    "mileage": 19.83,
+    "seats": 5
+  },
+  {
+    "brand": "Datsun",
+    "model": "GO",
+    "fuel_type": "Petrol",
+    "transmission": "Manual",
+    "engine": 1198,
+    "max_power": 67.0,
+    "mileage": 20.63,
+    "seats": 5
+  },
+  {
+    "brand": "Datsun",
+    "model": "GO",
+    "fuel_type": "Petrol",
+    "transmission": "Manual",
+    "engine": 1198,
+    "max_power": 67.05,
+    "mileage": 19.02,
+    "seats": 7
+  },
+  {
+    "brand": "Datsun",
+    "model": "GO",
+    "fuel_type": "Petrol",
+    "transmission": "Manual",
+    "engine": 1198,
+    "max_power": 67.05,
+    "mileage": 19.02,
+    "seats": 5
+  },
+  {
+    "brand": "Datsun",
+    "model": "GO",
+    "fuel_type": "Petrol",
+    "transmission": "Manual",
+    "engine": 1198,
+    "max_power": 67.0,
+    "mileage": 19.83,
+    "seats": 7
+  },
+  {
+    "brand": "Datsun",
+    "model": "RediGO",
+    "fuel_type": "Petrol",
+    "transmission": "Automatic",
+    "engine": 999,
+    "max_power": 67.0,
+    "mileage": 23.0,
+    "seats": 5
+  },
+  {
+    "brand": "Datsun",
+    "model": "RediGO",
+    "fuel_type": "Petrol",
+    "transmission": "Automatic",
+    "engine": 999,
+    "max_power": 67.0,
+    "mileage": 22.5,
+    "seats": 5
+  },
+  {
+    "brand": "Datsun",
+    "model": "RediGO",
+    "fuel_type": "Petrol",
+    "transmission": "Manual",
+    "engine": 799,
+    "max_power": 53.64,
+    "mileage": 22.7,
+    "seats": 5
+  },
+  {
+    "brand": "Datsun",
+    "model": "RediGO",
+    "fuel_type": "Petrol",
+    "transmission": "Manual",
+    "engine": 799,
+    "max_power": 53.0,
+    "mileage": 22.7,
+    "seats": 5
+  },
+  {
+    "brand": "Datsun",
+    "model": "RediGO",
+    "fuel_type": "Petrol",
+    "transmission": "Manual",
+    "engine": 999,
+    "max_power": 68.0,
+    "mileage": 22.5,
+    "seats": 5
+  },
+  {
+    "brand": "Datsun",
+    "model": "RediGO",
+    "fuel_type": "Petrol",
+    "transmission": "Manual",
+    "engine": 999,
+    "max_power": 67.0,
+    "mileage": 22.5,
+    "seats": 5
+  },
+  {
+    "brand": "Datsun",
+    "model": "redi-GO",
+    "fuel_type": "Petrol",
+    "transmission": "Automatic",
+    "engine": 999,
+    "max_power": 67.05,
+    "mileage": 22.0,
+    "seats": 5
+  },
+  {
+    "brand": "Datsun",
+    "model": "redi-GO",
+    "fuel_type": "Petrol",
+    "transmission": "Manual",
+    "engine": 799,
+    "max_power": 53.64,
+    "mileage": 20.71,
+    "seats": 5
+  },
+  {
+    "brand": "Datsun",
+    "model": "redi-GO",
+    "fuel_type": "Petrol",
+    "transmission": "Manual",
+    "engine": 999,
+    "max_power": 67.05,
+    "mileage": 21.7,
+    "seats": 5
+  },
+  {
+    "brand": "Ford",
+    "model": "Aspire",
+    "fuel_type": "Diesel",
+    "transmission": "Manual",
+    "engine": 1498,
+    "max_power": 99.0,
+    "mileage": 25.83,
+    "seats": 5
+  },
+  {
+    "brand": "Ford",
+    "model": "Aspire",
+    "fuel_type": "Diesel",
+    "transmission": "Manual",
+    "engine": 1498,
+    "max_power": 99.23,
+    "mileage": 26.1,
+    "seats": 5
+  },
+  {
+    "brand": "Ford",
+    "model": "Aspire",
+    "fuel_type": "Diesel",
+    "transmission": "Manual",
+    "engine": 1498,
+    "max_power": 99.0,
+    "mileage": 24.29,
+    "seats": 5
+  },
+  {
+    "brand": "Ford",
+    "model": "Aspire",
+    "fuel_type": "Petrol",
+    "transmission": "Automatic",
+    "engine": 1497,
+    "max_power": 121.0,
+    "mileage": 16.3,
+    "seats": 5
+  },
+  {
+    "brand": "Ford",
+    "model": "Aspire",
+    "fuel_type": "Petrol",
+    "transmission": "Manual",
+    "engine": 1194,
+    "max_power": 94.93,
+    "mileage": 19.4,
+    "seats": 5
+  },
+  {
+    "brand": "Ford",
+    "model": "Aspire",
+    "fuel_type": "Petrol",
+    "transmission": "Manual",
+    "engine": 1196,
+    "max_power": 86.8,
+    "mileage": 18.16,
+    "seats": 5
+  },
+  {
+    "brand": "Ford",
+    "model": "Ecosport",
+    "fuel_type": "Diesel",
+    "transmission": "Manual",
+    "engine": 1498,
+    "max_power": 98.59,
+    "mileage": 22.77,
+    "seats": 5
+  },
+  {
+    "brand": "Ford",
+    "model": "Ecosport",
+    "fuel_type": "Diesel",
+    "transmission": "Manual",
+    "engine": 1498,
+    "max_power": 98.96,
+    "mileage": 23.0,
+    "seats": 5
+  },
+  {
+    "brand": "Ford",
+    "model": "Ecosport",
+    "fuel_type": "Diesel",
+    "transmission": "Manual",
+    "engine": 1498,
+    "max_power": 89.84,
+    "mileage": 22.7,
+    "seats": 5
+  },
+  {
+    "brand": "Ford",
+    "model": "Ecosport",
+    "fuel_type": "Diesel",
+    "transmission": "Manual",
+    "engine": 1498,
+    "max_power": 98.96,
+    "mileage": 21.7,
+    "seats": 5
+  },
+  {
+    "brand": "Ford",
+    "model": "Ecosport",
+    "fuel_type": "Petrol",
+    "transmission": "Automatic",
+    "engine": 1496,
+    "max_power": 120.69,
+    "mileage": 14.7,
+    "seats": 5
+  },
+  {
+    "brand": "Ford",
+    "model": "Ecosport",
+    "fuel_type": "Petrol",
+    "transmission": "Automatic",
+    "engine": 1497,
+    "max_power": 121.36,
+    "mileage": 14.8,
+    "seats": 5
+  },
+  {
+    "brand": "Ford",
+    "model": "Ecosport",
+    "fuel_type": "Petrol",
+    "transmission": "Automatic",
+    "engine": 1499,
+    "max_power": 110.4,
+    "mileage": 16.05,
+    "seats": 5
+  },
+  {
+    "brand": "Ford",
+    "model": "Ecosport",
+    "fuel_type": "Petrol",
+    "transmission": "Automatic",
+    "engine": 1499,
+    "max_power": 110.4,
+    "mileage": 15.63,
+    "seats": 5
+  },
+  {
+    "brand": "Ford",
+    "model": "Ecosport",
+    "fuel_type": "Petrol",
+    "transmission": "Automatic",
+    "engine": 1499,
+    "max_power": 110.0,
+    "mileage": 16.5,
+    "seats": 5
+  },
+  {
+    "brand": "Ford",
+    "model": "Ecosport",
+    "fuel_type": "Petrol",
+    "transmission": "Manual",
+    "engine": 999,
+    "max_power": 123.24,
+    "mileage": 18.1,
+    "seats": 5
+  },
+  {
+    "brand": "Ford",
+    "model": "Ecosport",
+    "fuel_type": "Petrol",
+    "transmission": "Manual",
+    "engine": 999,
+    "max_power": 123.24,
+    "mileage": 18.88,
+    "seats": 5
+  },
+  {
+    "brand": "Ford",
+    "model": "Ecosport",
+    "fuel_type": "Petrol",
+    "transmission": "Manual",
+    "engine": 999,
+    "max_power": 123.37,
+    "mileage": 18.88,
+    "seats": 5
+  },
+  {
+    "brand": "Ford",
+    "model": "Ecosport",
+    "fuel_type": "Petrol",
+    "transmission": "Manual",
+    "engine": 1496,
+    "max_power": 120.69,
+    "mileage": 15.9,
+    "seats": 5
+  },
+  {
+    "brand": "Ford",
+    "model": "Ecosport",
+    "fuel_type": "Petrol",
+    "transmission": "Manual",
+    "engine": 1497,
+    "max_power": 121.36,
+    "mileage": 17.0,
+    "seats": 5
+  },
+  {
+    "brand": "Ford",
+    "model": "Ecosport",
+    "fuel_type": "Petrol",
+    "transmission": "Manual",
+    "engine": 1497,
+    "max_power": 121.31,
+    "mileage": 17.0,
+    "seats": 5
+  },
+  {
+    "brand": "Ford",
+    "model": "Ecosport",
+    "fuel_type": "Petrol",
+    "transmission": "Manual",
+    "engine": 1499,
+    "max_power": 110.0,
+    "mileage": 15.8,
+    "seats": 5
+  },
+  {
+    "brand": "Ford",
+    "model": "Ecosport",
+    "fuel_type": "Petrol",
+    "transmission": "Manual",
+    "engine": 1499,
+    "max_power": 110.4,
+    "mileage": 15.85,
+    "seats": 5
+  },
+  {
+    "brand": "Ford",
+    "model": "Endeavour",
+    "fuel_type": "Diesel",
+    "transmission": "Automatic",
+    "engine": 2198,
+    "max_power": 158.0,
+    "mileage": 12.62,
+    "seats": 7
+  },
+  {
+    "brand": "Ford",
+    "model": "Endeavour",
+    "fuel_type": "Diesel",
+    "transmission": "Automatic",
+    "engine": 2953,
+    "max_power": 153.86,
+    "mileage": 11.4,
+    "seats": 7
+  },
+  {
+    "brand": "Ford",
+    "model": "Endeavour",
+    "fuel_type": "Diesel",
+    "transmission": "Automatic",
+    "engine": 2953,
+    "max_power": 156.0,
+    "mileage": 12.8,
+    "seats": 7
+  },
+  {
+    "brand": "Ford",
+    "model": "Endeavour",
+    "fuel_type": "Diesel",
+    "transmission": "Automatic",
+    "engine": 3198,
+    "max_power": 197.0,
+    "mileage": 10.91,
+    "seats": 7
+  },
+  {
+    "brand": "Ford",
+    "model": "Endeavour",
+    "fuel_type": "Diesel",
+    "transmission": "Automatic",
+    "engine": 3198,
+    "max_power": 197.2,
+    "mileage": 10.91,
+    "seats": 7
+  },
+  {
+    "brand": "Ford",
+    "model": "Endeavour",
+    "fuel_type": "Diesel",
+    "transmission": "Manual",
+    "engine": 2198,
+    "max_power": 157.7,
+    "mileage": 13.5,
+    "seats": 7
+  },
+  {
+    "brand": "Ford",
+    "model": "Endeavour",
+    "fuel_type": "Diesel",
+    "transmission": "Manual",
+    "engine": 2499,
+    "max_power": 141.0,
+    "mileage": 13.1,
+    "seats": 7
+  },
+  {
+    "brand": "Ford",
+    "model": "Endeavour",
+    "fuel_type": "Diesel",
+    "transmission": "Manual",
+    "engine": 2499,
+    "max_power": 143.0,
+    "mileage": 10.9,
+    "seats": 7
+  },
+  {
+    "brand": "Ford",
+    "model": "Figo",
+    "fuel_type": "Diesel",
+    "transmission": "Manual",
+    "engine": 1399,
+    "max_power": 68.0,
+    "mileage": 20.0,
+    "seats": 5
+  },
+  {
+    "brand": "Ford",
+    "model": "Figo",
+    "fuel_type": "Diesel",
+    "transmission": "Manual",
+    "engine": 1399,
+    "max_power": 68.05,
+    "mileage": 20.0,
+    "seats": 5
+  },
+  {
+    "brand": "Ford",
+    "model": "Figo",
+    "fuel_type": "Diesel",
+    "transmission": "Manual",
+    "engine": 1399,
+    "max_power": 68.1,
+    "mileage": 20.0,
+    "seats": 5
+  },
+  {
+    "brand": "Ford",
+    "model": "Figo",
+    "fuel_type": "Diesel",
+    "transmission": "Manual",
+    "engine": 1399,
+    "max_power": 68.0,
+    "mileage": 18.5,
+    "seats": 5
+  },
+  {
+    "brand": "Ford",
+    "model": "Figo",
+    "fuel_type": "Diesel",
+    "transmission": "Manual",
+    "engine": 1498,
+    "max_power": 99.0,
+    "mileage": 25.83,
+    "seats": 5
+  },
+  {
+    "brand": "Ford",
+    "model": "Figo",
+    "fuel_type": "Diesel",
+    "transmission": "Manual",
+    "engine": 1498,
+    "max_power": 99.0,
+    "mileage": 24.29,
+    "seats": 5
+  },
+  {
+    "brand": "Ford",
+    "model": "Figo",
+    "fuel_type": "Diesel",
+    "transmission": "Manual",
+    "engine": 1499,
+    "max_power": 98.96,
+    "mileage": 24.4,
+    "seats": 5
+  },
+  {
+    "brand": "Ford",
+    "model": "Figo",
+    "fuel_type": "Petrol",
+    "transmission": "Automatic",
+    "engine": 1499,
+    "max_power": 110.4,
+    "mileage": 17.01,
+    "seats": 5
+  },
+  {
+    "brand": "Ford",
+    "model": "Figo",
+    "fuel_type": "Petrol",
+    "transmission": "Manual",
+    "engine": 1194,
+    "max_power": 94.93,
+    "mileage": 20.4,
+    "seats": 5
+  },
+  {
+    "brand": "Ford",
+    "model": "Figo",
+    "fuel_type": "Petrol",
+    "transmission": "Manual",
+    "engine": 1196,
+    "max_power": 86.8,
+    "mileage": 18.16,
+    "seats": 5
+  },
+  {
+    "brand": "Ford",
+    "model": "Figo",
+    "fuel_type": "Petrol",
+    "transmission": "Manual",
+    "engine": 1196,
+    "max_power": 70.0,
+    "mileage": 15.6,
+    "seats": 5
+  },
+  {
+    "brand": "Ford",
+    "model": "Figo",
+    "fuel_type": "Petrol",
+    "transmission": "Manual",
+    "engine": 1196,
+    "max_power": 70.02,
+    "mileage": 15.6,
+    "seats": 5
+  },
+  {
+    "brand": "Ford",
+    "model": "Figo",
+    "fuel_type": "Petrol",
+    "transmission": "Manual",
+    "engine": 1196,
+    "max_power": 86.8,
+    "mileage": 18.12,
+    "seats": 5
+  },
+  {
+    "brand": "Ford",
+    "model": "Freestyle",
+    "fuel_type": "Diesel",
+    "transmission": "Manual",
+    "engine": 1498,
+    "max_power": 98.63,
+    "mileage": 24.4,
+    "seats": 5
+  },
+  {
+    "brand": "Ford",
+    "model": "Freestyle",
+    "fuel_type": "Diesel",
+    "transmission": "Manual",
+    "engine": 1499,
+    "max_power": 98.97,
+    "mileage": 23.8,
+    "seats": 5
+  },
+  {
+    "brand": "Ford",
+    "model": "Freestyle",
+    "fuel_type": "Petrol",
+    "transmission": "Manual",
+    "engine": 1194,
+    "max_power": 94.68,
+    "mileage": 19.0,
+    "seats": 5
+  },
+  {
+    "brand": "Ford",
+    "model": "Freestyle",
+    "fuel_type": "Petrol",
+    "transmission": "Manual",
+    "engine": 1194,
+    "max_power": 94.93,
+    "mileage": 18.5,
+    "seats": 5
+  },
+  {
+    "brand": "Honda",
+    "model": "Amaze",
+    "fuel_type": "CNG",
+    "transmission": "Manual",
+    "engine": 1198,
+    "max_power": 86.7,
+    "mileage": 18.0,
+    "seats": 5
+  },
+  {
+    "brand": "Honda",
+    "model": "Amaze",
+    "fuel_type": "Diesel",
+    "transmission": "Automatic",
+    "engine": 1498,
+    "max_power": 78.9,
+    "mileage": 23.8,
+    "seats": 5
+  },
+  {
+    "brand": "Honda",
+    "model": "Amaze",
+    "fuel_type": "Diesel",
+    "transmission": "Automatic",
+    "engine": 1498,
+    "max_power": 78.9,
+    "mileage": 21.0,
+    "seats": 5
+  },
+  {
+    "brand": "Honda",
+    "model": "Amaze",
+    "fuel_type": "Diesel",
+    "transmission": "Manual",
+    "engine": 1498,
+    "max_power": 98.6,
+    "mileage": 25.8,
+    "seats": 5
+  },
+  {
+    "brand": "Honda",
+    "model": "Amaze",
+    "fuel_type": "Diesel",
+    "transmission": "Manual",
+    "engine": 1498,
+    "max_power": 98.63,
+    "mileage": 27.4,
+    "seats": 5
+  },
+  {
+    "brand": "Honda",
+    "model": "Amaze",
+    "fuel_type": "Diesel",
+    "transmission": "Manual",
+    "engine": 1498,
+    "max_power": 98.63,
+    "mileage": 24.7,
+    "seats": 5
+  },
+  {
+    "brand": "Honda",
+    "model": "Amaze",
+    "fuel_type": "Petrol",
+    "transmission": "Automatic",
+    "engine": 1198,
+    "max_power": 86.7,
+    "mileage": 15.5,
+    "seats": 5
+  },
+  {
+    "brand": "Honda",
+    "model": "Amaze",
+    "fuel_type": "Petrol",
+    "transmission": "Automatic",
+    "engine": 1199,
+    "max_power": 88.7,
+    "mileage": 18.1,
+    "seats": 5
+  },
+  {
+    "brand": "Honda",
+    "model": "Amaze",
+    "fuel_type": "Petrol",
+    "transmission": "Automatic",
+    "engine": 1199,
+    "max_power": 88.76,
+    "mileage": 19.0,
+    "seats": 5
+  },
+  {
+    "brand": "Honda",
+    "model": "Amaze",
+    "fuel_type": "Petrol",
+    "transmission": "Automatic",
+    "engine": 1199,
+    "max_power": 88.76,
+    "mileage": 18.3,
+    "seats": 5
+  },
+  {
+    "brand": "Honda",
+    "model": "Amaze",
+    "fuel_type": "Petrol",
+    "transmission": "Manual",
+    "engine": 1198,
+    "max_power": 86.7,
+    "mileage": 18.0,
+    "seats": 5
+  },
+  {
+    "brand": "Honda",
+    "model": "Amaze",
+    "fuel_type": "Petrol",
+    "transmission": "Manual",
+    "engine": 1198,
+    "max_power": 86.7,
+    "mileage": 17.8,
+    "seats": 5
+  },
+  {
+    "brand": "Honda",
+    "model": "Amaze",
+    "fuel_type": "Petrol",
+    "transmission": "Manual",
+    "engine": 1199,
+    "max_power": 88.76,
+    "mileage": 18.6,
+    "seats": 5
+  },
+  {
+    "brand": "Honda",
+    "model": "Amaze",
+    "fuel_type": "Petrol",
+    "transmission": "Manual",
+    "engine": 1199,
+    "max_power": 88.76,
+    "mileage": 19.5,
+    "seats": 5
+  },
+  {
+    "brand": "Honda",
+    "model": "CR",
+    "fuel_type": "Petrol",
+    "transmission": "Automatic",
+    "engine": 2354,
+    "max_power": 187.4,
+    "mileage": 12.0,
+    "seats": 5
+  },
+  {
+    "brand": "Honda",
+    "model": "CR-V",
+    "fuel_type": "Diesel",
+    "transmission": "Automatic",
+    "engine": 1597,
+    "max_power": 118.3,
+    "mileage": 19.5,
+    "seats": 7
+  },
+  {
+    "brand": "Honda",
+    "model": "CR-V",
+    "fuel_type": "Petrol",
+    "transmission": "Automatic",
+    "engine": 1997,
+    "max_power": 153.86,
+    "mileage": 13.7,
+    "seats": 5
+  },
+  {
+    "brand": "Honda",
+    "model": "CR-V",
+    "fuel_type": "Petrol",
+    "transmission": "Automatic",
+    "engine": 1997,
+    "max_power": 141.1,
+    "mileage": 13.1,
+    "seats": 5
+  },
+  {
+    "brand": "Honda",
+    "model": "CR-V",
+    "fuel_type": "Petrol",
+    "transmission": "Automatic",
+    "engine": 1997,
+    "max_power": 151.89,
+    "mileage": 14.4,
+    "seats": 5
+  },
+  {
+    "brand": "Honda",
+    "model": "CR-V",
+    "fuel_type": "Petrol",
+    "transmission": "Automatic",
+    "engine": 2354,
+    "max_power": 187.4,
+    "mileage": 12.0,
+    "seats": 5
+  },
+  {
+    "brand": "Honda",
+    "model": "CR-V",
+    "fuel_type": "Petrol",
+    "transmission": "Automatic",
+    "engine": 2354,
+    "max_power": 152.0,
+    "mileage": 10.1,
+    "seats": 5
+  },
+  {
+    "brand": "Honda",
+    "model": "CR-V",
+    "fuel_type": "Petrol",
+    "transmission": "Automatic",
+    "engine": 2354,
+    "max_power": 141.1,
+    "mileage": 13.1,
+    "seats": 5
+  },
+  {
+    "brand": "Honda",
+    "model": "CR-V",
+    "fuel_type": "Petrol",
+    "transmission": "Automatic",
+    "engine": 2354,
+    "max_power": 158.8,
+    "mileage": 11.1,
+    "seats": 5
+  },
+  {
+    "brand": "Honda",
+    "model": "CR-V",
+    "fuel_type": "Petrol",
+    "transmission": "Manual",
+    "engine": 1997,
+    "max_power": 153.86,
+    "mileage": 13.7,
+    "seats": 5
+  },
+  {
+    "brand": "Honda",
+    "model": "CR-V",
+    "fuel_type": "Petrol",
+    "transmission": "Manual",
+    "engine": 2354,
+    "max_power": 152.0,
+    "mileage": 10.8,
+    "seats": 5
+  },
+  {
+    "brand": "Honda",
+    "model": "CR-V",
+    "fuel_type": "Petrol",
+    "transmission": "Manual",
+    "engine": 2354,
+    "max_power": 158.8,
+    "mileage": 11.1,
+    "seats": 5
+  },
+  {
+    "brand": "Honda",
+    "model": "City",
+    "fuel_type": "CNG",
+    "transmission": "Manual",
+    "engine": 1497,
+    "max_power": 116.3,
+    "mileage": 16.8,
+    "seats": 5
+  },
+  {
+    "brand": "Honda",
+    "model": "City",
+    "fuel_type": "Diesel",
+    "transmission": "Manual",
+    "engine": 1498,
+    "max_power": 98.6,
+    "mileage": 25.1,
+    "seats": 5
+  },
+  {
+    "brand": "Honda",
+    "model": "City",
+    "fuel_type": "Diesel",
+    "transmission": "Manual",
+    "engine": 1498,
+    "max_power": 98.6,
+    "mileage": 26.0,
+    "seats": 5
+  },
+  {
+    "brand": "Honda",
+    "model": "City",
+    "fuel_type": "Diesel",
+    "transmission": "Manual",
+    "engine": 1498,
+    "max_power": 97.9,
+    "mileage": 25.6,
+    "seats": 5
+  },
+  {
+    "brand": "Honda",
+    "model": "City",
+    "fuel_type": "Diesel",
+    "transmission": "Manual",
+    "engine": 1498,
+    "max_power": 97.9,
+    "mileage": 24.1,
+    "seats": 5
+  },
+  {
+    "brand": "Honda",
+    "model": "City",
+    "fuel_type": "Diesel",
+    "transmission": "Manual",
+    "engine": 1498,
+    "max_power": 103.56,
+    "mileage": 24.1,
+    "seats": 5
+  },
+  {
+    "brand": "Honda",
+    "model": "City",
+    "fuel_type": "Petrol",
+    "transmission": "Automatic",
+    "engine": 1493,
+    "max_power": 100.0,
+    "mileage": 14.5,
+    "seats": 5
+  },
+  {
+    "brand": "Honda",
+    "model": "City",
+    "fuel_type": "Petrol",
+    "transmission": "Automatic",
+    "engine": 1493,
+    "max_power": 100.0,
+    "mileage": 12.0,
+    "seats": 5
+  },
+  {
+    "brand": "Honda",
+    "model": "City",
+    "fuel_type": "Petrol",
+    "transmission": "Automatic",
+    "engine": 1497,
+    "max_power": 117.3,
+    "mileage": 18.0,
+    "seats": 5
+  },
+  {
+    "brand": "Honda",
+    "model": "City",
+    "fuel_type": "Petrol",
+    "transmission": "Automatic",
+    "engine": 1497,
+    "max_power": 117.6,
+    "mileage": 18.0,
+    "seats": 5
+  },
+  {
+    "brand": "Honda",
+    "model": "City",
+    "fuel_type": "Petrol",
+    "transmission": "Automatic",
+    "engine": 1497,
+    "max_power": 117.6,
+    "mileage": 17.4,
+    "seats": 5
+  },
+  {
+    "brand": "Honda",
+    "model": "City",
+    "fuel_type": "Petrol",
+    "transmission": "Automatic",
+    "engine": 1497,
+    "max_power": 118.0,
+    "mileage": 16.8,
+    "seats": 5
+  },
+  {
+    "brand": "Honda",
+    "model": "City",
+    "fuel_type": "Petrol",
+    "transmission": "Automatic",
+    "engine": 1497,
+    "max_power": 78.0,
+    "mileage": 16.4,
+    "seats": 5
+  },
+  {
+    "brand": "Honda",
+    "model": "City",
+    "fuel_type": "Petrol",
+    "transmission": "Automatic",
+    "engine": 1497,
+    "max_power": 116.3,
+    "mileage": 15.6,
+    "seats": 5
+  },
+  {
+    "brand": "Honda",
+    "model": "City",
+    "fuel_type": "Petrol",
+    "transmission": "Automatic",
+    "engine": 1497,
+    "max_power": 116.4,
+    "mileage": 16.8,
+    "seats": 5
+  },
+  {
+    "brand": "Honda",
+    "model": "City",
+    "fuel_type": "Petrol",
+    "transmission": "Automatic",
+    "engine": 1497,
+    "max_power": 116.3,
+    "mileage": 16.8,
+    "seats": 5
+  },
+  {
+    "brand": "Honda",
+    "model": "City",
+    "fuel_type": "Petrol",
+    "transmission": "Automatic",
+    "engine": 1497,
+    "max_power": 118.0,
+    "mileage": 17.0,
+    "seats": 5
+  },
+  {
+    "brand": "Honda",
+    "model": "City",
+    "fuel_type": "Petrol",
+    "transmission": "Automatic",
+    "engine": 1498,
+    "max_power": 119.35,
+    "mileage": 18.4,
+    "seats": 5
+  },
+  {
+    "brand": "Honda",
+    "model": "City",
+    "fuel_type": "Petrol",
+    "transmission": "Automatic",
+    "engine": 1498,
+    "max_power": 119.3,
+    "mileage": 18.4,
+    "seats": 5
+  },
+  {
+    "brand": "Honda",
+    "model": "City",
+    "fuel_type": "Petrol",
+    "transmission": "Manual",
+    "engine": 1343,
+    "max_power": 100.0,
+    "mileage": 11.7,
+    "seats": 5
+  },
+  {
+    "brand": "Honda",
+    "model": "City",
+    "fuel_type": "Petrol",
+    "transmission": "Manual",
+    "engine": 1343,
+    "max_power": 90.0,
+    "mileage": 13.0,
+    "seats": 5
+  },
+  {
+    "brand": "Honda",
+    "model": "City",
+    "fuel_type": "Petrol",
+    "transmission": "Manual",
+    "engine": 1493,
+    "max_power": 100.0,
+    "mileage": 13.0,
+    "seats": 5
+  },
+  {
+    "brand": "Honda",
+    "model": "City",
+    "fuel_type": "Petrol",
+    "transmission": "Manual",
+    "engine": 1493,
+    "max_power": 100.0,
+    "mileage": 12.8,
+    "seats": 5
+  },
+  {
+    "brand": "Honda",
+    "model": "City",
+    "fuel_type": "Petrol",
+    "transmission": "Manual",
+    "engine": 1493,
+    "max_power": 106.0,
+    "mileage": 16.0,
+    "seats": 5
+  },
+  {
+    "brand": "Honda",
+    "model": "City",
+    "fuel_type": "Petrol",
+    "transmission": "Manual",
+    "engine": 1497,
+    "max_power": 117.3,
+    "mileage": 17.4,
+    "seats": 5
+  },
+  {
+    "brand": "Honda",
+    "model": "City",
+    "fuel_type": "Petrol",
+    "transmission": "Manual",
+    "engine": 1497,
+    "max_power": 78.0,
+    "mileage": 17.7,
+    "seats": 5
+  },
+  {
+    "brand": "Honda",
+    "model": "City",
+    "fuel_type": "Petrol",
+    "transmission": "Manual",
+    "engine": 1497,
+    "max_power": 116.3,
+    "mileage": 16.8,
+    "seats": 5
+  },
+  {
+    "brand": "Honda",
+    "model": "City",
+    "fuel_type": "Petrol",
+    "transmission": "Manual",
+    "engine": 1497,
+    "max_power": 117.3,
+    "mileage": 17.8,
+    "seats": 5
+  },
+  {
+    "brand": "Honda",
+    "model": "City",
+    "fuel_type": "Petrol",
+    "transmission": "Manual",
+    "engine": 1497,
+    "max_power": 118.0,
+    "mileage": 17.0,
+    "seats": 5
+  },
+  {
+    "brand": "Honda",
+    "model": "City",
+    "fuel_type": "Petrol",
+    "transmission": "Manual",
+    "engine": 1497,
+    "max_power": 100.0,
+    "mileage": 16.9,
+    "seats": 5
+  },
+  {
+    "brand": "Honda",
+    "model": "City",
+    "fuel_type": "Petrol",
+    "transmission": "Manual",
+    "engine": 1497,
+    "max_power": 117.6,
+    "mileage": 17.14,
+    "seats": 5
+  },
+  {
+    "brand": "Honda",
+    "model": "City",
+    "fuel_type": "Petrol",
+    "transmission": "Manual",
+    "engine": 1497,
+    "max_power": 117.6,
+    "mileage": 17.4,
+    "seats": 5
+  },
+  {
+    "brand": "Honda",
+    "model": "City",
+    "fuel_type": "Petrol",
+    "transmission": "Manual",
+    "engine": 1497,
+    "max_power": 116.4,
+    "mileage": 16.8,
+    "seats": 5
+  },
+  {
+    "brand": "Honda",
+    "model": "City",
+    "fuel_type": "Petrol",
+    "transmission": "Manual",
+    "engine": 1498,
+    "max_power": 119.35,
+    "mileage": 17.8,
+    "seats": 5
+  },
+  {
+    "brand": "Honda",
+    "model": "Civic",
+    "fuel_type": "Petrol",
+    "transmission": "Automatic",
+    "engine": 1799,
+    "max_power": 130.2,
+    "mileage": 13.9,
+    "seats": 5
+  },
+  {
+    "brand": "Honda",
+    "model": "Civic",
+    "fuel_type": "Petrol",
+    "transmission": "Automatic",
+    "engine": 1799,
+    "max_power": 130.0,
+    "mileage": 12.9,
+    "seats": 5
+  },
+  {
+    "brand": "Honda",
+    "model": "Civic",
+    "fuel_type": "Petrol",
+    "transmission": "Automatic",
+    "engine": 1799,
+    "max_power": 139.46,
+    "mileage": 16.5,
+    "seats": 5
+  },
+  {
+    "brand": "Honda",
+    "model": "Civic",
+    "fuel_type": "Petrol",
+    "transmission": "Automatic",
+    "engine": 1799,
+    "max_power": 130.3,
+    "mileage": 13.9,
+    "seats": 5
+  },
+  {
+    "brand": "Honda",
+    "model": "Civic",
+    "fuel_type": "Petrol",
+    "transmission": "Manual",
+    "engine": 1799,
+    "max_power": 130.0,
+    "mileage": 13.5,
+    "seats": 5
+  },
+  {
+    "brand": "Honda",
+    "model": "Civic",
+    "fuel_type": "Petrol",
+    "transmission": "Manual",
+    "engine": 1799,
+    "max_power": 130.2,
+    "mileage": 14.8,
+    "seats": 5
+  },
+  {
+    "brand": "Honda",
+    "model": "Jazz",
+    "fuel_type": "Diesel",
+    "transmission": "Manual",
+    "engine": 1498,
+    "max_power": 98.6,
+    "mileage": 27.3,
+    "seats": 5
+  },
+  {
+    "brand": "Honda",
+    "model": "Jazz",
+    "fuel_type": "Petrol",
+    "transmission": "Automatic",
+    "engine": 1199,
+    "max_power": 88.51,
+    "mileage": 17.1,
+    "seats": 5
+  },
+  {
+    "brand": "Honda",
+    "model": "Jazz",
+    "fuel_type": "Petrol",
+    "transmission": "Automatic",
+    "engine": 1199,
+    "max_power": 88.7,
+    "mileage": 18.2,
+    "seats": 5
+  },
+  {
+    "brand": "Honda",
+    "model": "Jazz",
+    "fuel_type": "Petrol",
+    "transmission": "Automatic",
+    "engine": 1199,
+    "max_power": 88.7,
+    "mileage": 19.0,
+    "seats": 5
+  },
+  {
+    "brand": "Honda",
+    "model": "Jazz",
+    "fuel_type": "Petrol",
+    "transmission": "Manual",
+    "engine": 1198,
+    "max_power": 88.8,
+    "mileage": 16.7,
+    "seats": 5
+  },
+  {
+    "brand": "Honda",
+    "model": "Jazz",
+    "fuel_type": "Petrol",
+    "transmission": "Manual",
+    "engine": 1198,
+    "max_power": 90.0,
+    "mileage": 16.0,
+    "seats": 5
+  },
+  {
+    "brand": "Honda",
+    "model": "Jazz",
+    "fuel_type": "Petrol",
+    "transmission": "Manual",
+    "engine": 1199,
+    "max_power": 88.7,
+    "mileage": 18.7,
+    "seats": 5
+  },
+  {
+    "brand": "Honda",
+    "model": "Jazz",
+    "fuel_type": "Petrol",
+    "transmission": "Manual",
+    "engine": 1199,
+    "max_power": 88.7,
+    "mileage": 18.2,
+    "seats": 5
+  },
+  {
+    "brand": "Honda",
+    "model": "Jazz",
+    "fuel_type": "Petrol",
+    "transmission": "Manual",
+    "engine": 1199,
+    "max_power": 88.51,
+    "mileage": 16.6,
+    "seats": 5
+  },
+  {
+    "brand": "Honda",
+    "model": "WR-V",
+    "fuel_type": "Diesel",
+    "transmission": "Manual",
+    "engine": 1498,
+    "max_power": 98.6,
+    "mileage": 25.5,
+    "seats": 5
+  },
+  {
+    "brand": "Honda",
+    "model": "WR-V",
+    "fuel_type": "Diesel",
+    "transmission": "Manual",
+    "engine": 1498,
+    "max_power": 97.89,
+    "mileage": 23.7,
+    "seats": 5
+  },
+  {
+    "brand": "Honda",
+    "model": "WR-V",
+    "fuel_type": "Petrol",
+    "transmission": "Manual",
+    "engine": 1199,
+    "max_power": 88.7,
+    "mileage": 17.5,
+    "seats": 5
+  },
+  {
+    "brand": "Hyundai",
+    "model": "Aura",
+    "fuel_type": "Petrol",
+    "transmission": "Manual",
+    "engine": 1197,
+    "max_power": 81.86,
+    "mileage": 20.5,
+    "seats": 5
+  },
+  {
+    "brand": "Hyundai",
+    "model": "Creta",
+    "fuel_type": "Diesel",
+    "transmission": "Automatic",
+    "engine": 1493,
+    "max_power": 113.42,
+    "mileage": 18.5,
+    "seats": 5
+  },
+  {
+    "brand": "Hyundai",
+    "model": "Creta",
+    "fuel_type": "Diesel",
+    "transmission": "Automatic",
+    "engine": 1582,
+    "max_power": 126.2,
+    "mileage": 17.01,
+    "seats": 5
+  },
+  {
+    "brand": "Hyundai",
+    "model": "Creta",
+    "fuel_type": "Diesel",
+    "transmission": "Automatic",
+    "engine": 1582,
+    "max_power": 126.2,
+    "mileage": 17.6,
+    "seats": 5
+  },
+  {
+    "brand": "Hyundai",
+    "model": "Creta",
+    "fuel_type": "Diesel",
+    "transmission": "Manual",
+    "engine": 1396,
+    "max_power": 88.7,
+    "mileage": 22.1,
+    "seats": 5
+  },
+  {
+    "brand": "Hyundai",
+    "model": "Creta",
+    "fuel_type": "Diesel",
+    "transmission": "Manual",
+    "engine": 1396,
+    "max_power": 88.7,
+    "mileage": 21.38,
+    "seats": 5
+  },
+  {
+    "brand": "Hyundai",
+    "model": "Creta",
+    "fuel_type": "Diesel",
+    "transmission": "Manual",
+    "engine": 1493,
+    "max_power": 113.42,
+    "mileage": 21.4,
+    "seats": 5
+  },
+  {
+    "brand": "Hyundai",
+    "model": "Creta",
+    "fuel_type": "Diesel",
+    "transmission": "Manual",
+    "engine": 1582,
+    "max_power": 126.2,
+    "mileage": 19.67,
+    "seats": 5
+  },
+  {
+    "brand": "Hyundai",
+    "model": "Creta",
+    "fuel_type": "Diesel",
+    "transmission": "Manual",
+    "engine": 1582,
+    "max_power": 126.2,
+    "mileage": 20.5,
+    "seats": 5
+  },
+  {
+    "brand": "Hyundai",
+    "model": "Creta",
+    "fuel_type": "Petrol",
+    "transmission": "Automatic",
+    "engine": 1591,
+    "max_power": 121.3,
+    "mileage": 13.0,
+    "seats": 5
+  },
+  {
+    "brand": "Hyundai",
+    "model": "Creta",
+    "fuel_type": "Petrol",
+    "transmission": "Automatic",
+    "engine": 1591,
+    "max_power": 121.3,
+    "mileage": 14.8,
+    "seats": 5
+  },
+  {
+    "brand": "Hyundai",
+    "model": "Creta",
+    "fuel_type": "Petrol",
+    "transmission": "Manual",
+    "engine": 1591,
+    "max_power": 121.3,
+    "mileage": 15.8,
+    "seats": 5
+  },
+  {
+    "brand": "Hyundai",
+    "model": "Creta",
+    "fuel_type": "Petrol",
+    "transmission": "Manual",
+    "engine": 1591,
+    "max_power": 121.3,
+    "mileage": 15.29,
+    "seats": 5
+  },
+  {
+    "brand": "Hyundai",
+    "model": "Creta",
+    "fuel_type": "Petrol",
+    "transmission": "Manual",
+    "engine": 1591,
+    "max_power": 121.3,
+    "mileage": 13.0,
+    "seats": 5
+  },
+  {
+    "brand": "Hyundai",
+    "model": "Elantra",
+    "fuel_type": "Diesel",
+    "transmission": "Automatic",
+    "engine": 1493,
+    "max_power": 113.42,
+    "mileage": 14.62,
+    "seats": 5
+  },
+  {
+    "brand": "Hyundai",
+    "model": "Elantra",
+    "fuel_type": "Diesel",
+    "transmission": "Automatic",
+    "engine": 1582,
+    "max_power": 126.24,
+    "mileage": 19.5,
+    "seats": 5
+  },
+  {
+    "brand": "Hyundai",
+    "model": "Elantra",
+    "fuel_type": "Diesel",
+    "transmission": "Automatic",
+    "engine": 1582,
+    "max_power": 126.2,
+    "mileage": 18.23,
+    "seats": 5
+  },
+  {
+    "brand": "Hyundai",
+    "model": "Elantra",
+    "fuel_type": "Diesel",
+    "transmission": "Automatic",
+    "engine": 1582,
+    "max_power": 126.2,
+    "mileage": 22.7,
+    "seats": 5
+  },
+  {
+    "brand": "Hyundai",
+    "model": "Elantra",
+    "fuel_type": "Diesel",
+    "transmission": "Manual",
+    "engine": 1493,
+    "max_power": 113.42,
+    "mileage": 14.59,
+    "seats": 5
+  },
+  {
+    "brand": "Hyundai",
+    "model": "Elantra",
+    "fuel_type": "Diesel",
+    "transmission": "Manual",
+    "engine": 1582,
+    "max_power": 126.24,
+    "mileage": 22.7,
+    "seats": 5
+  },
+  {
+    "brand": "Hyundai",
+    "model": "Elantra",
+    "fuel_type": "Diesel",
+    "transmission": "Manual",
+    "engine": 1582,
+    "max_power": 126.2,
+    "mileage": 22.7,
+    "seats": 5
+  },
+  {
+    "brand": "Hyundai",
+    "model": "Elantra",
+    "fuel_type": "Petrol",
+    "transmission": "Automatic",
+    "engine": 1797,
+    "max_power": 147.5,
+    "mileage": 14.5,
+    "seats": 5
+  },
+  {
+    "brand": "Hyundai",
+    "model": "Elantra",
+    "fuel_type": "Petrol",
+    "transmission": "Automatic",
+    "engine": 1999,
+    "max_power": 149.92,
+    "mileage": 14.62,
+    "seats": 5
+  },
+  {
+    "brand": "Hyundai",
+    "model": "Elantra",
+    "fuel_type": "Petrol",
+    "transmission": "Manual",
+    "engine": 1797,
+    "max_power": 147.5,
+    "mileage": 16.3,
+    "seats": 5
+  },
+  {
+    "brand": "Hyundai",
+    "model": "Elantra",
+    "fuel_type": "Petrol",
+    "transmission": "Manual",
+    "engine": 1797,
+    "max_power": 147.4,
+    "mileage": 16.3,
+    "seats": 5
+  },
+  {
+    "brand": "Hyundai",
+    "model": "Elantra",
+    "fuel_type": "Petrol",
+    "transmission": "Manual",
+    "engine": 1999,
+    "max_power": 149.92,
+    "mileage": 14.59,
+    "seats": 5
+  },
+  {
+    "brand": "Hyundai",
+    "model": "Grand",
+    "fuel_type": "CNG",
+    "transmission": "Manual",
+    "engine": 1197,
+    "max_power": 82.0,
+    "mileage": 25.0,
+    "seats": 5
+  },
+  {
+    "brand": "Hyundai",
+    "model": "Grand",
+    "fuel_type": "CNG",
+    "transmission": "Manual",
+    "engine": 1197,
+    "max_power": 81.86,
+    "mileage": 18.9,
+    "seats": 5
+  },
+  {
+    "brand": "Hyundai",
+    "model": "Grand",
+    "fuel_type": "CNG",
+    "transmission": "Manual",
+    "engine": 1197,
+    "max_power": 65.39,
+    "mileage": 18.9,
+    "seats": 5
+  },
+  {
+    "brand": "Hyundai",
+    "model": "Grand",
+    "fuel_type": "Diesel",
+    "transmission": "Manual",
+    "engine": 1120,
+    "max_power": 70.0,
+    "mileage": 24.0,
+    "seats": 5
+  },
+  {
+    "brand": "Hyundai",
+    "model": "Grand",
+    "fuel_type": "Diesel",
+    "transmission": "Manual",
+    "engine": 1186,
+    "max_power": 73.97,
+    "mileage": 24.0,
+    "seats": 5
+  },
+  {
+    "brand": "Hyundai",
+    "model": "Grand",
+    "fuel_type": "Petrol",
+    "transmission": "Automatic",
+    "engine": 1197,
+    "max_power": 81.86,
+    "mileage": 20.7,
+    "seats": 5
+  },
+  {
+    "brand": "Hyundai",
+    "model": "Grand",
+    "fuel_type": "Petrol",
+    "transmission": "Automatic",
+    "engine": 1197,
+    "max_power": 81.86,
+    "mileage": 18.9,
+    "seats": 5
+  },
+  {
+    "brand": "Hyundai",
+    "model": "Grand",
+    "fuel_type": "Petrol",
+    "transmission": "Automatic",
+    "engine": 1197,
+    "max_power": 82.0,
+    "mileage": 18.9,
+    "seats": 5
+  },
+  {
+    "brand": "Hyundai",
+    "model": "Grand",
+    "fuel_type": "Petrol",
+    "transmission": "Manual",
+    "engine": 1197,
+    "max_power": 82.0,
+    "mileage": 18.9,
+    "seats": 5
+  },
+  {
+    "brand": "Hyundai",
+    "model": "Grand",
+    "fuel_type": "Petrol",
+    "transmission": "Manual",
+    "engine": 1197,
+    "max_power": 81.86,
+    "mileage": 20.7,
+    "seats": 5
+  },
+  {
+    "brand": "Hyundai",
+    "model": "Grand",
+    "fuel_type": "Petrol",
+    "transmission": "Manual",
+    "engine": 1197,
+    "max_power": 81.86,
+    "mileage": 18.9,
+    "seats": 5
+  },
+  {
+    "brand": "Hyundai",
+    "model": "Grand",
+    "fuel_type": "Petrol",
+    "transmission": "Manual",
+    "engine": 1197,
+    "max_power": 81.86,
+    "mileage": 17.0,
+    "seats": 5
+  },
+  {
+    "brand": "Hyundai",
+    "model": "Grand",
+    "fuel_type": "Petrol",
+    "transmission": "Manual",
+    "engine": 1197,
+    "max_power": 82.0,
+    "mileage": 25.0,
+    "seats": 5
+  },
+  {
+    "brand": "Hyundai",
+    "model": "Santro",
+    "fuel_type": "CNG",
+    "transmission": "Manual",
+    "engine": 1086,
+    "max_power": 62.1,
+    "mileage": 11.88,
+    "seats": 5
+  },
+  {
+    "brand": "Hyundai",
+    "model": "Santro",
+    "fuel_type": "CNG",
+    "transmission": "Manual",
+    "engine": 1086,
+    "max_power": 58.0,
+    "mileage": 30.48,
+    "seats": 5
+  },
+  {
+    "brand": "Hyundai",
+    "model": "Santro",
+    "fuel_type": "CNG",
+    "transmission": "Manual",
+    "engine": 1086,
+    "max_power": 59.18,
+    "mileage": 30.48,
+    "seats": 5
+  },
+  {
+    "brand": "Hyundai",
+    "model": "Santro",
+    "fuel_type": "LPG",
+    "transmission": "Manual",
+    "engine": 1086,
+    "max_power": 62.1,
+    "mileage": 13.45,
+    "seats": 5
+  },
+  {
+    "brand": "Hyundai",
+    "model": "Santro",
+    "fuel_type": "LPG",
+    "transmission": "Manual",
+    "engine": 1086,
+    "max_power": 63.0,
+    "mileage": 17.8,
+    "seats": 5
+  },
+  {
+    "brand": "Hyundai",
+    "model": "Santro",
+    "fuel_type": "Petrol",
+    "transmission": "Automatic",
+    "engine": 1086,
+    "max_power": 68.0,
+    "mileage": 20.3,
+    "seats": 5
+  },
+  {
+    "brand": "Hyundai",
+    "model": "Santro",
+    "fuel_type": "Petrol",
+    "transmission": "Automatic",
+    "engine": 1086,
+    "max_power": 68.07,
+    "mileage": 20.3,
+    "seats": 5
+  },
+  {
+    "brand": "Hyundai",
+    "model": "Santro",
+    "fuel_type": "Petrol",
+    "transmission": "Manual",
+    "engine": 1086,
+    "max_power": 62.1,
+    "mileage": 17.92,
+    "seats": 5
+  },
+  {
+    "brand": "Hyundai",
+    "model": "Santro",
+    "fuel_type": "Petrol",
+    "transmission": "Manual",
+    "engine": 1086,
+    "max_power": 63.0,
+    "mileage": 17.8,
+    "seats": 5
+  },
+  {
+    "brand": "Hyundai",
+    "model": "Santro",
+    "fuel_type": "Petrol",
+    "transmission": "Manual",
+    "engine": 1086,
+    "max_power": 68.0,
+    "mileage": 20.3,
+    "seats": 5
+  },
+  {
+    "brand": "Hyundai",
+    "model": "Santro",
+    "fuel_type": "Petrol",
+    "transmission": "Manual",
+    "engine": 1086,
+    "max_power": 68.07,
+    "mileage": 20.3,
+    "seats": 5
+  },
+  {
+    "brand": "Hyundai",
+    "model": "Santro",
+    "fuel_type": "Petrol",
+    "transmission": "Manual",
+    "engine": 1086,
+    "max_power": 63.0,
+    "mileage": 17.92,
+    "seats": 5
+  },
+  {
+    "brand": "Hyundai",
+    "model": "Tucson",
+    "fuel_type": "Diesel",
+    "transmission": "Automatic",
+    "engine": 1995,
+    "max_power": 183.0,
+    "mileage": 16.38,
+    "seats": 5
+  },
+  {
+    "brand": "Hyundai",
+    "model": "Tucson",
+    "fuel_type": "Diesel",
+    "transmission": "Automatic",
+    "engine": 1995,
+    "max_power": 182.46,
+    "mileage": 16.38,
+    "seats": 5
+  },
+  {
+    "brand": "Hyundai",
+    "model": "Tucson",
+    "fuel_type": "Diesel",
+    "transmission": "Manual",
+    "engine": 1995,
+    "max_power": 182.46,
+    "mileage": 18.42,
+    "seats": 5
+  },
+  {
+    "brand": "Hyundai",
+    "model": "Tucson",
+    "fuel_type": "Petrol",
+    "transmission": "Automatic",
+    "engine": 1999,
+    "max_power": 152.88,
+    "mileage": 12.95,
+    "seats": 5
+  },
+  {
+    "brand": "Hyundai",
+    "model": "Venue",
+    "fuel_type": "Diesel",
+    "transmission": "Manual",
+    "engine": 1396,
+    "max_power": 88.7,
+    "mileage": 23.7,
+    "seats": 5
+  },
+  {
+    "brand": "Hyundai",
+    "model": "Venue",
+    "fuel_type": "Diesel",
+    "transmission": "Manual",
+    "engine": 1396,
+    "max_power": 88.76,
+    "mileage": 23.7,
+    "seats": 5
+  },
+  {
+    "brand": "Hyundai",
+    "model": "Venue",
+    "fuel_type": "Diesel",
+    "transmission": "Manual",
+    "engine": 1493,
+    "max_power": 98.6,
+    "mileage": 23.7,
+    "seats": 5
+  },
+  {
+    "brand": "Hyundai",
+    "model": "Venue",
+    "fuel_type": "Petrol",
+    "transmission": "Automatic",
+    "engine": 998,
+    "max_power": 118.35,
+    "mileage": 18.15,
+    "seats": 5
+  },
+  {
+    "brand": "Hyundai",
+    "model": "Venue",
+    "fuel_type": "Petrol",
+    "transmission": "Manual",
+    "engine": 998,
+    "max_power": 118.35,
+    "mileage": 18.27,
+    "seats": 5
+  },
+  {
+    "brand": "Hyundai",
+    "model": "Venue",
+    "fuel_type": "Petrol",
+    "transmission": "Manual",
+    "engine": 998,
+    "max_power": 118.35,
+    "mileage": 18.0,
+    "seats": 5
+  },
+  {
+    "brand": "Hyundai",
+    "model": "Verna",
+    "fuel_type": "Diesel",
+    "transmission": "Automatic",
+    "engine": 1493,
+    "max_power": 113.42,
+    "mileage": 21.3,
+    "seats": 5
+  },
+  {
+    "brand": "Hyundai",
+    "model": "Verna",
+    "fuel_type": "Diesel",
+    "transmission": "Automatic",
+    "engine": 1493,
+    "max_power": 110.0,
+    "mileage": 16.2,
+    "seats": 5
+  },
+  {
+    "brand": "Hyundai",
+    "model": "Verna",
+    "fuel_type": "Diesel",
+    "transmission": "Automatic",
+    "engine": 1582,
+    "max_power": 126.2,
+    "mileage": 22.0,
+    "seats": 5
+  },
+  {
+    "brand": "Hyundai",
+    "model": "Verna",
+    "fuel_type": "Diesel",
+    "transmission": "Automatic",
+    "engine": 1582,
+    "max_power": 126.32,
+    "mileage": 19.08,
+    "seats": 5
+  },
+  {
+    "brand": "Hyundai",
+    "model": "Verna",
+    "fuel_type": "Diesel",
+    "transmission": "Automatic",
+    "engine": 1582,
+    "max_power": 126.2,
+    "mileage": 19.08,
+    "seats": 5
+  },
+  {
+    "brand": "Hyundai",
+    "model": "Verna",
+    "fuel_type": "Diesel",
+    "transmission": "Automatic",
+    "engine": 1582,
+    "max_power": 126.32,
+    "mileage": 22.32,
+    "seats": 5
+  },
+  {
+    "brand": "Hyundai",
+    "model": "Verna",
+    "fuel_type": "Diesel",
+    "transmission": "Automatic",
+    "engine": 1582,
+    "max_power": 126.2,
+    "mileage": 18.0,
+    "seats": 5
+  },
+  {
+    "brand": "Hyundai",
+    "model": "Verna",
+    "fuel_type": "Diesel",
+    "transmission": "Automatic",
+    "engine": 1582,
+    "max_power": 126.3,
+    "mileage": 22.32,
+    "seats": 5
+  },
+  {
+    "brand": "Hyundai",
+    "model": "Verna",
+    "fuel_type": "Diesel",
+    "transmission": "Manual",
+    "engine": 1396,
+    "max_power": 88.76,
+    "mileage": 24.0,
+    "seats": 5
+  },
+  {
+    "brand": "Hyundai",
+    "model": "Verna",
+    "fuel_type": "Diesel",
+    "transmission": "Manual",
+    "engine": 1396,
+    "max_power": 88.7,
+    "mileage": 24.8,
+    "seats": 5
+  },
+  {
+    "brand": "Hyundai",
+    "model": "Verna",
+    "fuel_type": "Diesel",
+    "transmission": "Manual",
+    "engine": 1396,
+    "max_power": 88.7,
+    "mileage": 23.5,
+    "seats": 5
+  },
+  {
+    "brand": "Hyundai",
+    "model": "Verna",
+    "fuel_type": "Diesel",
+    "transmission": "Manual",
+    "engine": 1493,
+    "max_power": 113.42,
+    "mileage": 25.0,
+    "seats": 5
+  },
+  {
+    "brand": "Hyundai",
+    "model": "Verna",
+    "fuel_type": "Diesel",
+    "transmission": "Manual",
+    "engine": 1493,
+    "max_power": 110.0,
+    "mileage": 16.8,
+    "seats": 5
+  },
+  {
+    "brand": "Hyundai",
+    "model": "Verna",
+    "fuel_type": "Diesel",
+    "transmission": "Manual",
+    "engine": 1493,
+    "max_power": 110.0,
+    "mileage": 18.1,
+    "seats": 5
+  },
+  {
+    "brand": "Hyundai",
+    "model": "Verna",
+    "fuel_type": "Diesel",
+    "transmission": "Manual",
+    "engine": 1493,
+    "max_power": 110.0,
+    "mileage": 16.2,
+    "seats": 5
+  },
+  {
+    "brand": "Hyundai",
+    "model": "Verna",
+    "fuel_type": "Diesel",
+    "transmission": "Manual",
+    "engine": 1582,
+    "max_power": 126.32,
+    "mileage": 22.32,
+    "seats": 5
+  },
+  {
+    "brand": "Hyundai",
+    "model": "Verna",
+    "fuel_type": "Diesel",
+    "transmission": "Manual",
+    "engine": 1582,
+    "max_power": 126.3,
+    "mileage": 22.32,
+    "seats": 5
+  },
+  {
+    "brand": "Hyundai",
+    "model": "Verna",
+    "fuel_type": "Diesel",
+    "transmission": "Manual",
+    "engine": 1582,
+    "max_power": 126.2,
+    "mileage": 23.9,
+    "seats": 5
+  },
+  {
+    "brand": "Hyundai",
+    "model": "Verna",
+    "fuel_type": "Diesel",
+    "transmission": "Manual",
+    "engine": 1582,
+    "max_power": 126.2,
+    "mileage": 22.0,
+    "seats": 5
+  },
+  {
+    "brand": "Hyundai",
+    "model": "Verna",
+    "fuel_type": "Diesel",
+    "transmission": "Manual",
+    "engine": 1582,
+    "max_power": 126.32,
+    "mileage": 23.9,
+    "seats": 5
+  },
+  {
+    "brand": "Hyundai",
+    "model": "Verna",
+    "fuel_type": "Petrol",
+    "transmission": "Automatic",
+    "engine": 1591,
+    "max_power": 121.3,
+    "mileage": 15.74,
+    "seats": 5
+  },
+  {
+    "brand": "Hyundai",
+    "model": "Verna",
+    "fuel_type": "Petrol",
+    "transmission": "Automatic",
+    "engine": 1591,
+    "max_power": 121.3,
+    "mileage": 17.0,
+    "seats": 5
+  },
+  {
+    "brand": "Hyundai",
+    "model": "Verna",
+    "fuel_type": "Petrol",
+    "transmission": "Automatic",
+    "engine": 1591,
+    "max_power": 121.4,
+    "mileage": 17.1,
+    "seats": 5
+  },
+  {
+    "brand": "Hyundai",
+    "model": "Verna",
+    "fuel_type": "Petrol",
+    "transmission": "Automatic",
+    "engine": 1591,
+    "max_power": 121.4,
+    "mileage": 17.01,
+    "seats": 5
+  },
+  {
+    "brand": "Hyundai",
+    "model": "Verna",
+    "fuel_type": "Petrol",
+    "transmission": "Automatic",
+    "engine": 1591,
+    "max_power": 121.3,
+    "mileage": 17.01,
+    "seats": 5
+  },
+  {
+    "brand": "Hyundai",
+    "model": "Verna",
+    "fuel_type": "Petrol",
+    "transmission": "Automatic",
+    "engine": 1591,
+    "max_power": 121.3,
+    "mileage": 15.92,
+    "seats": 5
+  },
+  {
+    "brand": "Hyundai",
+    "model": "Verna",
+    "fuel_type": "Petrol",
+    "transmission": "Manual",
+    "engine": 1368,
+    "max_power": 98.6,
+    "mileage": 19.1,
+    "seats": 5
+  },
+  {
+    "brand": "Hyundai",
+    "model": "Verna",
+    "fuel_type": "Petrol",
+    "transmission": "Manual",
+    "engine": 1396,
+    "max_power": 105.5,
+    "mileage": 17.43,
+    "seats": 5
+  },
+  {
+    "brand": "Hyundai",
+    "model": "Verna",
+    "fuel_type": "Petrol",
+    "transmission": "Manual",
+    "engine": 1497,
+    "max_power": 113.42,
+    "mileage": 17.7,
+    "seats": 5
+  },
+  {
+    "brand": "Hyundai",
+    "model": "Verna",
+    "fuel_type": "Petrol",
+    "transmission": "Manual",
+    "engine": 1591,
+    "max_power": 121.3,
+    "mileage": 17.01,
+    "seats": 5
+  },
+  {
+    "brand": "Hyundai",
+    "model": "Verna",
+    "fuel_type": "Petrol",
+    "transmission": "Manual",
+    "engine": 1591,
+    "max_power": 121.3,
+    "mileage": 17.0,
+    "seats": 5
+  },
+  {
+    "brand": "Hyundai",
+    "model": "Verna",
+    "fuel_type": "Petrol",
+    "transmission": "Manual",
+    "engine": 1591,
+    "max_power": 121.3,
+    "mileage": 17.1,
+    "seats": 5
+  },
+  {
+    "brand": "Hyundai",
+    "model": "Verna",
+    "fuel_type": "Petrol",
+    "transmission": "Manual",
+    "engine": 1591,
+    "max_power": 121.3,
+    "mileage": 17.7,
+    "seats": 5
+  },
+  {
+    "brand": "Hyundai",
+    "model": "Verna",
+    "fuel_type": "Petrol",
+    "transmission": "Manual",
+    "engine": 1591,
+    "max_power": 121.4,
+    "mileage": 17.01,
+    "seats": 5
+  },
+  {
+    "brand": "Hyundai",
+    "model": "Verna",
+    "fuel_type": "Petrol",
+    "transmission": "Manual",
+    "engine": 1599,
+    "max_power": 103.2,
+    "mileage": 16.2,
+    "seats": 5
+  },
+  {
+    "brand": "Hyundai",
+    "model": "Verna",
+    "fuel_type": "Petrol",
+    "transmission": "Manual",
+    "engine": 1599,
+    "max_power": 103.2,
+    "mileage": 13.9,
+    "seats": 5
+  },
+  {
+    "brand": "Hyundai",
+    "model": "i10",
+    "fuel_type": "LPG",
+    "transmission": "Manual",
+    "engine": 1086,
+    "max_power": 68.1,
+    "mileage": 19.0,
+    "seats": 5
+  },
+  {
+    "brand": "Hyundai",
+    "model": "i10",
+    "fuel_type": "LPG",
+    "transmission": "Manual",
+    "engine": 1086,
+    "max_power": 68.05,
+    "mileage": 19.2,
+    "seats": 5
+  },
+  {
+    "brand": "Hyundai",
+    "model": "i10",
+    "fuel_type": "Petrol",
+    "transmission": "Automatic",
+    "engine": 1197,
+    "max_power": 78.9,
+    "mileage": 16.95,
+    "seats": 5
+  },
+  {
+    "brand": "Hyundai",
+    "model": "i10",
+    "fuel_type": "Petrol",
+    "transmission": "Automatic",
+    "engine": 1197,
+    "max_power": 80.0,
+    "mileage": 19.2,
+    "seats": 5
+  },
+  {
+    "brand": "Hyundai",
+    "model": "i10",
+    "fuel_type": "Petrol",
+    "transmission": "Manual",
+    "engine": 1086,
+    "max_power": 68.05,
+    "mileage": 19.81,
+    "seats": 5
+  },
+  {
+    "brand": "Hyundai",
+    "model": "i10",
+    "fuel_type": "Petrol",
+    "transmission": "Manual",
+    "engine": 1086,
+    "max_power": 68.1,
+    "mileage": 19.81,
+    "seats": 5
+  },
+  {
+    "brand": "Hyundai",
+    "model": "i10",
+    "fuel_type": "Petrol",
+    "transmission": "Manual",
+    "engine": 1197,
+    "max_power": 78.9,
+    "mileage": 20.36,
+    "seats": 5
+  },
+  {
+    "brand": "Hyundai",
+    "model": "i20",
+    "fuel_type": "Diesel",
+    "transmission": "Manual",
+    "engine": 1396,
+    "max_power": 88.73,
+    "mileage": 22.54,
+    "seats": 5
+  },
+  {
+    "brand": "Hyundai",
+    "model": "i20",
+    "fuel_type": "Diesel",
+    "transmission": "Manual",
+    "engine": 1396,
+    "max_power": 90.0,
+    "mileage": 21.9,
+    "seats": 5
+  },
+  {
+    "brand": "Hyundai",
+    "model": "i20",
+    "fuel_type": "Diesel",
+    "transmission": "Manual",
+    "engine": 1396,
+    "max_power": 88.76,
+    "mileage": 21.9,
+    "seats": 5
+  },
+  {
+    "brand": "Hyundai",
+    "model": "i20",
+    "fuel_type": "Diesel",
+    "transmission": "Manual",
+    "engine": 1396,
+    "max_power": 88.73,
+    "mileage": 21.19,
+    "seats": 5
+  },
+  {
+    "brand": "Hyundai",
+    "model": "i20",
+    "fuel_type": "Diesel",
+    "transmission": "Manual",
+    "engine": 1396,
+    "max_power": 88.76,
+    "mileage": 22.54,
+    "seats": 5
+  },
+  {
+    "brand": "Hyundai",
+    "model": "i20",
+    "fuel_type": "Diesel",
+    "transmission": "Manual",
+    "engine": 1396,
+    "max_power": 90.0,
+    "mileage": 23.0,
+    "seats": 5
+  },
+  {
+    "brand": "Hyundai",
+    "model": "i20",
+    "fuel_type": "Diesel",
+    "transmission": "Manual",
+    "engine": 1396,
+    "max_power": 88.76,
+    "mileage": 21.19,
+    "seats": 5
+  },
+  {
+    "brand": "Hyundai",
+    "model": "i20",
+    "fuel_type": "Diesel",
+    "transmission": "Manual",
+    "engine": 1396,
+    "max_power": 88.76,
+    "mileage": 21.27,
+    "seats": 5
+  },
+  {
+    "brand": "Hyundai",
+    "model": "i20",
+    "fuel_type": "Diesel",
+    "transmission": "Manual",
+    "engine": 1396,
+    "max_power": 88.8,
+    "mileage": 21.9,
+    "seats": 5
+  },
+  {
+    "brand": "Hyundai",
+    "model": "i20",
+    "fuel_type": "Diesel",
+    "transmission": "Manual",
+    "engine": 1493,
+    "max_power": 98.63,
+    "mileage": 25.2,
+    "seats": 5
+  },
+  {
+    "brand": "Hyundai",
+    "model": "i20",
+    "fuel_type": "Petrol",
+    "transmission": "Automatic",
+    "engine": 1197,
+    "max_power": 81.86,
+    "mileage": 17.4,
+    "seats": 5
+  },
+  {
+    "brand": "Hyundai",
+    "model": "i20",
+    "fuel_type": "Petrol",
+    "transmission": "Automatic",
+    "engine": 1197,
+    "max_power": 86.8,
+    "mileage": 19.65,
+    "seats": 5
+  },
+  {
+    "brand": "Hyundai",
+    "model": "i20",
+    "fuel_type": "Petrol",
+    "transmission": "Automatic",
+    "engine": 1368,
+    "max_power": 98.63,
+    "mileage": 18.6,
+    "seats": 5
+  },
+  {
+    "brand": "Hyundai",
+    "model": "i20",
+    "fuel_type": "Petrol",
+    "transmission": "Automatic",
+    "engine": 1396,
+    "max_power": 100.0,
+    "mileage": 15.0,
+    "seats": 5
+  },
+  {
+    "brand": "Hyundai",
+    "model": "i20",
+    "fuel_type": "Petrol",
+    "transmission": "Automatic",
+    "engine": 1396,
+    "max_power": 98.6,
+    "mileage": 15.0,
+    "seats": 5
+  },
+  {
+    "brand": "Hyundai",
+    "model": "i20",
+    "fuel_type": "Petrol",
+    "transmission": "Manual",
+    "engine": 1197,
+    "max_power": 80.0,
+    "mileage": 17.0,
+    "seats": 5
+  },
+  {
+    "brand": "Hyundai",
+    "model": "i20",
+    "fuel_type": "Petrol",
+    "transmission": "Manual",
+    "engine": 1197,
+    "max_power": 81.86,
+    "mileage": 17.19,
+    "seats": 5
+  },
+  {
+    "brand": "Hyundai",
+    "model": "i20",
+    "fuel_type": "Petrol",
+    "transmission": "Manual",
+    "engine": 1197,
+    "max_power": 81.83,
+    "mileage": 18.6,
+    "seats": 5
+  },
+  {
+    "brand": "Hyundai",
+    "model": "i20",
+    "fuel_type": "Petrol",
+    "transmission": "Manual",
+    "engine": 1197,
+    "max_power": 82.9,
+    "mileage": 18.5,
+    "seats": 5
+  },
+  {
+    "brand": "Hyundai",
+    "model": "i20",
+    "fuel_type": "Petrol",
+    "transmission": "Manual",
+    "engine": 1197,
+    "max_power": 82.85,
+    "mileage": 18.5,
+    "seats": 5
+  },
+  {
+    "brand": "Hyundai",
+    "model": "i20",
+    "fuel_type": "Petrol",
+    "transmission": "Manual",
+    "engine": 1197,
+    "max_power": 81.86,
+    "mileage": 18.6,
+    "seats": 5
+  },
+  {
+    "brand": "Hyundai",
+    "model": "i20",
+    "fuel_type": "Petrol",
+    "transmission": "Manual",
+    "engine": 1197,
+    "max_power": 80.0,
+    "mileage": 18.5,
+    "seats": 5
+  },
+  {
+    "brand": "Hyundai",
+    "model": "i20",
+    "fuel_type": "Petrol",
+    "transmission": "Manual",
+    "engine": 1197,
+    "max_power": 81.86,
+    "mileage": 20.35,
+    "seats": 5
+  },
+  {
+    "brand": "Jaguar",
+    "model": "F-PACE",
+    "fuel_type": "Diesel",
+    "transmission": "Automatic",
+    "engine": 1999,
+    "max_power": 177.0,
+    "mileage": 16.38,
+    "seats": 5
+  },
+  {
+    "brand": "Jaguar",
+    "model": "F-PACE",
+    "fuel_type": "Petrol",
+    "transmission": "Automatic",
+    "engine": 1997,
+    "max_power": 246.74,
+    "mileage": 14.38,
+    "seats": 5
+  },
+  {
+    "brand": "Jaguar",
+    "model": "XE",
+    "fuel_type": "Diesel",
+    "transmission": "Automatic",
+    "engine": 1999,
+    "max_power": 177.0,
+    "mileage": 13.5,
+    "seats": 5
+  },
+  {
+    "brand": "Jaguar",
+    "model": "XE",
+    "fuel_type": "Diesel",
+    "transmission": "Automatic",
+    "engine": 1999,
+    "max_power": 177.0,
+    "mileage": 13.6,
+    "seats": 5
+  },
+  {
+    "brand": "Jaguar",
+    "model": "XE",
+    "fuel_type": "Petrol",
+    "transmission": "Automatic",
+    "engine": 1999,
+    "max_power": 197.13,
+    "mileage": 13.6,
+    "seats": 5
+  },
+  {
+    "brand": "Jaguar",
+    "model": "XF",
+    "fuel_type": "Diesel",
+    "transmission": "Automatic",
+    "engine": 1999,
+    "max_power": 177.0,
+    "mileage": 19.33,
+    "seats": 5
+  },
+  {
+    "brand": "Jaguar",
+    "model": "XF",
+    "fuel_type": "Diesel",
+    "transmission": "Automatic",
+    "engine": 2179,
+    "max_power": 187.7,
+    "mileage": 16.36,
+    "seats": 5
+  },
+  {
+    "brand": "Jaguar",
+    "model": "XF",
+    "fuel_type": "Diesel",
+    "transmission": "Automatic",
+    "engine": 2993,
+    "max_power": 270.9,
+    "mileage": 14.74,
+    "seats": 5
+  },
+  {
+    "brand": "Jaguar",
+    "model": "XF",
+    "fuel_type": "Petrol",
+    "transmission": "Automatic",
+    "engine": 1999,
+    "max_power": 237.4,
+    "mileage": 10.8,
+    "seats": 5
+  },
+  {
+    "brand": "Jeep",
+    "model": "Compass",
+    "fuel_type": "Diesel",
+    "transmission": "Automatic",
+    "engine": 1956,
+    "max_power": 173.0,
+    "mileage": 17.1,
+    "seats": 5
+  },
+  {
+    "brand": "Jeep",
+    "model": "Compass",
+    "fuel_type": "Diesel",
+    "transmission": "Manual",
+    "engine": 1956,
+    "max_power": 170.0,
+    "mileage": 17.1,
+    "seats": 5
+  },
+  {
+    "brand": "Jeep",
+    "model": "Compass",
+    "fuel_type": "Diesel",
+    "transmission": "Manual",
+    "engine": 1956,
+    "max_power": 170.0,
+    "mileage": 16.3,
+    "seats": 5
+  },
+  {
+    "brand": "Jeep",
+    "model": "Compass",
+    "fuel_type": "Diesel",
+    "transmission": "Manual",
+    "engine": 1956,
+    "max_power": 173.0,
+    "mileage": 17.1,
+    "seats": 5
+  },
+  {
+    "brand": "Jeep",
+    "model": "Compass",
+    "fuel_type": "Diesel",
+    "transmission": "Manual",
+    "engine": 1956,
+    "max_power": 170.63,
+    "mileage": 17.1,
+    "seats": 5
+  },
+  {
+    "brand": "Jeep",
+    "model": "Compass",
+    "fuel_type": "Petrol",
+    "transmission": "Automatic",
+    "engine": 1368,
+    "max_power": 160.77,
+    "mileage": 14.1,
+    "seats": 5
+  },
+  {
+    "brand": "Jeep",
+    "model": "Compass",
+    "fuel_type": "Petrol",
+    "transmission": "Automatic",
+    "engine": 1368,
+    "max_power": 160.0,
+    "mileage": 16.0,
+    "seats": 5
+  },
+  {
+    "brand": "Jeep",
+    "model": "Compass",
+    "fuel_type": "Petrol",
+    "transmission": "Manual",
+    "engine": 1368,
+    "max_power": 160.0,
+    "mileage": 16.0,
+    "seats": 5
+  },
+  {
+    "brand": "Jeep",
+    "model": "Wrangler",
+    "fuel_type": "Petrol",
+    "transmission": "Automatic",
+    "engine": 3604,
+    "max_power": 280.0,
+    "mileage": 9.5,
+    "seats": 5
+  },
+  {
+    "brand": "Kia",
+    "model": "Carnival",
+    "fuel_type": "Diesel",
+    "transmission": "Automatic",
+    "engine": 2199,
+    "max_power": 197.2,
+    "mileage": 14.11,
+    "seats": 9
+  },
+  {
+    "brand": "Kia",
+    "model": "Carnival",
+    "fuel_type": "Diesel",
+    "transmission": "Automatic",
+    "engine": 2199,
+    "max_power": 197.2,
+    "mileage": 14.11,
+    "seats": 7
+  },
+  {
+    "brand": "Kia",
+    "model": "Seltos",
+    "fuel_type": "Diesel",
+    "transmission": "Automatic",
+    "engine": 1493,
+    "max_power": 113.4,
+    "mileage": 17.8,
+    "seats": 5
+  },
+  {
+    "brand": "Kia",
+    "model": "Seltos",
+    "fuel_type": "Diesel",
+    "transmission": "Manual",
+    "engine": 1493,
+    "max_power": 113.4,
+    "mileage": 20.8,
+    "seats": 5
+  },
+  {
+    "brand": "Kia",
+    "model": "Seltos",
+    "fuel_type": "Petrol",
+    "transmission": "Automatic",
+    "engine": 1353,
+    "max_power": 138.0,
+    "mileage": 16.8,
+    "seats": 5
+  },
+  {
+    "brand": "Kia",
+    "model": "Seltos",
+    "fuel_type": "Petrol",
+    "transmission": "Automatic",
+    "engine": 1497,
+    "max_power": 113.4,
+    "mileage": 16.8,
+    "seats": 5
+  },
+  {
+    "brand": "Kia",
+    "model": "Seltos",
+    "fuel_type": "Petrol",
+    "transmission": "Manual",
+    "engine": 1353,
+    "max_power": 138.0,
+    "mileage": 16.1,
+    "seats": 5
+  },
+  {
+    "brand": "Kia",
+    "model": "Seltos",
+    "fuel_type": "Petrol",
+    "transmission": "Manual",
+    "engine": 1497,
+    "max_power": 113.4,
+    "mileage": 16.8,
+    "seats": 5
+  },
+  {
+    "brand": "Mahindra",
+    "model": "Alturas",
+    "fuel_type": "Diesel",
+    "transmission": "Automatic",
+    "engine": 2157,
+    "max_power": 178.49,
+    "mileage": 12.05,
+    "seats": 7
+  },
+  {
+    "brand": "Mahindra",
+    "model": "Bolero",
+    "fuel_type": "Diesel",
+    "transmission": "Manual",
+    "engine": 1493,
+    "max_power": 70.0,
+    "mileage": 16.5,
+    "seats": 7
+  },
+  {
+    "brand": "Mahindra",
+    "model": "Bolero",
+    "fuel_type": "Diesel",
+    "transmission": "Manual",
+    "engine": 1493,
+    "max_power": 62.0,
+    "mileage": 16.5,
+    "seats": 7
+  },
+  {
+    "brand": "Mahindra",
+    "model": "Bolero",
+    "fuel_type": "Diesel",
+    "transmission": "Manual",
+    "engine": 1498,
+    "max_power": 74.96,
+    "mileage": 21.0,
+    "seats": 7
+  },
+  {
+    "brand": "Mahindra",
+    "model": "Bolero",
+    "fuel_type": "Diesel",
+    "transmission": "Manual",
+    "engine": 2523,
+    "max_power": 63.0,
+    "mileage": 13.6,
+    "seats": 7
+  },
+  {
+    "brand": "Mahindra",
+    "model": "Bolero",
+    "fuel_type": "Diesel",
+    "transmission": "Manual",
+    "engine": 2523,
+    "max_power": 62.1,
+    "mileage": 15.96,
+    "seats": 7
+  },
+  {
+    "brand": "Mahindra",
+    "model": "Bolero",
+    "fuel_type": "Diesel",
+    "transmission": "Manual",
+    "engine": 2523,
+    "max_power": 63.0,
+    "mileage": 15.96,
+    "seats": 9
+  },
+  {
+    "brand": "Mahindra",
+    "model": "Bolero",
+    "fuel_type": "Diesel",
+    "transmission": "Manual",
+    "engine": 2523,
+    "max_power": 62.1,
+    "mileage": 15.96,
+    "seats": 9
+  },
+  {
+    "brand": "Mahindra",
+    "model": "Bolero",
+    "fuel_type": "Diesel",
+    "transmission": "Manual",
+    "engine": 2523,
+    "max_power": 63.0,
+    "mileage": 13.6,
+    "seats": 9
+  },
+  {
+    "brand": "Mahindra",
+    "model": "Bolero",
+    "fuel_type": "Diesel",
+    "transmission": "Manual",
+    "engine": 2523,
+    "max_power": 63.0,
+    "mileage": 13.6,
+    "seats": 8
+  },
+  {
+    "brand": "Mahindra",
+    "model": "Bolero",
+    "fuel_type": "Diesel",
+    "transmission": "Manual",
+    "engine": 2523,
+    "max_power": 83.0,
+    "mileage": 14.0,
+    "seats": 7
+  },
+  {
+    "brand": "Mahindra",
+    "model": "KUV",
+    "fuel_type": "CNG",
+    "transmission": "Manual",
+    "engine": 1198,
+    "max_power": 82.0,
+    "mileage": 18.15,
+    "seats": 6
+  },
+  {
+    "brand": "Mahindra",
+    "model": "KUV",
+    "fuel_type": "Diesel",
+    "transmission": "Manual",
+    "engine": 1198,
+    "max_power": 77.0,
+    "mileage": 25.32,
+    "seats": 5
+  },
+  {
+    "brand": "Mahindra",
+    "model": "KUV",
+    "fuel_type": "Diesel",
+    "transmission": "Manual",
+    "engine": 1198,
+    "max_power": 77.0,
+    "mileage": 25.32,
+    "seats": 6
+  },
+  {
+    "brand": "Mahindra",
+    "model": "KUV",
+    "fuel_type": "Petrol",
+    "transmission": "Manual",
+    "engine": 1198,
+    "max_power": 82.0,
+    "mileage": 18.15,
+    "seats": 6
+  },
+  {
+    "brand": "Mahindra",
+    "model": "KUV",
+    "fuel_type": "Petrol",
+    "transmission": "Manual",
+    "engine": 1198,
+    "max_power": 82.0,
+    "mileage": 18.15,
+    "seats": 5
+  },
+  {
+    "brand": "Mahindra",
+    "model": "KUV100",
+    "fuel_type": "Diesel",
+    "transmission": "Manual",
+    "engine": 1198,
+    "max_power": 77.0,
+    "mileage": 25.32,
+    "seats": 6
+  },
+  {
+    "brand": "Mahindra",
+    "model": "KUV100",
+    "fuel_type": "Diesel",
+    "transmission": "Manual",
+    "engine": 1198,
+    "max_power": 77.0,
+    "mileage": 25.32,
+    "seats": 5
+  },
+  {
+    "brand": "Mahindra",
+    "model": "KUV100",
+    "fuel_type": "Petrol",
+    "transmission": "Manual",
+    "engine": 1198,
+    "max_power": 82.0,
+    "mileage": 18.15,
+    "seats": 5
+  },
+  {
+    "brand": "Mahindra",
+    "model": "KUV100",
+    "fuel_type": "Petrol",
+    "transmission": "Manual",
+    "engine": 1198,
+    "max_power": 82.0,
+    "mileage": 18.15,
+    "seats": 6
+  },
+  {
+    "brand": "Mahindra",
+    "model": "Marazzo",
+    "fuel_type": "Diesel",
+    "transmission": "Manual",
+    "engine": 1497,
+    "max_power": 121.0,
+    "mileage": 17.3,
+    "seats": 7
+  },
+  {
+    "brand": "Mahindra",
+    "model": "Marazzo",
+    "fuel_type": "Diesel",
+    "transmission": "Manual",
+    "engine": 1497,
+    "max_power": 121.0,
+    "mileage": 17.3,
+    "seats": 8
+  },
+  {
+    "brand": "Mahindra",
+    "model": "Scorpio",
+    "fuel_type": "Diesel",
+    "transmission": "Automatic",
+    "engine": 2179,
+    "max_power": 120.0,
+    "mileage": 15.4,
+    "seats": 7
+  },
+  {
+    "brand": "Mahindra",
+    "model": "Scorpio",
+    "fuel_type": "Diesel",
+    "transmission": "Automatic",
+    "engine": 2179,
+    "max_power": 120.0,
+    "mileage": 11.79,
+    "seats": 8
+  },
+  {
+    "brand": "Mahindra",
+    "model": "Scorpio",
+    "fuel_type": "Diesel",
+    "transmission": "Automatic",
+    "engine": 2179,
+    "max_power": 120.0,
+    "mileage": 11.79,
+    "seats": 7
+  },
+  {
+    "brand": "Mahindra",
+    "model": "Scorpio",
+    "fuel_type": "Diesel",
+    "transmission": "Manual",
+    "engine": 1997,
+    "max_power": 120.0,
+    "mileage": 15.4,
+    "seats": 7
+  },
+  {
+    "brand": "Mahindra",
+    "model": "Scorpio",
+    "fuel_type": "Diesel",
+    "transmission": "Manual",
+    "engine": 1997,
+    "max_power": 120.0,
+    "mileage": 15.4,
+    "seats": 9
+  },
+  {
+    "brand": "Mahindra",
+    "model": "Scorpio",
+    "fuel_type": "Diesel",
+    "transmission": "Manual",
+    "engine": 2179,
+    "max_power": 120.0,
+    "mileage": 15.4,
+    "seats": 7
+  },
+  {
+    "brand": "Mahindra",
+    "model": "Scorpio",
+    "fuel_type": "Diesel",
+    "transmission": "Manual",
+    "engine": 2179,
+    "max_power": 120.0,
+    "mileage": 12.05,
+    "seats": 8
+  },
+  {
+    "brand": "Mahindra",
+    "model": "Scorpio",
+    "fuel_type": "Diesel",
+    "transmission": "Manual",
+    "engine": 2179,
+    "max_power": 115.0,
+    "mileage": 13.5,
+    "seats": 5
+  },
+  {
+    "brand": "Mahindra",
+    "model": "Scorpio",
+    "fuel_type": "Diesel",
+    "transmission": "Manual",
+    "engine": 2179,
+    "max_power": 120.0,
+    "mileage": 12.05,
+    "seats": 7
+  },
+  {
+    "brand": "Mahindra",
+    "model": "Scorpio",
+    "fuel_type": "Diesel",
+    "transmission": "Manual",
+    "engine": 2179,
+    "max_power": 140.0,
+    "mileage": 16.36,
+    "seats": 7
+  },
+  {
+    "brand": "Mahindra",
+    "model": "Scorpio",
+    "fuel_type": "Diesel",
+    "transmission": "Manual",
+    "engine": 2179,
+    "max_power": 120.0,
+    "mileage": 12.05,
+    "seats": 9
+  },
+  {
+    "brand": "Mahindra",
+    "model": "Scorpio",
+    "fuel_type": "Diesel",
+    "transmission": "Manual",
+    "engine": 2179,
+    "max_power": 120.0,
+    "mileage": 11.0,
+    "seats": 5
+  },
+  {
+    "brand": "Mahindra",
+    "model": "Scorpio",
+    "fuel_type": "Diesel",
+    "transmission": "Manual",
+    "engine": 2179,
+    "max_power": 120.0,
+    "mileage": 15.4,
+    "seats": 8
+  },
+  {
+    "brand": "Mahindra",
+    "model": "Scorpio",
+    "fuel_type": "Diesel",
+    "transmission": "Manual",
+    "engine": 2179,
+    "max_power": 120.0,
+    "mileage": 10.5,
+    "seats": 7
+  },
+  {
+    "brand": "Mahindra",
+    "model": "Scorpio",
+    "fuel_type": "Diesel",
+    "transmission": "Manual",
+    "engine": 2179,
+    "max_power": 138.13,
+    "mileage": 16.36,
+    "seats": 7
+  },
+  {
+    "brand": "Mahindra",
+    "model": "Scorpio",
+    "fuel_type": "Diesel",
+    "transmission": "Manual",
+    "engine": 2179,
+    "max_power": 120.0,
+    "mileage": 10.5,
+    "seats": 8
+  },
+  {
+    "brand": "Mahindra",
+    "model": "Scorpio",
+    "fuel_type": "Diesel",
+    "transmission": "Manual",
+    "engine": 2179,
+    "max_power": 120.0,
+    "mileage": 16.36,
+    "seats": 7
+  },
+  {
+    "brand": "Mahindra",
+    "model": "Scorpio",
+    "fuel_type": "Diesel",
+    "transmission": "Manual",
+    "engine": 2179,
+    "max_power": 120.0,
+    "mileage": 9.0,
+    "seats": 5
+  },
+  {
+    "brand": "Mahindra",
+    "model": "Scorpio",
+    "fuel_type": "Diesel",
+    "transmission": "Manual",
+    "engine": 2179,
+    "max_power": 120.0,
+    "mileage": 15.4,
+    "seats": 9
+  },
+  {
+    "brand": "Mahindra",
+    "model": "Scorpio",
+    "fuel_type": "Diesel",
+    "transmission": "Manual",
+    "engine": 2523,
+    "max_power": 75.0,
+    "mileage": 15.4,
+    "seats": 7
+  },
+  {
+    "brand": "Mahindra",
+    "model": "Scorpio",
+    "fuel_type": "Diesel",
+    "transmission": "Manual",
+    "engine": 2523,
+    "max_power": 75.0,
+    "mileage": 14.0,
+    "seats": 8
+  },
+  {
+    "brand": "Mahindra",
+    "model": "Scorpio",
+    "fuel_type": "Diesel",
+    "transmission": "Manual",
+    "engine": 2523,
+    "max_power": 75.0,
+    "mileage": 15.4,
+    "seats": 9
+  },
+  {
+    "brand": "Mahindra",
+    "model": "Scorpio",
+    "fuel_type": "Diesel",
+    "transmission": "Manual",
+    "engine": 2523,
+    "max_power": 75.0,
+    "mileage": 14.0,
+    "seats": 7
+  },
+  {
+    "brand": "Mahindra",
+    "model": "Scorpio",
+    "fuel_type": "Diesel",
+    "transmission": "Manual",
+    "engine": 2609,
+    "max_power": 120.0,
+    "mileage": 10.5,
+    "seats": 9
+  },
+  {
+    "brand": "Mahindra",
+    "model": "Scorpio",
+    "fuel_type": "Diesel",
+    "transmission": "Manual",
+    "engine": 2609,
+    "max_power": 115.0,
+    "mileage": 13.5,
+    "seats": 5
+  },
+  {
+    "brand": "Mahindra",
+    "model": "Scorpio",
+    "fuel_type": "Diesel",
+    "transmission": "Manual",
+    "engine": 2609,
+    "max_power": 120.0,
+    "mileage": 10.5,
+    "seats": 7
+  },
+  {
+    "brand": "Mahindra",
+    "model": "Scorpio",
+    "fuel_type": "Diesel",
+    "transmission": "Manual",
+    "engine": 2609,
+    "max_power": 116.6,
+    "mileage": 12.7,
+    "seats": 8
+  },
+  {
+    "brand": "Mahindra",
+    "model": "Scorpio",
+    "fuel_type": "Diesel",
+    "transmission": "Manual",
+    "engine": 2609,
+    "max_power": 120.0,
+    "mileage": 12.7,
+    "seats": 8
+  },
+  {
+    "brand": "Mahindra",
+    "model": "Thar",
+    "fuel_type": "Diesel",
+    "transmission": "Manual",
+    "engine": 2498,
+    "max_power": 105.0,
+    "mileage": 16.55,
+    "seats": 6
+  },
+  {
+    "brand": "Mahindra",
+    "model": "Thar",
+    "fuel_type": "Diesel",
+    "transmission": "Manual",
+    "engine": 2498,
+    "max_power": 105.0,
+    "mileage": 16.55,
+    "seats": 7
+  },
+  {
+    "brand": "Mahindra",
+    "model": "Thar",
+    "fuel_type": "Diesel",
+    "transmission": "Manual",
+    "engine": 2523,
+    "max_power": 63.0,
+    "mileage": 18.06,
+    "seats": 7
+  },
+  {
+    "brand": "Mahindra",
+    "model": "XUV300",
+    "fuel_type": "Diesel",
+    "transmission": "Manual",
+    "engine": 1497,
+    "max_power": 115.0,
+    "mileage": 20.0,
+    "seats": 5
+  },
+  {
+    "brand": "Mahindra",
+    "model": "XUV300",
+    "fuel_type": "Petrol",
+    "transmission": "Manual",
+    "engine": 1197,
+    "max_power": 110.0,
+    "mileage": 17.0,
+    "seats": 5
+  },
+  {
+    "brand": "Mahindra",
+    "model": "XUV300",
+    "fuel_type": "Petrol",
+    "transmission": "Manual",
+    "engine": 1197,
+    "max_power": 108.6,
+    "mileage": 17.0,
+    "seats": 5
+  },
+  {
+    "brand": "Mahindra",
+    "model": "XUV500",
+    "fuel_type": "Diesel",
+    "transmission": "Automatic",
+    "engine": 1997,
+    "max_power": 140.0,
+    "mileage": 16.0,
+    "seats": 7
+  },
+  {
+    "brand": "Mahindra",
+    "model": "XUV500",
+    "fuel_type": "Diesel",
+    "transmission": "Automatic",
+    "engine": 2179,
+    "max_power": 152.87,
+    "mileage": 15.1,
+    "seats": 7
+  },
+  {
+    "brand": "Mahindra",
+    "model": "XUV500",
+    "fuel_type": "Diesel",
+    "transmission": "Automatic",
+    "engine": 2179,
+    "max_power": 140.0,
+    "mileage": 16.0,
+    "seats": 7
+  },
+  {
+    "brand": "Mahindra",
+    "model": "XUV500",
+    "fuel_type": "Diesel",
+    "transmission": "Manual",
+    "engine": 1997,
+    "max_power": 140.0,
+    "mileage": 16.0,
+    "seats": 7
+  },
+  {
+    "brand": "Mahindra",
+    "model": "XUV500",
+    "fuel_type": "Diesel",
+    "transmission": "Manual",
+    "engine": 2179,
+    "max_power": 140.0,
+    "mileage": 15.1,
+    "seats": 7
+  },
+  {
+    "brand": "Mahindra",
+    "model": "XUV500",
+    "fuel_type": "Diesel",
+    "transmission": "Manual",
+    "engine": 2179,
+    "max_power": 140.0,
+    "mileage": 16.0,
+    "seats": 7
+  },
+  {
+    "brand": "Mahindra",
+    "model": "XUV500",
+    "fuel_type": "Diesel",
+    "transmission": "Manual",
+    "engine": 2179,
+    "max_power": 152.87,
+    "mileage": 15.1,
+    "seats": 7
+  },
+  {
+    "brand": "Mahindra",
+    "model": "XUV500",
+    "fuel_type": "Diesel",
+    "transmission": "Manual",
+    "engine": 2179,
+    "max_power": 138.0,
+    "mileage": 16.0,
+    "seats": 7
+  },
+  {
+    "brand": "Mahindra",
+    "model": "XUV500",
+    "fuel_type": "Diesel",
+    "transmission": "Manual",
+    "engine": 2179,
+    "max_power": 155.0,
+    "mileage": 15.1,
+    "seats": 7
+  },
+  {
+    "brand": "Maruti",
+    "model": "Alto",
+    "fuel_type": "CNG",
+    "transmission": "Manual",
+    "engine": 796,
+    "max_power": 47.3,
+    "mileage": 30.46,
+    "seats": 5
+  },
+  {
+    "brand": "Maruti",
+    "model": "Alto",
+    "fuel_type": "CNG",
+    "transmission": "Manual",
+    "engine": 796,
+    "max_power": 40.3,
+    "mileage": 33.44,
+    "seats": 4
+  },
+  {
+    "brand": "Maruti",
+    "model": "Alto",
+    "fuel_type": "CNG",
+    "transmission": "Manual",
+    "engine": 796,
+    "max_power": 38.4,
+    "mileage": 26.83,
+    "seats": 5
+  },
+  {
+    "brand": "Maruti",
+    "model": "Alto",
+    "fuel_type": "CNG",
+    "transmission": "Manual",
+    "engine": 998,
+    "max_power": 58.2,
+    "mileage": 32.26,
+    "seats": 4
+  },
+  {
+    "brand": "Maruti",
+    "model": "Alto",
+    "fuel_type": "CNG",
+    "transmission": "Manual",
+    "engine": 998,
+    "max_power": 58.3,
+    "mileage": 32.26,
+    "seats": 4
+  },
+  {
+    "brand": "Maruti",
+    "model": "Alto",
+    "fuel_type": "Petrol",
+    "transmission": "Automatic",
+    "engine": 796,
+    "max_power": 46.3,
+    "mileage": 19.7,
+    "seats": 5
+  },
+  {
+    "brand": "Maruti",
+    "model": "Alto",
+    "fuel_type": "Petrol",
+    "transmission": "Automatic",
+    "engine": 998,
+    "max_power": 67.05,
+    "mileage": 23.95,
+    "seats": 5
+  },
+  {
+    "brand": "Maruti",
+    "model": "Alto",
+    "fuel_type": "Petrol",
+    "transmission": "Automatic",
+    "engine": 998,
+    "max_power": 67.1,
+    "mileage": 23.95,
+    "seats": 5
+  },
+  {
+    "brand": "Maruti",
+    "model": "Alto",
+    "fuel_type": "Petrol",
+    "transmission": "Manual",
+    "engine": 796,
+    "max_power": 46.3,
+    "mileage": 19.7,
+    "seats": 5
+  },
+  {
+    "brand": "Maruti",
+    "model": "Alto",
+    "fuel_type": "Petrol",
+    "transmission": "Manual",
+    "engine": 796,
+    "max_power": 47.3,
+    "mileage": 22.74,
+    "seats": 5
+  },
+  {
+    "brand": "Maruti",
+    "model": "Alto",
+    "fuel_type": "Petrol",
+    "transmission": "Manual",
+    "engine": 796,
+    "max_power": 47.3,
+    "mileage": 24.7,
+    "seats": 5
+  },
+  {
+    "brand": "Maruti",
+    "model": "Alto",
+    "fuel_type": "Petrol",
+    "transmission": "Manual",
+    "engine": 796,
+    "max_power": 47.3,
+    "mileage": 22.05,
+    "seats": 5
+  },
+  {
+    "brand": "Maruti",
+    "model": "Alto",
+    "fuel_type": "Petrol",
+    "transmission": "Manual",
+    "engine": 796,
+    "max_power": 47.0,
+    "mileage": 18.9,
+    "seats": 5
+  },
+  {
+    "brand": "Maruti",
+    "model": "Alto",
+    "fuel_type": "Petrol",
+    "transmission": "Manual",
+    "engine": 998,
+    "max_power": 67.1,
+    "mileage": 20.92,
+    "seats": 5
+  },
+  {
+    "brand": "Maruti",
+    "model": "Alto",
+    "fuel_type": "Petrol",
+    "transmission": "Manual",
+    "engine": 998,
+    "max_power": 67.05,
+    "mileage": 23.95,
+    "seats": 5
+  },
+  {
+    "brand": "Maruti",
+    "model": "Alto",
+    "fuel_type": "Petrol",
+    "transmission": "Manual",
+    "engine": 998,
+    "max_power": 67.1,
+    "mileage": 23.95,
+    "seats": 5
+  },
+  {
+    "brand": "Maruti",
+    "model": "Alto",
+    "fuel_type": "Petrol",
+    "transmission": "Manual",
+    "engine": 998,
+    "max_power": 67.1,
+    "mileage": 24.07,
+    "seats": 5
+  },
+  {
+    "brand": "Maruti",
+    "model": "Alto",
+    "fuel_type": "Petrol",
+    "transmission": "Manual",
+    "engine": 998,
+    "max_power": 67.1,
+    "mileage": 20.2,
+    "seats": 5
+  },
+  {
+    "brand": "Maruti",
+    "model": "Alto",
+    "fuel_type": "Petrol",
+    "transmission": "Manual",
+    "engine": 1061,
+    "max_power": 47.0,
+    "mileage": 18.9,
+    "seats": 5
+  },
+  {
+    "brand": "Maruti",
+    "model": "Baleno",
+    "fuel_type": "Diesel",
+    "transmission": "Manual",
+    "engine": 1248,
+    "max_power": 74.0,
+    "mileage": 27.39,
+    "seats": 5
+  },
+  {
+    "brand": "Maruti",
+    "model": "Baleno",
+    "fuel_type": "Petrol",
+    "transmission": "Automatic",
+    "engine": 1197,
+    "max_power": 83.1,
+    "mileage": 21.4,
+    "seats": 5
+  },
+  {
+    "brand": "Maruti",
+    "model": "Baleno",
+    "fuel_type": "Petrol",
+    "transmission": "Automatic",
+    "engine": 1197,
+    "max_power": 81.8,
+    "mileage": 19.56,
+    "seats": 5
+  },
+  {
+    "brand": "Maruti",
+    "model": "Baleno",
+    "fuel_type": "Petrol",
+    "transmission": "Manual",
+    "engine": 998,
+    "max_power": 100.0,
+    "mileage": 21.1,
+    "seats": 5
+  },
+  {
+    "brand": "Maruti",
+    "model": "Baleno",
+    "fuel_type": "Petrol",
+    "transmission": "Manual",
+    "engine": 998,
+    "max_power": 100.5,
+    "mileage": 21.1,
+    "seats": 5
+  },
+  {
+    "brand": "Maruti",
+    "model": "Baleno",
+    "fuel_type": "Petrol",
+    "transmission": "Manual",
+    "engine": 1197,
+    "max_power": 83.1,
+    "mileage": 21.4,
+    "seats": 5
+  },
+  {
+    "brand": "Maruti",
+    "model": "Baleno",
+    "fuel_type": "Petrol",
+    "transmission": "Manual",
+    "engine": 1197,
+    "max_power": 81.8,
+    "mileage": 21.01,
+    "seats": 5
+  },
+  {
+    "brand": "Maruti",
+    "model": "Baleno",
+    "fuel_type": "Petrol",
+    "transmission": "Manual",
+    "engine": 1590,
+    "max_power": 94.0,
+    "mileage": 15.4,
+    "seats": 5
+  },
+  {
+    "brand": "Maruti",
+    "model": "Celerio",
+    "fuel_type": "CNG",
+    "transmission": "Manual",
+    "engine": 998,
+    "max_power": 58.33,
+    "mileage": 31.79,
+    "seats": 5
+  },
+  {
+    "brand": "Maruti",
+    "model": "Celerio",
+    "fuel_type": "CNG",
+    "transmission": "Manual",
+    "engine": 998,
+    "max_power": 58.2,
+    "mileage": 31.79,
+    "seats": 5
+  },
+  {
+    "brand": "Maruti",
+    "model": "Celerio",
+    "fuel_type": "CNG",
+    "transmission": "Manual",
+    "engine": 998,
+    "max_power": 58.33,
+    "mileage": 30.47,
+    "seats": 5
+  },
+  {
+    "brand": "Maruti",
+    "model": "Celerio",
+    "fuel_type": "Diesel",
+    "transmission": "Manual",
+    "engine": 793,
+    "max_power": 47.0,
+    "mileage": 27.62,
+    "seats": 5
+  },
+  {
+    "brand": "Maruti",
+    "model": "Celerio",
+    "fuel_type": "Petrol",
+    "transmission": "Automatic",
+    "engine": 998,
+    "max_power": 67.04,
+    "mileage": 23.1,
+    "seats": 5
+  },
+  {
+    "brand": "Maruti",
+    "model": "Celerio",
+    "fuel_type": "Petrol",
+    "transmission": "Automatic",
+    "engine": 998,
+    "max_power": 67.04,
+    "mileage": 21.63,
+    "seats": 5
+  },
+  {
+    "brand": "Maruti",
+    "model": "Celerio",
+    "fuel_type": "Petrol",
+    "transmission": "Automatic",
+    "engine": 998,
+    "max_power": 67.05,
+    "mileage": 21.63,
+    "seats": 5
+  },
+  {
+    "brand": "Maruti",
+    "model": "Celerio",
+    "fuel_type": "Petrol",
+    "transmission": "Automatic",
+    "engine": 998,
+    "max_power": 67.0,
+    "mileage": 21.63,
+    "seats": 5
+  },
+  {
+    "brand": "Maruti",
+    "model": "Celerio",
+    "fuel_type": "Petrol",
+    "transmission": "Manual",
+    "engine": 998,
+    "max_power": 67.04,
+    "mileage": 21.63,
+    "seats": 5
+  },
+  {
+    "brand": "Maruti",
+    "model": "Celerio",
+    "fuel_type": "Petrol",
+    "transmission": "Manual",
+    "engine": 998,
+    "max_power": 67.04,
+    "mileage": 23.1,
+    "seats": 5
+  },
+  {
+    "brand": "Maruti",
+    "model": "Celerio",
+    "fuel_type": "Petrol",
+    "transmission": "Manual",
+    "engine": 998,
+    "max_power": 67.0,
+    "mileage": 21.63,
+    "seats": 5
+  },
+  {
+    "brand": "Maruti",
+    "model": "Celerio",
+    "fuel_type": "Petrol",
+    "transmission": "Manual",
+    "engine": 998,
+    "max_power": 67.05,
+    "mileage": 21.63,
+    "seats": 5
+  },
+  {
+    "brand": "Maruti",
+    "model": "Ciaz",
+    "fuel_type": "Diesel",
+    "transmission": "Manual",
+    "engine": 1248,
+    "max_power": 88.5,
+    "mileage": 28.09,
+    "seats": 5
+  },
+  {
+    "brand": "Maruti",
+    "model": "Ciaz",
+    "fuel_type": "Diesel",
+    "transmission": "Manual",
+    "engine": 1248,
+    "max_power": 88.5,
+    "mileage": 26.21,
+    "seats": 5
+  },
+  {
+    "brand": "Maruti",
+    "model": "Ciaz",
+    "fuel_type": "Diesel",
+    "transmission": "Manual",
+    "engine": 1498,
+    "max_power": 93.87,
+    "mileage": 26.32,
+    "seats": 5
+  },
+  {
+    "brand": "Maruti",
+    "model": "Ciaz",
+    "fuel_type": "Diesel",
+    "transmission": "Manual",
+    "engine": 1498,
+    "max_power": 93.87,
+    "mileage": 26.82,
+    "seats": 5
+  },
+  {
+    "brand": "Maruti",
+    "model": "Ciaz",
+    "fuel_type": "Petrol",
+    "transmission": "Automatic",
+    "engine": 1373,
+    "max_power": 91.1,
+    "mileage": 19.12,
+    "seats": 5
+  },
+  {
+    "brand": "Maruti",
+    "model": "Ciaz",
+    "fuel_type": "Petrol",
+    "transmission": "Automatic",
+    "engine": 1462,
+    "max_power": 103.25,
+    "mileage": 20.28,
+    "seats": 5
+  },
+  {
+    "brand": "Maruti",
+    "model": "Ciaz",
+    "fuel_type": "Petrol",
+    "transmission": "Automatic",
+    "engine": 1462,
+    "max_power": 103.25,
+    "mileage": 20.04,
+    "seats": 5
+  },
+  {
+    "brand": "Maruti",
+    "model": "Ciaz",
+    "fuel_type": "Petrol",
+    "transmission": "Manual",
+    "engine": 1373,
+    "max_power": 91.1,
+    "mileage": 20.73,
+    "seats": 5
+  },
+  {
+    "brand": "Maruti",
+    "model": "Ciaz",
+    "fuel_type": "Petrol",
+    "transmission": "Manual",
+    "engine": 1373,
+    "max_power": 91.2,
+    "mileage": 20.73,
+    "seats": 5
+  },
+  {
+    "brand": "Maruti",
+    "model": "Ciaz",
+    "fuel_type": "Petrol",
+    "transmission": "Manual",
+    "engine": 1373,
+    "max_power": 91.1,
+    "mileage": 28.09,
+    "seats": 5
+  },
+  {
+    "brand": "Maruti",
+    "model": "Ciaz",
+    "fuel_type": "Petrol",
+    "transmission": "Manual",
+    "engine": 1462,
+    "max_power": 103.25,
+    "mileage": 20.65,
+    "seats": 5
+  },
+  {
+    "brand": "Maruti",
+    "model": "Ciaz",
+    "fuel_type": "Petrol",
+    "transmission": "Manual",
+    "engine": 1462,
+    "max_power": 103.25,
+    "mileage": 21.56,
+    "seats": 5
+  },
+  {
+    "brand": "Maruti",
+    "model": "Dzire LXI",
+    "fuel_type": "Petrol",
+    "transmission": "Manual",
+    "engine": 1197,
+    "max_power": 88.5,
+    "mileage": 23.26,
+    "seats": 5
+  },
+  {
+    "brand": "Maruti",
+    "model": "Dzire VXI",
+    "fuel_type": "Petrol",
+    "transmission": "Automatic",
+    "engine": 1197,
+    "max_power": 88.5,
+    "mileage": 24.12,
+    "seats": 5
+  },
+  {
+    "brand": "Maruti",
+    "model": "Dzire VXI",
+    "fuel_type": "Petrol",
+    "transmission": "Manual",
+    "engine": 1197,
+    "max_power": 88.5,
+    "mileage": 23.26,
+    "seats": 5
+  },
+  {
+    "brand": "Maruti",
+    "model": "Dzire ZXI",
+    "fuel_type": "Petrol",
+    "transmission": "Manual",
+    "engine": 1197,
+    "max_power": 88.5,
+    "mileage": 23.26,
+    "seats": 5
+  },
+  {
+    "brand": "Maruti",
+    "model": "Eeco",
+    "fuel_type": "CNG",
+    "transmission": "Manual",
+    "engine": 1196,
+    "max_power": 61.7,
+    "mileage": 21.94,
+    "seats": 5
+  },
+  {
+    "brand": "Maruti",
+    "model": "Eeco",
+    "fuel_type": "CNG",
+    "transmission": "Manual",
+    "engine": 1196,
+    "max_power": 73.0,
+    "mileage": 15.1,
+    "seats": 5
+  },
+  {
+    "brand": "Maruti",
+    "model": "Eeco",
+    "fuel_type": "CNG",
+    "transmission": "Manual",
+    "engine": 1196,
+    "max_power": 63.0,
+    "mileage": 20.0,
+    "seats": 5
+  },
+  {
+    "brand": "Maruti",
+    "model": "Eeco",
+    "fuel_type": "CNG",
+    "transmission": "Manual",
+    "engine": 1196,
+    "max_power": 63.0,
+    "mileage": 21.94,
+    "seats": 5
+  },
+  {
+    "brand": "Maruti",
+    "model": "Eeco",
+    "fuel_type": "CNG",
+    "transmission": "Manual",
+    "engine": 1196,
+    "max_power": 61.7,
+    "mileage": 20.88,
+    "seats": 5
+  },
+  {
+    "brand": "Maruti",
+    "model": "Eeco",
+    "fuel_type": "Petrol",
+    "transmission": "Manual",
+    "engine": 1196,
+    "max_power": 73.0,
+    "mileage": 15.37,
+    "seats": 5
+  },
+  {
+    "brand": "Maruti",
+    "model": "Eeco",
+    "fuel_type": "Petrol",
+    "transmission": "Manual",
+    "engine": 1196,
+    "max_power": 73.0,
+    "mileage": 15.37,
+    "seats": 7
+  },
+  {
+    "brand": "Maruti",
+    "model": "Eeco",
+    "fuel_type": "Petrol",
+    "transmission": "Manual",
+    "engine": 1196,
+    "max_power": 72.42,
+    "mileage": 16.11,
+    "seats": 5
+  },
+  {
+    "brand": "Maruti",
+    "model": "Eeco",
+    "fuel_type": "Petrol",
+    "transmission": "Manual",
+    "engine": 1196,
+    "max_power": 72.42,
+    "mileage": 15.37,
+    "seats": 7
+  },
+  {
+    "brand": "Maruti",
+    "model": "Eeco",
+    "fuel_type": "Petrol",
+    "transmission": "Manual",
+    "engine": 1196,
+    "max_power": 73.0,
+    "mileage": 15.1,
+    "seats": 7
+  },
+  {
+    "brand": "Maruti",
+    "model": "Ertiga",
+    "fuel_type": "CNG",
+    "transmission": "Manual",
+    "engine": 1373,
+    "max_power": 80.9,
+    "mileage": 22.8,
+    "seats": 7
+  },
+  {
+    "brand": "Maruti",
+    "model": "Ertiga",
+    "fuel_type": "CNG",
+    "transmission": "Manual",
+    "engine": 1373,
+    "max_power": 80.46,
+    "mileage": 17.5,
+    "seats": 7
+  },
+  {
+    "brand": "Maruti",
+    "model": "Ertiga",
+    "fuel_type": "CNG",
+    "transmission": "Manual",
+    "engine": 1462,
+    "max_power": 91.19,
+    "mileage": 26.08,
+    "seats": 7
+  },
+  {
+    "brand": "Maruti",
+    "model": "Ertiga",
+    "fuel_type": "CNG",
+    "transmission": "Manual",
+    "engine": 1462,
+    "max_power": 103.0,
+    "mileage": 26.8,
+    "seats": 7
+  },
+  {
+    "brand": "Maruti",
+    "model": "Ertiga",
+    "fuel_type": "Diesel",
+    "transmission": "Manual",
+    "engine": 1248,
+    "max_power": 88.5,
+    "mileage": 25.47,
+    "seats": 7
+  },
+  {
+    "brand": "Maruti",
+    "model": "Ertiga",
+    "fuel_type": "Diesel",
+    "transmission": "Manual",
+    "engine": 1248,
+    "max_power": 88.76,
+    "mileage": 20.77,
+    "seats": 7
+  },
+  {
+    "brand": "Maruti",
+    "model": "Ertiga",
+    "fuel_type": "Diesel",
+    "transmission": "Manual",
+    "engine": 1248,
+    "max_power": 88.8,
+    "mileage": 20.77,
+    "seats": 7
+  },
+  {
+    "brand": "Maruti",
+    "model": "Ertiga",
+    "fuel_type": "Diesel",
+    "transmission": "Manual",
+    "engine": 1248,
+    "max_power": 88.5,
+    "mileage": 24.52,
+    "seats": 7
+  },
+  {
+    "brand": "Maruti",
+    "model": "Ertiga",
+    "fuel_type": "Diesel",
+    "transmission": "Manual",
+    "engine": 1498,
+    "max_power": 93.87,
+    "mileage": 24.2,
+    "seats": 7
+  },
+  {
+    "brand": "Maruti",
+    "model": "Ertiga",
+    "fuel_type": "Petrol",
+    "transmission": "Automatic",
+    "engine": 1373,
+    "max_power": 91.1,
+    "mileage": 17.03,
+    "seats": 7
+  },
+  {
+    "brand": "Maruti",
+    "model": "Ertiga",
+    "fuel_type": "Petrol",
+    "transmission": "Automatic",
+    "engine": 1462,
+    "max_power": 103.0,
+    "mileage": 18.69,
+    "seats": 7
+  },
+  {
+    "brand": "Maruti",
+    "model": "Ertiga",
+    "fuel_type": "Petrol",
+    "transmission": "Automatic",
+    "engine": 1462,
+    "max_power": 103.26,
+    "mileage": 17.99,
+    "seats": 7
+  },
+  {
+    "brand": "Maruti",
+    "model": "Ertiga",
+    "fuel_type": "Petrol",
+    "transmission": "Manual",
+    "engine": 1373,
+    "max_power": 91.1,
+    "mileage": 17.5,
+    "seats": 7
+  },
+  {
+    "brand": "Maruti",
+    "model": "Ertiga",
+    "fuel_type": "Petrol",
+    "transmission": "Manual",
+    "engine": 1373,
+    "max_power": 93.7,
+    "mileage": 16.02,
+    "seats": 7
+  },
+  {
+    "brand": "Maruti",
+    "model": "Ertiga",
+    "fuel_type": "Petrol",
+    "transmission": "Manual",
+    "engine": 1462,
+    "max_power": 103.0,
+    "mileage": 19.34,
+    "seats": 7
+  },
+  {
+    "brand": "Maruti",
+    "model": "Ertiga",
+    "fuel_type": "Petrol",
+    "transmission": "Manual",
+    "engine": 1462,
+    "max_power": 103.26,
+    "mileage": 19.01,
+    "seats": 7
+  },
+  {
+    "brand": "Maruti",
+    "model": "Ignis",
+    "fuel_type": "Diesel",
+    "transmission": "Manual",
+    "engine": 1248,
+    "max_power": 74.0,
+    "mileage": 26.8,
+    "seats": 5
+  },
+  {
+    "brand": "Maruti",
+    "model": "Ignis",
+    "fuel_type": "Petrol",
+    "transmission": "Automatic",
+    "engine": 1197,
+    "max_power": 81.8,
+    "mileage": 20.89,
+    "seats": 5
+  },
+  {
+    "brand": "Maruti",
+    "model": "Ignis",
+    "fuel_type": "Petrol",
+    "transmission": "Manual",
+    "engine": 1197,
+    "max_power": 81.8,
+    "mileage": 20.89,
+    "seats": 5
+  },
+  {
+    "brand": "Maruti",
+    "model": "S-Presso",
+    "fuel_type": "Petrol",
+    "transmission": "Manual",
+    "engine": 998,
+    "max_power": 67.0,
+    "mileage": 21.7,
+    "seats": 5
+  },
+  {
+    "brand": "Maruti",
+    "model": "Swift",
+    "fuel_type": "Diesel",
+    "transmission": "Automatic",
+    "engine": 1248,
+    "max_power": 74.0,
+    "mileage": 28.4,
+    "seats": 5
+  },
+  {
+    "brand": "Maruti",
+    "model": "Swift",
+    "fuel_type": "Diesel",
+    "transmission": "Manual",
+    "engine": 1248,
+    "max_power": 74.0,
+    "mileage": 25.2,
+    "seats": 5
+  },
+  {
+    "brand": "Maruti",
+    "model": "Swift",
+    "fuel_type": "Diesel",
+    "transmission": "Manual",
+    "engine": 1248,
+    "max_power": 74.0,
+    "mileage": 28.4,
+    "seats": 5
+  },
+  {
+    "brand": "Maruti",
+    "model": "Swift",
+    "fuel_type": "Diesel",
+    "transmission": "Manual",
+    "engine": 1248,
+    "max_power": 75.0,
+    "mileage": 17.8,
+    "seats": 5
+  },
+  {
+    "brand": "Maruti",
+    "model": "Swift",
+    "fuel_type": "Diesel",
+    "transmission": "Manual",
+    "engine": 1248,
+    "max_power": 74.0,
+    "mileage": 22.9,
+    "seats": 5
+  },
+  {
+    "brand": "Maruti",
+    "model": "Swift",
+    "fuel_type": "Petrol",
+    "transmission": "Automatic",
+    "engine": 1197,
+    "max_power": 81.8,
+    "mileage": 21.21,
+    "seats": 5
+  },
+  {
+    "brand": "Maruti",
+    "model": "Swift",
+    "fuel_type": "Petrol",
+    "transmission": "Automatic",
+    "engine": 1197,
+    "max_power": 81.8,
+    "mileage": 22.0,
+    "seats": 5
+  },
+  {
+    "brand": "Maruti",
+    "model": "Swift",
+    "fuel_type": "Petrol",
+    "transmission": "Manual",
+    "engine": 1197,
+    "max_power": 85.0,
+    "mileage": 16.6,
+    "seats": 5
+  },
+  {
+    "brand": "Maruti",
+    "model": "Swift",
+    "fuel_type": "Petrol",
+    "transmission": "Manual",
+    "engine": 1197,
+    "max_power": 85.0,
+    "mileage": 16.1,
+    "seats": 5
+  },
+  {
+    "brand": "Maruti",
+    "model": "Swift",
+    "fuel_type": "Petrol",
+    "transmission": "Manual",
+    "engine": 1197,
+    "max_power": 81.8,
+    "mileage": 22.0,
+    "seats": 5
+  },
+  {
+    "brand": "Maruti",
+    "model": "Swift",
+    "fuel_type": "Petrol",
+    "transmission": "Manual",
+    "engine": 1197,
+    "max_power": 81.8,
+    "mileage": 21.21,
+    "seats": 5
+  },
+  {
+    "brand": "Maruti",
+    "model": "Swift",
+    "fuel_type": "Petrol",
+    "transmission": "Manual",
+    "engine": 1197,
+    "max_power": 81.8,
+    "mileage": 20.4,
+    "seats": 5
+  },
+  {
+    "brand": "Maruti",
+    "model": "Swift",
+    "fuel_type": "Petrol",
+    "transmission": "Manual",
+    "engine": 1197,
+    "max_power": 83.11,
+    "mileage": 20.4,
+    "seats": 5
+  },
+  {
+    "brand": "Maruti",
+    "model": "Swift",
+    "fuel_type": "Petrol",
+    "transmission": "Manual",
+    "engine": 1197,
+    "max_power": 85.8,
+    "mileage": 18.6,
+    "seats": 5
+  },
+  {
+    "brand": "Maruti",
+    "model": "Swift",
+    "fuel_type": "Petrol",
+    "transmission": "Manual",
+    "engine": 1298,
+    "max_power": 88.2,
+    "mileage": 16.1,
+    "seats": 5
+  },
+  {
+    "brand": "Maruti",
+    "model": "Swift Dzire",
+    "fuel_type": "CNG",
+    "transmission": "Manual",
+    "engine": 1197,
+    "max_power": 85.8,
+    "mileage": 19.0,
+    "seats": 5
+  },
+  {
+    "brand": "Maruti",
+    "model": "Swift Dzire",
+    "fuel_type": "CNG",
+    "transmission": "Manual",
+    "engine": 1197,
+    "max_power": 81.8,
+    "mileage": 26.55,
+    "seats": 5
+  },
+  {
+    "brand": "Maruti",
+    "model": "Swift Dzire",
+    "fuel_type": "Diesel",
+    "transmission": "Automatic",
+    "engine": 1248,
+    "max_power": 74.02,
+    "mileage": 28.4,
+    "seats": 5
+  },
+  {
+    "brand": "Maruti",
+    "model": "Swift Dzire",
+    "fuel_type": "Diesel",
+    "transmission": "Automatic",
+    "engine": 1248,
+    "max_power": 74.0,
+    "mileage": 26.59,
+    "seats": 5
+  },
+  {
+    "brand": "Maruti",
+    "model": "Swift Dzire",
+    "fuel_type": "Diesel",
+    "transmission": "Automatic",
+    "engine": 1248,
+    "max_power": 74.0,
+    "mileage": 28.4,
+    "seats": 5
+  },
+  {
+    "brand": "Maruti",
+    "model": "Swift Dzire",
+    "fuel_type": "Diesel",
+    "transmission": "Manual",
+    "engine": 1248,
+    "max_power": 74.0,
+    "mileage": 26.59,
+    "seats": 5
+  },
+  {
+    "brand": "Maruti",
+    "model": "Swift Dzire",
+    "fuel_type": "Diesel",
+    "transmission": "Manual",
+    "engine": 1248,
+    "max_power": 74.0,
+    "mileage": 23.4,
+    "seats": 5
+  },
+  {
+    "brand": "Maruti",
+    "model": "Swift Dzire",
+    "fuel_type": "Diesel",
+    "transmission": "Manual",
+    "engine": 1248,
+    "max_power": 74.02,
+    "mileage": 28.4,
+    "seats": 5
+  },
+  {
+    "brand": "Maruti",
+    "model": "Swift Dzire",
+    "fuel_type": "Diesel",
+    "transmission": "Manual",
+    "engine": 1248,
+    "max_power": 73.9,
+    "mileage": 19.3,
+    "seats": 5
+  },
+  {
+    "brand": "Maruti",
+    "model": "Swift Dzire",
+    "fuel_type": "Petrol",
+    "transmission": "Automatic",
+    "engine": 1197,
+    "max_power": 81.8,
+    "mileage": 21.21,
+    "seats": 5
+  },
+  {
+    "brand": "Maruti",
+    "model": "Swift Dzire",
+    "fuel_type": "Petrol",
+    "transmission": "Automatic",
+    "engine": 1197,
+    "max_power": 81.8,
+    "mileage": 22.0,
+    "seats": 5
+  },
+  {
+    "brand": "Maruti",
+    "model": "Swift Dzire",
+    "fuel_type": "Petrol",
+    "transmission": "Automatic",
+    "engine": 1197,
+    "max_power": 83.14,
+    "mileage": 18.5,
+    "seats": 5
+  },
+  {
+    "brand": "Maruti",
+    "model": "Swift Dzire",
+    "fuel_type": "Petrol",
+    "transmission": "Automatic",
+    "engine": 1197,
+    "max_power": 85.8,
+    "mileage": 17.4,
+    "seats": 5
+  },
+  {
+    "brand": "Maruti",
+    "model": "Swift Dzire",
+    "fuel_type": "Petrol",
+    "transmission": "Manual",
+    "engine": 1197,
+    "max_power": 83.14,
+    "mileage": 20.85,
+    "seats": 5
+  },
+  {
+    "brand": "Maruti",
+    "model": "Swift Dzire",
+    "fuel_type": "Petrol",
+    "transmission": "Manual",
+    "engine": 1197,
+    "max_power": 81.8,
+    "mileage": 21.21,
+    "seats": 5
+  },
+  {
+    "brand": "Maruti",
+    "model": "Swift Dzire",
+    "fuel_type": "Petrol",
+    "transmission": "Manual",
+    "engine": 1197,
+    "max_power": 85.8,
+    "mileage": 19.1,
+    "seats": 5
+  },
+  {
+    "brand": "Maruti",
+    "model": "Swift Dzire",
+    "fuel_type": "Petrol",
+    "transmission": "Manual",
+    "engine": 1197,
+    "max_power": 81.8,
+    "mileage": 22.0,
+    "seats": 5
+  },
+  {
+    "brand": "Maruti",
+    "model": "Swift Dzire",
+    "fuel_type": "Petrol",
+    "transmission": "Manual",
+    "engine": 1197,
+    "max_power": 85.8,
+    "mileage": 17.5,
+    "seats": 5
+  },
+  {
+    "brand": "Maruti",
+    "model": "Swift Dzire",
+    "fuel_type": "Petrol",
+    "transmission": "Manual",
+    "engine": 1197,
+    "max_power": 85.8,
+    "mileage": 19.0,
+    "seats": 5
+  },
+  {
+    "brand": "Maruti",
+    "model": "Swift Dzire",
+    "fuel_type": "Petrol",
+    "transmission": "Manual",
+    "engine": 1197,
+    "max_power": 81.8,
+    "mileage": 19.95,
+    "seats": 5
+  },
+  {
+    "brand": "Maruti",
+    "model": "Swift Dzire",
+    "fuel_type": "Petrol",
+    "transmission": "Manual",
+    "engine": 1298,
+    "max_power": 85.8,
+    "mileage": 17.5,
+    "seats": 5
+  },
+  {
+    "brand": "Maruti",
+    "model": "Vitara",
+    "fuel_type": "Diesel",
+    "transmission": "Automatic",
+    "engine": 1248,
+    "max_power": 88.5,
+    "mileage": 24.3,
+    "seats": 5
+  },
+  {
+    "brand": "Maruti",
+    "model": "Vitara",
+    "fuel_type": "Diesel",
+    "transmission": "Manual",
+    "engine": 1248,
+    "max_power": 88.5,
+    "mileage": 24.3,
+    "seats": 5
+  },
+  {
+    "brand": "Maruti",
+    "model": "Vitara",
+    "fuel_type": "Petrol",
+    "transmission": "Automatic",
+    "engine": 1462,
+    "max_power": 103.26,
+    "mileage": 18.76,
+    "seats": 5
+  },
+  {
+    "brand": "Maruti",
+    "model": "Vitara",
+    "fuel_type": "Petrol",
+    "transmission": "Manual",
+    "engine": 1462,
+    "max_power": 103.26,
+    "mileage": 17.03,
+    "seats": 5
+  },
+  {
+    "brand": "Maruti",
+    "model": "Wagon R",
+    "fuel_type": "CNG",
+    "transmission": "Manual",
+    "engine": 998,
+    "max_power": 58.16,
+    "mileage": 26.6,
+    "seats": 5
+  },
+  {
+    "brand": "Maruti",
+    "model": "Wagon R",
+    "fuel_type": "CNG",
+    "transmission": "Manual",
+    "engine": 998,
+    "max_power": 67.04,
+    "mileage": 33.54,
+    "seats": 5
+  },
+  {
+    "brand": "Maruti",
+    "model": "Wagon R",
+    "fuel_type": "CNG",
+    "transmission": "Manual",
+    "engine": 998,
+    "max_power": 58.2,
+    "mileage": 26.2,
+    "seats": 5
+  },
+  {
+    "brand": "Maruti",
+    "model": "Wagon R",
+    "fuel_type": "CNG",
+    "transmission": "Manual",
+    "engine": 998,
+    "max_power": 58.33,
+    "mileage": 32.52,
+    "seats": 5
+  },
+  {
+    "brand": "Maruti",
+    "model": "Wagon R",
+    "fuel_type": "LPG",
+    "transmission": "Manual",
+    "engine": 998,
+    "max_power": 61.7,
+    "mileage": 14.4,
+    "seats": 5
+  },
+  {
+    "brand": "Maruti",
+    "model": "Wagon R",
+    "fuel_type": "LPG",
+    "transmission": "Manual",
+    "engine": 998,
+    "max_power": 58.2,
+    "mileage": 26.2,
+    "seats": 5
+  },
+  {
+    "brand": "Maruti",
+    "model": "Wagon R",
+    "fuel_type": "LPG",
+    "transmission": "Manual",
+    "engine": 998,
+    "max_power": 61.6,
+    "mileage": 14.6,
+    "seats": 5
+  },
+  {
+    "brand": "Maruti",
+    "model": "Wagon R",
+    "fuel_type": "LPG",
+    "transmission": "Manual",
+    "engine": 1061,
+    "max_power": 57.5,
+    "mileage": 17.3,
+    "seats": 5
+  },
+  {
+    "brand": "Maruti",
+    "model": "Wagon R",
+    "fuel_type": "Petrol",
+    "transmission": "Automatic",
+    "engine": 998,
+    "max_power": 67.0,
+    "mileage": 20.51,
+    "seats": 5
+  },
+  {
+    "brand": "Maruti",
+    "model": "Wagon R",
+    "fuel_type": "Petrol",
+    "transmission": "Automatic",
+    "engine": 998,
+    "max_power": 67.05,
+    "mileage": 21.79,
+    "seats": 5
+  },
+  {
+    "brand": "Maruti",
+    "model": "Wagon R",
+    "fuel_type": "Petrol",
+    "transmission": "Automatic",
+    "engine": 998,
+    "max_power": 67.04,
+    "mileage": 20.51,
+    "seats": 5
+  },
+  {
+    "brand": "Maruti",
+    "model": "Wagon R",
+    "fuel_type": "Petrol",
+    "transmission": "Automatic",
+    "engine": 998,
+    "max_power": 67.1,
+    "mileage": 18.9,
+    "seats": 5
+  },
+  {
+    "brand": "Maruti",
+    "model": "Wagon R",
+    "fuel_type": "Petrol",
+    "transmission": "Automatic",
+    "engine": 1197,
+    "max_power": 81.8,
+    "mileage": 21.5,
+    "seats": 5
+  },
+  {
+    "brand": "Maruti",
+    "model": "Wagon R",
+    "fuel_type": "Petrol",
+    "transmission": "Automatic",
+    "engine": 1197,
+    "max_power": 81.8,
+    "mileage": 20.52,
+    "seats": 5
+  },
+  {
+    "brand": "Maruti",
+    "model": "Wagon R",
+    "fuel_type": "Petrol",
+    "transmission": "Manual",
+    "engine": 998,
+    "max_power": 67.1,
+    "mileage": 18.9,
+    "seats": 5
+  },
+  {
+    "brand": "Maruti",
+    "model": "Wagon R",
+    "fuel_type": "Petrol",
+    "transmission": "Manual",
+    "engine": 998,
+    "max_power": 67.04,
+    "mileage": 20.51,
+    "seats": 5
+  },
+  {
+    "brand": "Maruti",
+    "model": "Wagon R",
+    "fuel_type": "Petrol",
+    "transmission": "Manual",
+    "engine": 998,
+    "max_power": 67.05,
+    "mileage": 21.79,
+    "seats": 5
+  },
+  {
+    "brand": "Maruti",
+    "model": "Wagon R",
+    "fuel_type": "Petrol",
+    "transmission": "Manual",
+    "engine": 998,
+    "max_power": 67.06,
+    "mileage": 20.51,
+    "seats": 5
+  },
+  {
+    "brand": "Maruti",
+    "model": "Wagon R",
+    "fuel_type": "Petrol",
+    "transmission": "Manual",
+    "engine": 998,
+    "max_power": 67.0,
+    "mileage": 18.9,
+    "seats": 5
+  },
+  {
+    "brand": "Maruti",
+    "model": "Wagon R",
+    "fuel_type": "Petrol",
+    "transmission": "Manual",
+    "engine": 1061,
+    "max_power": 64.0,
+    "mileage": 14.0,
+    "seats": 5
+  },
+  {
+    "brand": "Maruti",
+    "model": "Wagon R",
+    "fuel_type": "Petrol",
+    "transmission": "Manual",
+    "engine": 1061,
+    "max_power": 67.0,
+    "mileage": 18.9,
+    "seats": 5
+  },
+  {
+    "brand": "Maruti",
+    "model": "Wagon R",
+    "fuel_type": "Petrol",
+    "transmission": "Manual",
+    "engine": 1061,
+    "max_power": 64.0,
+    "mileage": 17.3,
+    "seats": 5
+  },
+  {
+    "brand": "Maruti",
+    "model": "Wagon R",
+    "fuel_type": "Petrol",
+    "transmission": "Manual",
+    "engine": 1197,
+    "max_power": 81.8,
+    "mileage": 20.52,
+    "seats": 5
+  },
+  {
+    "brand": "Maruti",
+    "model": "Wagon R",
+    "fuel_type": "Petrol",
+    "transmission": "Manual",
+    "engine": 1197,
+    "max_power": 81.8,
+    "mileage": 21.5,
+    "seats": 5
+  },
+  {
+    "brand": "Maruti",
+    "model": "XL6",
+    "fuel_type": "Petrol",
+    "transmission": "Automatic",
+    "engine": 1462,
+    "max_power": 103.2,
+    "mileage": 17.99,
+    "seats": 6
+  },
+  {
+    "brand": "Maruti",
+    "model": "XL6",
+    "fuel_type": "Petrol",
+    "transmission": "Manual",
+    "engine": 1462,
+    "max_power": 103.2,
+    "mileage": 19.01,
+    "seats": 6
+  },
+  {
+    "brand": "Renault",
+    "model": "Duster",
+    "fuel_type": "Diesel",
+    "transmission": "Automatic",
+    "engine": 1461,
+    "max_power": 108.45,
+    "mileage": 19.6,
+    "seats": 5
+  },
+  {
+    "brand": "Renault",
+    "model": "Duster",
+    "fuel_type": "Diesel",
+    "transmission": "Automatic",
+    "engine": 1461,
+    "max_power": 108.5,
+    "mileage": 19.87,
+    "seats": 5
+  },
+  {
+    "brand": "Renault",
+    "model": "Duster",
+    "fuel_type": "Diesel",
+    "transmission": "Manual",
+    "engine": 1461,
+    "max_power": 108.45,
+    "mileage": 19.64,
+    "seats": 5
+  },
+  {
+    "brand": "Renault",
+    "model": "Duster",
+    "fuel_type": "Diesel",
+    "transmission": "Manual",
+    "engine": 1461,
+    "max_power": 83.8,
+    "mileage": 19.87,
+    "seats": 5
+  },
+  {
+    "brand": "Renault",
+    "model": "Duster",
+    "fuel_type": "Diesel",
+    "transmission": "Manual",
+    "engine": 1461,
+    "max_power": 83.8,
+    "mileage": 20.45,
+    "seats": 5
+  },
+  {
+    "brand": "Renault",
+    "model": "Duster",
+    "fuel_type": "Diesel",
+    "transmission": "Manual",
+    "engine": 1461,
+    "max_power": 108.45,
+    "mileage": 19.6,
+    "seats": 5
+  },
+  {
+    "brand": "Renault",
+    "model": "Duster",
+    "fuel_type": "Diesel",
+    "transmission": "Manual",
+    "engine": 1461,
+    "max_power": 108.45,
+    "mileage": 19.01,
+    "seats": 5
+  },
+  {
+    "brand": "Renault",
+    "model": "Duster",
+    "fuel_type": "Diesel",
+    "transmission": "Manual",
+    "engine": 1461,
+    "max_power": 108.45,
+    "mileage": 19.72,
+    "seats": 5
+  },
+  {
+    "brand": "Renault",
+    "model": "Duster",
+    "fuel_type": "Diesel",
+    "transmission": "Manual",
+    "engine": 1461,
+    "max_power": 83.8,
+    "mileage": 20.46,
+    "seats": 5
+  },
+  {
+    "brand": "Renault",
+    "model": "Duster",
+    "fuel_type": "Diesel",
+    "transmission": "Manual",
+    "engine": 1461,
+    "max_power": 84.0,
+    "mileage": 19.87,
+    "seats": 5
+  },
+  {
+    "brand": "Renault",
+    "model": "Duster",
+    "fuel_type": "Diesel",
+    "transmission": "Manual",
+    "engine": 1461,
+    "max_power": 83.8,
+    "mileage": 20.0,
+    "seats": 5
+  },
+  {
+    "brand": "Renault",
+    "model": "Duster",
+    "fuel_type": "Petrol",
+    "transmission": "Automatic",
+    "engine": 1498,
+    "max_power": 105.0,
+    "mileage": 13.9,
+    "seats": 5
+  },
+  {
+    "brand": "Renault",
+    "model": "Duster",
+    "fuel_type": "Petrol",
+    "transmission": "Automatic",
+    "engine": 1498,
+    "max_power": 104.5,
+    "mileage": 14.99,
+    "seats": 5
+  },
+  {
+    "brand": "Renault",
+    "model": "Duster",
+    "fuel_type": "Petrol",
+    "transmission": "Manual",
+    "engine": 1498,
+    "max_power": 104.5,
+    "mileage": 14.19,
+    "seats": 5
+  },
+  {
+    "brand": "Renault",
+    "model": "Duster",
+    "fuel_type": "Petrol",
+    "transmission": "Manual",
+    "engine": 1598,
+    "max_power": 102.57,
+    "mileage": 13.24,
+    "seats": 5
+  },
+  {
+    "brand": "Renault",
+    "model": "KWID",
+    "fuel_type": "Petrol",
+    "transmission": "Automatic",
+    "engine": 999,
+    "max_power": 67.0,
+    "mileage": 24.04,
+    "seats": 5
+  },
+  {
+    "brand": "Renault",
+    "model": "KWID",
+    "fuel_type": "Petrol",
+    "transmission": "Automatic",
+    "engine": 999,
+    "max_power": 67.0,
+    "mileage": 23.01,
+    "seats": 5
+  },
+  {
+    "brand": "Renault",
+    "model": "KWID",
+    "fuel_type": "Petrol",
+    "transmission": "Automatic",
+    "engine": 999,
+    "max_power": 67.0,
+    "mileage": 22.0,
+    "seats": 5
+  },
+  {
+    "brand": "Renault",
+    "model": "KWID",
+    "fuel_type": "Petrol",
+    "transmission": "Manual",
+    "engine": 799,
+    "max_power": 53.3,
+    "mileage": 25.17,
+    "seats": 5
+  },
+  {
+    "brand": "Renault",
+    "model": "KWID",
+    "fuel_type": "Petrol",
+    "transmission": "Manual",
+    "engine": 799,
+    "max_power": 53.26,
+    "mileage": 22.3,
+    "seats": 5
+  },
+  {
+    "brand": "Renault",
+    "model": "KWID",
+    "fuel_type": "Petrol",
+    "transmission": "Manual",
+    "engine": 799,
+    "max_power": 53.26,
+    "mileage": 20.71,
+    "seats": 5
+  },
+  {
+    "brand": "Renault",
+    "model": "KWID",
+    "fuel_type": "Petrol",
+    "transmission": "Manual",
+    "engine": 999,
+    "max_power": 67.0,
+    "mileage": 23.01,
+    "seats": 5
+  },
+  {
+    "brand": "Renault",
+    "model": "KWID",
+    "fuel_type": "Petrol",
+    "transmission": "Manual",
+    "engine": 999,
+    "max_power": 67.0,
+    "mileage": 21.74,
+    "seats": 5
+  },
+  {
+    "brand": "Renault",
+    "model": "Triber",
+    "fuel_type": "Petrol",
+    "transmission": "Manual",
+    "engine": 999,
+    "max_power": 71.0,
+    "mileage": 20.0,
+    "seats": 7
+  },
+  {
+    "brand": "Renault",
+    "model": "Triber",
+    "fuel_type": "Petrol",
+    "transmission": "Manual",
+    "engine": 999,
+    "max_power": 72.0,
+    "mileage": 20.0,
+    "seats": 7
+  },
+  {
+    "brand": "Skoda",
+    "model": "Octavia",
+    "fuel_type": "Diesel",
+    "transmission": "Automatic",
+    "engine": 1968,
+    "max_power": 141.0,
+    "mileage": 19.3,
+    "seats": 5
+  },
+  {
+    "brand": "Skoda",
+    "model": "Octavia",
+    "fuel_type": "Diesel",
+    "transmission": "Automatic",
+    "engine": 1968,
+    "max_power": 141.0,
+    "mileage": 19.5,
+    "seats": 5
+  },
+  {
+    "brand": "Skoda",
+    "model": "Octavia",
+    "fuel_type": "Diesel",
+    "transmission": "Manual",
+    "engine": 1896,
+    "max_power": 66.0,
+    "mileage": 18.7,
+    "seats": 5
+  },
+  {
+    "brand": "Skoda",
+    "model": "Octavia",
+    "fuel_type": "Diesel",
+    "transmission": "Manual",
+    "engine": 1896,
+    "max_power": 122.4,
+    "mileage": 16.6,
+    "seats": 5
+  },
+  {
+    "brand": "Skoda",
+    "model": "Octavia",
+    "fuel_type": "Diesel",
+    "transmission": "Manual",
+    "engine": 1968,
+    "max_power": 141.0,
+    "mileage": 20.6,
+    "seats": 5
+  },
+  {
+    "brand": "Skoda",
+    "model": "Octavia",
+    "fuel_type": "Petrol",
+    "transmission": "Automatic",
+    "engine": 1798,
+    "max_power": 178.0,
+    "mileage": 15.1,
+    "seats": 5
+  },
+  {
+    "brand": "Skoda",
+    "model": "Octavia",
+    "fuel_type": "Petrol",
+    "transmission": "Automatic",
+    "engine": 1798,
+    "max_power": 177.5,
+    "mileage": 14.7,
+    "seats": 5
+  },
+  {
+    "brand": "Skoda",
+    "model": "Octavia",
+    "fuel_type": "Petrol",
+    "transmission": "Automatic",
+    "engine": 1798,
+    "max_power": 177.0,
+    "mileage": 15.1,
+    "seats": 5
+  },
+  {
+    "brand": "Skoda",
+    "model": "Octavia",
+    "fuel_type": "Petrol",
+    "transmission": "Manual",
+    "engine": 1395,
+    "max_power": 138.03,
+    "mileage": 16.8,
+    "seats": 5
+  },
+  {
+    "brand": "Skoda",
+    "model": "Rapid",
+    "fuel_type": "Diesel",
+    "transmission": "Automatic",
+    "engine": 1498,
+    "max_power": 103.52,
+    "mileage": 21.66,
+    "seats": 5
+  },
+  {
+    "brand": "Skoda",
+    "model": "Rapid",
+    "fuel_type": "Diesel",
+    "transmission": "Automatic",
+    "engine": 1498,
+    "max_power": 108.6,
+    "mileage": 21.72,
+    "seats": 5
+  },
+  {
+    "brand": "Skoda",
+    "model": "Rapid",
+    "fuel_type": "Diesel",
+    "transmission": "Automatic",
+    "engine": 1498,
+    "max_power": 103.6,
+    "mileage": 21.66,
+    "seats": 5
+  },
+  {
+    "brand": "Skoda",
+    "model": "Rapid",
+    "fuel_type": "Diesel",
+    "transmission": "Manual",
+    "engine": 1498,
+    "max_power": 108.6,
+    "mileage": 21.13,
+    "seats": 5
+  },
+  {
+    "brand": "Skoda",
+    "model": "Rapid",
+    "fuel_type": "Diesel",
+    "transmission": "Manual",
+    "engine": 1498,
+    "max_power": 103.52,
+    "mileage": 21.14,
+    "seats": 5
+  },
+  {
+    "brand": "Skoda",
+    "model": "Rapid",
+    "fuel_type": "Diesel",
+    "transmission": "Manual",
+    "engine": 1498,
+    "max_power": 103.6,
+    "mileage": 21.14,
+    "seats": 5
+  },
+  {
+    "brand": "Skoda",
+    "model": "Rapid",
+    "fuel_type": "Diesel",
+    "transmission": "Manual",
+    "engine": 1498,
+    "max_power": 108.6,
+    "mileage": 21.14,
+    "seats": 5
+  },
+  {
+    "brand": "Skoda",
+    "model": "Rapid",
+    "fuel_type": "Diesel",
+    "transmission": "Manual",
+    "engine": 1598,
+    "max_power": 103.5,
+    "mileage": 20.5,
+    "seats": 5
+  },
+  {
+    "brand": "Skoda",
+    "model": "Rapid",
+    "fuel_type": "Diesel",
+    "transmission": "Manual",
+    "engine": 1598,
+    "max_power": 105.0,
+    "mileage": 20.5,
+    "seats": 5
+  },
+  {
+    "brand": "Skoda",
+    "model": "Rapid",
+    "fuel_type": "Diesel",
+    "transmission": "Manual",
+    "engine": 1598,
+    "max_power": 103.6,
+    "mileage": 20.5,
+    "seats": 5
+  },
+  {
+    "brand": "Skoda",
+    "model": "Rapid",
+    "fuel_type": "Petrol",
+    "transmission": "Automatic",
+    "engine": 1598,
+    "max_power": 103.2,
+    "mileage": 14.84,
+    "seats": 5
+  },
+  {
+    "brand": "Skoda",
+    "model": "Rapid",
+    "fuel_type": "Petrol",
+    "transmission": "Automatic",
+    "engine": 1598,
+    "max_power": 103.6,
+    "mileage": 14.3,
+    "seats": 5
+  },
+  {
+    "brand": "Skoda",
+    "model": "Rapid",
+    "fuel_type": "Petrol",
+    "transmission": "Automatic",
+    "engine": 1598,
+    "max_power": 103.52,
+    "mileage": 14.3,
+    "seats": 5
+  },
+  {
+    "brand": "Skoda",
+    "model": "Rapid",
+    "fuel_type": "Petrol",
+    "transmission": "Automatic",
+    "engine": 1598,
+    "max_power": 105.0,
+    "mileage": 14.3,
+    "seats": 5
+  },
+  {
+    "brand": "Skoda",
+    "model": "Rapid",
+    "fuel_type": "Petrol",
+    "transmission": "Automatic",
+    "engine": 1598,
+    "max_power": 103.5,
+    "mileage": 14.3,
+    "seats": 5
+  },
+  {
+    "brand": "Skoda",
+    "model": "Rapid",
+    "fuel_type": "Petrol",
+    "transmission": "Automatic",
+    "engine": 1598,
+    "max_power": 103.2,
+    "mileage": 14.3,
+    "seats": 5
+  },
+  {
+    "brand": "Skoda",
+    "model": "Rapid",
+    "fuel_type": "Petrol",
+    "transmission": "Manual",
+    "engine": 1598,
+    "max_power": 103.52,
+    "mileage": 15.0,
+    "seats": 5
+  },
+  {
+    "brand": "Skoda",
+    "model": "Rapid",
+    "fuel_type": "Petrol",
+    "transmission": "Manual",
+    "engine": 1598,
+    "max_power": 103.5,
+    "mileage": 15.0,
+    "seats": 5
+  },
+  {
+    "brand": "Skoda",
+    "model": "Rapid",
+    "fuel_type": "Petrol",
+    "transmission": "Manual",
+    "engine": 1598,
+    "max_power": 105.0,
+    "mileage": 15.0,
+    "seats": 5
+  },
+  {
+    "brand": "Skoda",
+    "model": "Rapid",
+    "fuel_type": "Petrol",
+    "transmission": "Manual",
+    "engine": 1598,
+    "max_power": 103.6,
+    "mileage": 15.0,
+    "seats": 5
+  },
+  {
+    "brand": "Skoda",
+    "model": "Rapid",
+    "fuel_type": "Petrol",
+    "transmission": "Manual",
+    "engine": 1598,
+    "max_power": 103.2,
+    "mileage": 15.41,
+    "seats": 5
+  },
+  {
+    "brand": "Skoda",
+    "model": "Superb",
+    "fuel_type": "Diesel",
+    "transmission": "Automatic",
+    "engine": 1968,
+    "max_power": 138.08,
+    "mileage": 17.2,
+    "seats": 5
+  },
+  {
+    "brand": "Skoda",
+    "model": "Superb",
+    "fuel_type": "Diesel",
+    "transmission": "Automatic",
+    "engine": 1968,
+    "max_power": 138.03,
+    "mileage": 17.2,
+    "seats": 5
+  },
+  {
+    "brand": "Skoda",
+    "model": "Superb",
+    "fuel_type": "Diesel",
+    "transmission": "Automatic",
+    "engine": 1968,
+    "max_power": 138.1,
+    "mileage": 17.2,
+    "seats": 5
+  },
+  {
+    "brand": "Skoda",
+    "model": "Superb",
+    "fuel_type": "Diesel",
+    "transmission": "Automatic",
+    "engine": 1968,
+    "max_power": 174.5,
+    "mileage": 18.19,
+    "seats": 5
+  },
+  {
+    "brand": "Skoda",
+    "model": "Superb",
+    "fuel_type": "Diesel",
+    "transmission": "Manual",
+    "engine": 1968,
+    "max_power": 138.1,
+    "mileage": 17.2,
+    "seats": 5
+  },
+  {
+    "brand": "Skoda",
+    "model": "Superb",
+    "fuel_type": "Petrol",
+    "transmission": "Automatic",
+    "engine": 1798,
+    "max_power": 177.46,
+    "mileage": 14.67,
+    "seats": 5
+  },
+  {
+    "brand": "Skoda",
+    "model": "Superb",
+    "fuel_type": "Petrol",
+    "transmission": "Automatic",
+    "engine": 1798,
+    "max_power": 157.75,
+    "mileage": 13.7,
+    "seats": 5
+  },
+  {
+    "brand": "Skoda",
+    "model": "Superb",
+    "fuel_type": "Petrol",
+    "transmission": "Automatic",
+    "engine": 1798,
+    "max_power": 161.6,
+    "mileage": 12.6,
+    "seats": 5
+  },
+  {
+    "brand": "Skoda",
+    "model": "Superb",
+    "fuel_type": "Petrol",
+    "transmission": "Automatic",
+    "engine": 2771,
+    "max_power": 193.1,
+    "mileage": 9.3,
+    "seats": 5
+  },
+  {
+    "brand": "Skoda",
+    "model": "Superb",
+    "fuel_type": "Petrol",
+    "transmission": "Automatic",
+    "engine": 3597,
+    "max_power": 260.0,
+    "mileage": 12.0,
+    "seats": 5
+  },
+  {
+    "brand": "Skoda",
+    "model": "Superb",
+    "fuel_type": "Petrol",
+    "transmission": "Manual",
+    "engine": 1798,
+    "max_power": 157.8,
+    "mileage": 13.14,
+    "seats": 5
+  },
+  {
+    "brand": "Skoda",
+    "model": "Superb",
+    "fuel_type": "Petrol",
+    "transmission": "Manual",
+    "engine": 1798,
+    "max_power": 177.46,
+    "mileage": 14.12,
+    "seats": 5
+  },
+  {
+    "brand": "Skoda",
+    "model": "Superb",
+    "fuel_type": "Petrol",
+    "transmission": "Manual",
+    "engine": 1798,
+    "max_power": 160.0,
+    "mileage": 13.14,
+    "seats": 5
+  },
+  {
+    "brand": "Skoda",
+    "model": "Superb",
+    "fuel_type": "Petrol",
+    "transmission": "Manual",
+    "engine": 1798,
+    "max_power": 157.75,
+    "mileage": 13.1,
+    "seats": 5
+  },
+  {
+    "brand": "Skoda",
+    "model": "Superb",
+    "fuel_type": "Petrol",
+    "transmission": "Manual",
+    "engine": 1798,
+    "max_power": 157.8,
+    "mileage": 13.1,
+    "seats": 5
+  },
+  {
+    "brand": "Tata",
+    "model": "Altroz",
+    "fuel_type": "Petrol",
+    "transmission": "Manual",
+    "engine": 1199,
+    "max_power": 84.82,
+    "mileage": 19.05,
+    "seats": 5
+  },
+  {
+    "brand": "Tata",
+    "model": "Harrier",
+    "fuel_type": "Diesel",
+    "transmission": "Manual",
+    "engine": 1956,
+    "max_power": 138.1,
+    "mileage": 17.0,
+    "seats": 5
+  },
+  {
+    "brand": "Tata",
+    "model": "Harrier",
+    "fuel_type": "Diesel",
+    "transmission": "Manual",
+    "engine": 1956,
+    "max_power": 167.67,
+    "mileage": 17.0,
+    "seats": 5
+  },
+  {
+    "brand": "Tata",
+    "model": "Hexa",
+    "fuel_type": "Diesel",
+    "transmission": "Automatic",
+    "engine": 2179,
+    "max_power": 153.86,
+    "mileage": 17.6,
+    "seats": 7
+  },
+  {
+    "brand": "Tata",
+    "model": "Hexa",
+    "fuel_type": "Diesel",
+    "transmission": "Manual",
+    "engine": 2179,
+    "max_power": 153.86,
+    "mileage": 17.6,
+    "seats": 7
+  },
+  {
+    "brand": "Tata",
+    "model": "Hexa",
+    "fuel_type": "Diesel",
+    "transmission": "Manual",
+    "engine": 2179,
+    "max_power": 147.94,
+    "mileage": 17.6,
+    "seats": 7
+  },
+  {
+    "brand": "Tata",
+    "model": "Nexon",
+    "fuel_type": "Diesel",
+    "transmission": "Automatic",
+    "engine": 1497,
+    "max_power": 108.5,
+    "mileage": 21.5,
+    "seats": 5
+  },
+  {
+    "brand": "Tata",
+    "model": "Nexon",
+    "fuel_type": "Diesel",
+    "transmission": "Manual",
+    "engine": 1497,
+    "max_power": 108.5,
+    "mileage": 21.5,
+    "seats": 5
+  },
+  {
+    "brand": "Tata",
+    "model": "Nexon",
+    "fuel_type": "Petrol",
+    "transmission": "Automatic",
+    "engine": 1198,
+    "max_power": 108.5,
+    "mileage": 17.0,
+    "seats": 5
+  },
+  {
+    "brand": "Tata",
+    "model": "Nexon",
+    "fuel_type": "Petrol",
+    "transmission": "Automatic",
+    "engine": 1199,
+    "max_power": 118.3,
+    "mileage": 17.0,
+    "seats": 5
+  },
+  {
+    "brand": "Tata",
+    "model": "Nexon",
+    "fuel_type": "Petrol",
+    "transmission": "Manual",
+    "engine": 1198,
+    "max_power": 108.5,
+    "mileage": 17.0,
+    "seats": 5
+  },
+  {
+    "brand": "Tata",
+    "model": "Nexon",
+    "fuel_type": "Petrol",
+    "transmission": "Manual",
+    "engine": 1199,
+    "max_power": 118.3,
+    "mileage": 17.0,
+    "seats": 5
+  },
+  {
+    "brand": "Tata",
+    "model": "Safari",
+    "fuel_type": "Diesel",
+    "transmission": "Manual",
+    "engine": 2179,
+    "max_power": 138.1,
+    "mileage": 14.0,
+    "seats": 7
+  },
+  {
+    "brand": "Tata",
+    "model": "Safari",
+    "fuel_type": "Diesel",
+    "transmission": "Manual",
+    "engine": 2179,
+    "max_power": 138.1,
+    "mileage": 11.57,
+    "seats": 7
+  },
+  {
+    "brand": "Tata",
+    "model": "Safari",
+    "fuel_type": "Diesel",
+    "transmission": "Manual",
+    "engine": 2179,
+    "max_power": 138.1,
+    "mileage": 13.93,
+    "seats": 7
+  },
+  {
+    "brand": "Tata",
+    "model": "Safari",
+    "fuel_type": "Diesel",
+    "transmission": "Manual",
+    "engine": 2179,
+    "max_power": 138.03,
+    "mileage": 13.93,
+    "seats": 7
+  },
+  {
+    "brand": "Tata",
+    "model": "Safari",
+    "fuel_type": "Diesel",
+    "transmission": "Manual",
+    "engine": 2179,
+    "max_power": 148.0,
+    "mileage": 14.1,
+    "seats": 7
+  },
+  {
+    "brand": "Tata",
+    "model": "Safari",
+    "fuel_type": "Diesel",
+    "transmission": "Manual",
+    "engine": 2179,
+    "max_power": 147.94,
+    "mileage": 14.1,
+    "seats": 7
+  },
+  {
+    "brand": "Tata",
+    "model": "Safari",
+    "fuel_type": "Diesel",
+    "transmission": "Manual",
+    "engine": 2179,
+    "max_power": 153.86,
+    "mileage": 14.1,
+    "seats": 7
+  },
+  {
+    "brand": "Tata",
+    "model": "Safari",
+    "fuel_type": "Diesel",
+    "transmission": "Manual",
+    "engine": 2179,
+    "max_power": 138.0,
+    "mileage": 13.93,
+    "seats": 7
+  },
+  {
+    "brand": "Tata",
+    "model": "Safari",
+    "fuel_type": "Diesel",
+    "transmission": "Manual",
+    "engine": 2179,
+    "max_power": 147.94,
+    "mileage": 14.1,
+    "seats": 5
+  },
+  {
+    "brand": "Tata",
+    "model": "Safari",
+    "fuel_type": "Diesel",
+    "transmission": "Manual",
+    "engine": 2956,
+    "max_power": 138.1,
+    "mileage": 13.93,
+    "seats": 7
+  },
+  {
+    "brand": "Tata",
+    "model": "Safari",
+    "fuel_type": "Petrol",
+    "transmission": "Manual",
+    "engine": 2092,
+    "max_power": 127.0,
+    "mileage": 12.0,
+    "seats": 7
+  },
+  {
+    "brand": "Tata",
+    "model": "Tiago",
+    "fuel_type": "Diesel",
+    "transmission": "Manual",
+    "engine": 1047,
+    "max_power": 69.0,
+    "mileage": 27.28,
+    "seats": 5
+  },
+  {
+    "brand": "Tata",
+    "model": "Tiago",
+    "fuel_type": "Petrol",
+    "transmission": "Automatic",
+    "engine": 1199,
+    "max_power": 84.0,
+    "mileage": 23.84,
+    "seats": 5
+  },
+  {
+    "brand": "Tata",
+    "model": "Tiago",
+    "fuel_type": "Petrol",
+    "transmission": "Automatic",
+    "engine": 1199,
+    "max_power": 83.83,
+    "mileage": 23.84,
+    "seats": 5
+  },
+  {
+    "brand": "Tata",
+    "model": "Tiago",
+    "fuel_type": "Petrol",
+    "transmission": "Automatic",
+    "engine": 1199,
+    "max_power": 83.81,
+    "mileage": 24.0,
+    "seats": 5
+  },
+  {
+    "brand": "Tata",
+    "model": "Tiago",
+    "fuel_type": "Petrol",
+    "transmission": "Manual",
+    "engine": 1199,
+    "max_power": 84.0,
+    "mileage": 23.84,
+    "seats": 5
+  },
+  {
+    "brand": "Tata",
+    "model": "Tiago",
+    "fuel_type": "Petrol",
+    "transmission": "Manual",
+    "engine": 1199,
+    "max_power": 83.83,
+    "mileage": 23.84,
+    "seats": 5
+  },
+  {
+    "brand": "Tata",
+    "model": "Tiago",
+    "fuel_type": "Petrol",
+    "transmission": "Manual",
+    "engine": 1199,
+    "max_power": 83.81,
+    "mileage": 24.0,
+    "seats": 5
+  },
+  {
+    "brand": "Tata",
+    "model": "Tiago",
+    "fuel_type": "Petrol",
+    "transmission": "Manual",
+    "engine": 1199,
+    "max_power": 84.48,
+    "mileage": 23.84,
+    "seats": 5
+  },
+  {
+    "brand": "Tata",
+    "model": "Tigor",
+    "fuel_type": "Diesel",
+    "transmission": "Manual",
+    "engine": 1047,
+    "max_power": 69.0,
+    "mileage": 24.7,
+    "seats": 5
+  },
+  {
+    "brand": "Tata",
+    "model": "Tigor",
+    "fuel_type": "Petrol",
+    "transmission": "Automatic",
+    "engine": 1199,
+    "max_power": 84.0,
+    "mileage": 20.3,
+    "seats": 5
+  },
+  {
+    "brand": "Tata",
+    "model": "Tigor",
+    "fuel_type": "Petrol",
+    "transmission": "Manual",
+    "engine": 1199,
+    "max_power": 84.0,
+    "mileage": 20.3,
+    "seats": 5
+  },
+  {
+    "brand": "Tata",
+    "model": "Tigor",
+    "fuel_type": "Petrol",
+    "transmission": "Manual",
+    "engine": 1199,
+    "max_power": 83.81,
+    "mileage": 20.3,
+    "seats": 5
+  },
+  {
+    "brand": "Tata",
+    "model": "Tigor",
+    "fuel_type": "Petrol",
+    "transmission": "Manual",
+    "engine": 1199,
+    "max_power": 112.44,
+    "mileage": 20.3,
+    "seats": 5
+  },
+  {
+    "brand": "Toyota",
+    "model": "Camry",
+    "fuel_type": "Petrol",
+    "transmission": "Automatic",
+    "engine": 2362,
+    "max_power": 164.7,
+    "mileage": 12.1,
+    "seats": 5
+  },
+  {
+    "brand": "Toyota",
+    "model": "Camry",
+    "fuel_type": "Petrol",
+    "transmission": "Automatic",
+    "engine": 2487,
+    "max_power": 214.5,
+    "mileage": 19.16,
+    "seats": 5
+  },
+  {
+    "brand": "Toyota",
+    "model": "Camry",
+    "fuel_type": "Petrol",
+    "transmission": "Automatic",
+    "engine": 2494,
+    "max_power": 157.7,
+    "mileage": 19.16,
+    "seats": 5
+  },
+  {
+    "brand": "Toyota",
+    "model": "Camry",
+    "fuel_type": "Petrol",
+    "transmission": "Automatic",
+    "engine": 2494,
+    "max_power": 178.4,
+    "mileage": 12.98,
+    "seats": 5
+  },
+  {
+    "brand": "Toyota",
+    "model": "Camry",
+    "fuel_type": "Petrol",
+    "transmission": "Automatic",
+    "engine": 2494,
+    "max_power": 158.2,
+    "mileage": 19.16,
+    "seats": 5
+  },
+  {
+    "brand": "Toyota",
+    "model": "Camry",
+    "fuel_type": "Petrol",
+    "transmission": "Automatic",
+    "engine": 2494,
+    "max_power": 178.3,
+    "mileage": 12.98,
+    "seats": 5
+  },
+  {
+    "brand": "Toyota",
+    "model": "Camry",
+    "fuel_type": "Petrol",
+    "transmission": "Manual",
+    "engine": 2362,
+    "max_power": 164.7,
+    "mileage": 13.4,
+    "seats": 5
+  },
+  {
+    "brand": "Toyota",
+    "model": "Fortuner",
+    "fuel_type": "Diesel",
+    "transmission": "Automatic",
+    "engine": 2755,
+    "max_power": 174.5,
+    "mileage": 12.9,
+    "seats": 7
+  },
+  {
+    "brand": "Toyota",
+    "model": "Fortuner",
+    "fuel_type": "Diesel",
+    "transmission": "Automatic",
+    "engine": 2755,
+    "max_power": 174.5,
+    "mileage": 15.04,
+    "seats": 7
+  },
+  {
+    "brand": "Toyota",
+    "model": "Fortuner",
+    "fuel_type": "Diesel",
+    "transmission": "Automatic",
+    "engine": 2982,
+    "max_power": 168.7,
+    "mileage": 12.55,
+    "seats": 7
+  },
+  {
+    "brand": "Toyota",
+    "model": "Fortuner",
+    "fuel_type": "Diesel",
+    "transmission": "Automatic",
+    "engine": 2982,
+    "max_power": 168.5,
+    "mileage": 12.55,
+    "seats": 7
+  },
+  {
+    "brand": "Toyota",
+    "model": "Fortuner",
+    "fuel_type": "Diesel",
+    "transmission": "Automatic",
+    "engine": 2982,
+    "max_power": 169.0,
+    "mileage": 11.5,
+    "seats": 7
+  },
+  {
+    "brand": "Toyota",
+    "model": "Fortuner",
+    "fuel_type": "Diesel",
+    "transmission": "Manual",
+    "engine": 2755,
+    "max_power": 174.5,
+    "mileage": 14.24,
+    "seats": 7
+  },
+  {
+    "brand": "Toyota",
+    "model": "Fortuner",
+    "fuel_type": "Diesel",
+    "transmission": "Manual",
+    "engine": 2982,
+    "max_power": 168.5,
+    "mileage": 13.0,
+    "seats": 7
+  },
+  {
+    "brand": "Toyota",
+    "model": "Fortuner",
+    "fuel_type": "Diesel",
+    "transmission": "Manual",
+    "engine": 2982,
+    "max_power": 168.5,
+    "mileage": 12.55,
+    "seats": 7
+  },
+  {
+    "brand": "Toyota",
+    "model": "Fortuner",
+    "fuel_type": "Diesel",
+    "transmission": "Manual",
+    "engine": 2982,
+    "max_power": 171.0,
+    "mileage": 11.5,
+    "seats": 7
+  },
+  {
+    "brand": "Toyota",
+    "model": "Fortuner",
+    "fuel_type": "Diesel",
+    "transmission": "Manual",
+    "engine": 2982,
+    "max_power": 168.7,
+    "mileage": 13.0,
+    "seats": 7
+  },
+  {
+    "brand": "Toyota",
+    "model": "Fortuner",
+    "fuel_type": "Petrol",
+    "transmission": "Automatic",
+    "engine": 2694,
+    "max_power": 163.7,
+    "mileage": 10.26,
+    "seats": 7
+  },
+  {
+    "brand": "Toyota",
+    "model": "Glanza",
+    "fuel_type": "Petrol",
+    "transmission": "Automatic",
+    "engine": 1197,
+    "max_power": 81.8,
+    "mileage": 19.56,
+    "seats": 5
+  },
+  {
+    "brand": "Toyota",
+    "model": "Glanza",
+    "fuel_type": "Petrol",
+    "transmission": "Manual",
+    "engine": 1197,
+    "max_power": 88.5,
+    "mileage": 23.87,
+    "seats": 5
+  },
+  {
+    "brand": "Toyota",
+    "model": "Glanza",
+    "fuel_type": "Petrol",
+    "transmission": "Manual",
+    "engine": 1197,
+    "max_power": 81.8,
+    "mileage": 21.01,
+    "seats": 5
+  },
+  {
+    "brand": "Toyota",
+    "model": "Innova",
+    "fuel_type": "CNG",
+    "transmission": "Manual",
+    "engine": 1998,
+    "max_power": 132.0,
+    "mileage": 12.4,
+    "seats": 8
+  },
+  {
+    "brand": "Toyota",
+    "model": "Innova",
+    "fuel_type": "Diesel",
+    "transmission": "Automatic",
+    "engine": 2393,
+    "max_power": 147.51,
+    "mileage": 13.68,
+    "seats": 7
+  },
+  {
+    "brand": "Toyota",
+    "model": "Innova",
+    "fuel_type": "Diesel",
+    "transmission": "Automatic",
+    "engine": 2393,
+    "max_power": 147.51,
+    "mileage": 13.68,
+    "seats": 8
+  },
+  {
+    "brand": "Toyota",
+    "model": "Innova",
+    "fuel_type": "Diesel",
+    "transmission": "Automatic",
+    "engine": 2755,
+    "max_power": 171.5,
+    "mileage": 11.36,
+    "seats": 7
+  },
+  {
+    "brand": "Toyota",
+    "model": "Innova",
+    "fuel_type": "Diesel",
+    "transmission": "Automatic",
+    "engine": 2755,
+    "max_power": 171.5,
+    "mileage": 11.36,
+    "seats": 8
+  },
+  {
+    "brand": "Toyota",
+    "model": "Innova",
+    "fuel_type": "Diesel",
+    "transmission": "Manual",
+    "engine": 2393,
+    "max_power": 147.51,
+    "mileage": 13.68,
+    "seats": 7
+  },
+  {
+    "brand": "Toyota",
+    "model": "Innova",
+    "fuel_type": "Diesel",
+    "transmission": "Manual",
+    "engine": 2393,
+    "max_power": 147.8,
+    "mileage": 13.68,
+    "seats": 8
+  },
+  {
+    "brand": "Toyota",
+    "model": "Innova",
+    "fuel_type": "Diesel",
+    "transmission": "Manual",
+    "engine": 2393,
+    "max_power": 147.51,
+    "mileage": 13.68,
+    "seats": 8
+  },
+  {
+    "brand": "Toyota",
+    "model": "Innova",
+    "fuel_type": "Diesel",
+    "transmission": "Manual",
+    "engine": 2393,
+    "max_power": 147.8,
+    "mileage": 13.68,
+    "seats": 7
+  },
+  {
+    "brand": "Toyota",
+    "model": "Innova",
+    "fuel_type": "Diesel",
+    "transmission": "Manual",
+    "engine": 2494,
+    "max_power": 100.6,
+    "mileage": 12.99,
+    "seats": 8
+  },
+  {
+    "brand": "Toyota",
+    "model": "Innova",
+    "fuel_type": "Diesel",
+    "transmission": "Manual",
+    "engine": 2494,
+    "max_power": 100.6,
+    "mileage": 12.99,
+    "seats": 7
+  },
+  {
+    "brand": "Toyota",
+    "model": "Innova",
+    "fuel_type": "Diesel",
+    "transmission": "Manual",
+    "engine": 2494,
+    "max_power": 100.0,
+    "mileage": 12.99,
+    "seats": 7
+  },
+  {
+    "brand": "Toyota",
+    "model": "Innova",
+    "fuel_type": "Diesel",
+    "transmission": "Manual",
+    "engine": 2494,
+    "max_power": 100.0,
+    "mileage": 12.99,
+    "seats": 8
+  },
+  {
+    "brand": "Toyota",
+    "model": "Innova",
+    "fuel_type": "Diesel",
+    "transmission": "Manual",
+    "engine": 2494,
+    "max_power": 102.0,
+    "mileage": 12.8,
+    "seats": 7
+  },
+  {
+    "brand": "Toyota",
+    "model": "Innova",
+    "fuel_type": "Diesel",
+    "transmission": "Manual",
+    "engine": 2494,
+    "max_power": 102.0,
+    "mileage": 12.8,
+    "seats": 8
+  },
+  {
+    "brand": "Toyota",
+    "model": "Innova",
+    "fuel_type": "Diesel",
+    "transmission": "Manual",
+    "engine": 2494,
+    "max_power": 100.57,
+    "mileage": 12.99,
+    "seats": 7
+  },
+  {
+    "brand": "Toyota",
+    "model": "Innova",
+    "fuel_type": "Petrol",
+    "transmission": "Automatic",
+    "engine": 2694,
+    "max_power": 163.7,
+    "mileage": 10.75,
+    "seats": 8
+  },
+  {
+    "brand": "Toyota",
+    "model": "Innova",
+    "fuel_type": "Petrol",
+    "transmission": "Automatic",
+    "engine": 2694,
+    "max_power": 163.7,
+    "mileage": 10.75,
+    "seats": 7
+  },
+  {
+    "brand": "Toyota",
+    "model": "Innova",
+    "fuel_type": "Petrol",
+    "transmission": "Manual",
+    "engine": 1998,
+    "max_power": 132.0,
+    "mileage": 12.4,
+    "seats": 8
+  },
+  {
+    "brand": "Toyota",
+    "model": "Innova",
+    "fuel_type": "Petrol",
+    "transmission": "Manual",
+    "engine": 1998,
+    "max_power": 130.1,
+    "mileage": 11.4,
+    "seats": 7
+  },
+  {
+    "brand": "Toyota",
+    "model": "Innova",
+    "fuel_type": "Petrol",
+    "transmission": "Manual",
+    "engine": 2694,
+    "max_power": 163.7,
+    "mileage": 11.25,
+    "seats": 7
+  },
+  {
+    "brand": "Toyota",
+    "model": "Yaris",
+    "fuel_type": "Petrol",
+    "transmission": "Automatic",
+    "engine": 1496,
+    "max_power": 105.5,
+    "mileage": 17.8,
+    "seats": 5
+  },
+  {
+    "brand": "Toyota",
+    "model": "Yaris",
+    "fuel_type": "Petrol",
+    "transmission": "Automatic",
+    "engine": 1496,
+    "max_power": 105.94,
+    "mileage": 18.1,
+    "seats": 5
+  },
+  {
+    "brand": "Toyota",
+    "model": "Yaris",
+    "fuel_type": "Petrol",
+    "transmission": "Manual",
+    "engine": 1496,
+    "max_power": 105.5,
+    "mileage": 17.1,
+    "seats": 5
+  },
+  {
+    "brand": "Toyota",
+    "model": "Yaris",
+    "fuel_type": "Petrol",
+    "transmission": "Manual",
+    "engine": 1496,
+    "max_power": 105.94,
+    "mileage": 17.18,
+    "seats": 5
+  },
+  {
+    "brand": "Volkswagen",
+    "model": "Polo",
+    "fuel_type": "Diesel",
+    "transmission": "Manual",
+    "engine": 1199,
+    "max_power": 73.9,
+    "mileage": 22.07,
+    "seats": 5
+  },
+  {
+    "brand": "Volkswagen",
+    "model": "Polo",
+    "fuel_type": "Diesel",
+    "transmission": "Manual",
+    "engine": 1498,
+    "max_power": 88.8,
+    "mileage": 20.14,
+    "seats": 5
+  },
+  {
+    "brand": "Volkswagen",
+    "model": "Polo",
+    "fuel_type": "Diesel",
+    "transmission": "Manual",
+    "engine": 1498,
+    "max_power": 88.0,
+    "mileage": 20.14,
+    "seats": 5
+  },
+  {
+    "brand": "Volkswagen",
+    "model": "Polo",
+    "fuel_type": "Diesel",
+    "transmission": "Manual",
+    "engine": 1498,
+    "max_power": 108.5,
+    "mileage": 21.49,
+    "seats": 5
+  },
+  {
+    "brand": "Volkswagen",
+    "model": "Polo",
+    "fuel_type": "Diesel",
+    "transmission": "Manual",
+    "engine": 1498,
+    "max_power": 88.7,
+    "mileage": 20.14,
+    "seats": 5
+  },
+  {
+    "brand": "Volkswagen",
+    "model": "Polo",
+    "fuel_type": "Diesel",
+    "transmission": "Manual",
+    "engine": 1498,
+    "max_power": 88.5,
+    "mileage": 20.14,
+    "seats": 5
+  },
+  {
+    "brand": "Volkswagen",
+    "model": "Polo",
+    "fuel_type": "Diesel",
+    "transmission": "Manual",
+    "engine": 1498,
+    "max_power": 103.6,
+    "mileage": 19.91,
+    "seats": 5
+  },
+  {
+    "brand": "Volkswagen",
+    "model": "Polo",
+    "fuel_type": "Diesel",
+    "transmission": "Manual",
+    "engine": 1598,
+    "max_power": 103.6,
+    "mileage": 15.11,
+    "seats": 5
+  },
+  {
+    "brand": "Volkswagen",
+    "model": "Polo",
+    "fuel_type": "Diesel",
+    "transmission": "Manual",
+    "engine": 1598,
+    "max_power": 103.6,
+    "mileage": 19.7,
+    "seats": 5
+  },
+  {
+    "brand": "Volkswagen",
+    "model": "Polo",
+    "fuel_type": "Petrol",
+    "transmission": "Automatic",
+    "engine": 1197,
+    "max_power": 103.5,
+    "mileage": 17.21,
+    "seats": 5
+  },
+  {
+    "brand": "Volkswagen",
+    "model": "Polo",
+    "fuel_type": "Petrol",
+    "transmission": "Automatic",
+    "engine": 1197,
+    "max_power": 103.6,
+    "mileage": 17.21,
+    "seats": 5
+  },
+  {
+    "brand": "Volkswagen",
+    "model": "Polo",
+    "fuel_type": "Petrol",
+    "transmission": "Automatic",
+    "engine": 1197,
+    "max_power": 103.6,
+    "mileage": 17.2,
+    "seats": 5
+  },
+  {
+    "brand": "Volkswagen",
+    "model": "Polo",
+    "fuel_type": "Petrol",
+    "transmission": "Automatic",
+    "engine": 1798,
+    "max_power": 189.0,
+    "mileage": 17.21,
+    "seats": 4
+  },
+  {
+    "brand": "Volkswagen",
+    "model": "Polo",
+    "fuel_type": "Petrol",
+    "transmission": "Manual",
+    "engine": 999,
+    "max_power": 75.0,
+    "mileage": 18.78,
+    "seats": 5
+  },
+  {
+    "brand": "Volkswagen",
+    "model": "Polo",
+    "fuel_type": "Petrol",
+    "transmission": "Manual",
+    "engine": 999,
+    "max_power": 108.62,
+    "mileage": 18.24,
+    "seats": 5
+  },
+  {
+    "brand": "Volkswagen",
+    "model": "Polo",
+    "fuel_type": "Petrol",
+    "transmission": "Manual",
+    "engine": 999,
+    "max_power": 75.1,
+    "mileage": 17.74,
+    "seats": 5
+  },
+  {
+    "brand": "Volkswagen",
+    "model": "Polo",
+    "fuel_type": "Petrol",
+    "transmission": "Manual",
+    "engine": 1198,
+    "max_power": 74.0,
+    "mileage": 18.78,
+    "seats": 5
+  },
+  {
+    "brand": "Volkswagen",
+    "model": "Polo",
+    "fuel_type": "Petrol",
+    "transmission": "Manual",
+    "engine": 1198,
+    "max_power": 74.0,
+    "mileage": 16.47,
+    "seats": 5
+  },
+  {
+    "brand": "Volkswagen",
+    "model": "Polo",
+    "fuel_type": "Petrol",
+    "transmission": "Manual",
+    "engine": 1198,
+    "max_power": 73.9,
+    "mileage": 16.47,
+    "seats": 5
+  },
+  {
+    "brand": "Volkswagen",
+    "model": "Polo",
+    "fuel_type": "Petrol",
+    "transmission": "Manual",
+    "engine": 1198,
+    "max_power": 73.9,
+    "mileage": 17.24,
+    "seats": 5
+  },
+  {
+    "brand": "Volkswagen",
+    "model": "Polo",
+    "fuel_type": "Petrol",
+    "transmission": "Manual",
+    "engine": 1199,
+    "max_power": 74.0,
+    "mileage": 16.2,
+    "seats": 5
+  },
+  {
+    "brand": "Volkswagen",
+    "model": "Polo",
+    "fuel_type": "Petrol",
+    "transmission": "Manual",
+    "engine": 1598,
+    "max_power": 103.5,
+    "mileage": 15.26,
+    "seats": 5
+  },
+  {
+    "brand": "Volkswagen",
+    "model": "Vento",
+    "fuel_type": "Diesel",
+    "transmission": "Automatic",
+    "engine": 1498,
+    "max_power": 108.6,
+    "mileage": 22.15,
+    "seats": 5
+  },
+  {
+    "brand": "Volkswagen",
+    "model": "Vento",
+    "fuel_type": "Diesel",
+    "transmission": "Automatic",
+    "engine": 1498,
+    "max_power": 108.5,
+    "mileage": 21.5,
+    "seats": 5
+  },
+  {
+    "brand": "Volkswagen",
+    "model": "Vento",
+    "fuel_type": "Diesel",
+    "transmission": "Automatic",
+    "engine": 1498,
+    "max_power": 103.2,
+    "mileage": 21.21,
+    "seats": 5
+  },
+  {
+    "brand": "Volkswagen",
+    "model": "Vento",
+    "fuel_type": "Diesel",
+    "transmission": "Manual",
+    "engine": 1498,
+    "max_power": 108.6,
+    "mileage": 22.27,
+    "seats": 5
+  },
+  {
+    "brand": "Volkswagen",
+    "model": "Vento",
+    "fuel_type": "Diesel",
+    "transmission": "Manual",
+    "engine": 1498,
+    "max_power": 103.2,
+    "mileage": 20.34,
+    "seats": 5
+  },
+  {
+    "brand": "Volkswagen",
+    "model": "Vento",
+    "fuel_type": "Diesel",
+    "transmission": "Manual",
+    "engine": 1498,
+    "max_power": 108.49,
+    "mileage": 20.64,
+    "seats": 5
+  },
+  {
+    "brand": "Volkswagen",
+    "model": "Vento",
+    "fuel_type": "Diesel",
+    "transmission": "Manual",
+    "engine": 1598,
+    "max_power": 103.6,
+    "mileage": 20.54,
+    "seats": 5
+  },
+  {
+    "brand": "Volkswagen",
+    "model": "Vento",
+    "fuel_type": "Diesel",
+    "transmission": "Manual",
+    "engine": 1598,
+    "max_power": 105.0,
+    "mileage": 20.5,
+    "seats": 5
+  },
+  {
+    "brand": "Volkswagen",
+    "model": "Vento",
+    "fuel_type": "Diesel",
+    "transmission": "Manual",
+    "engine": 1598,
+    "max_power": 103.5,
+    "mileage": 20.54,
+    "seats": 5
+  },
+  {
+    "brand": "Volkswagen",
+    "model": "Vento",
+    "fuel_type": "Petrol",
+    "transmission": "Automatic",
+    "engine": 1197,
+    "max_power": 103.2,
+    "mileage": 16.93,
+    "seats": 5
+  },
+  {
+    "brand": "Volkswagen",
+    "model": "Vento",
+    "fuel_type": "Petrol",
+    "transmission": "Automatic",
+    "engine": 1197,
+    "max_power": 103.6,
+    "mileage": 16.93,
+    "seats": 5
+  },
+  {
+    "brand": "Volkswagen",
+    "model": "Vento",
+    "fuel_type": "Petrol",
+    "transmission": "Automatic",
+    "engine": 1197,
+    "max_power": 103.2,
+    "mileage": 18.19,
+    "seats": 5
+  },
+  {
+    "brand": "Volkswagen",
+    "model": "Vento",
+    "fuel_type": "Petrol",
+    "transmission": "Automatic",
+    "engine": 1197,
+    "max_power": 103.5,
+    "mileage": 18.19,
+    "seats": 5
+  },
+  {
+    "brand": "Volkswagen",
+    "model": "Vento",
+    "fuel_type": "Petrol",
+    "transmission": "Automatic",
+    "engine": 1598,
+    "max_power": 105.0,
+    "mileage": 14.8,
+    "seats": 5
+  },
+  {
+    "brand": "Volkswagen",
+    "model": "Vento",
+    "fuel_type": "Petrol",
+    "transmission": "Automatic",
+    "engine": 1598,
+    "max_power": 103.6,
+    "mileage": 14.4,
+    "seats": 5
+  },
+  {
+    "brand": "Volkswagen",
+    "model": "Vento",
+    "fuel_type": "Petrol",
+    "transmission": "Manual",
+    "engine": 999,
+    "max_power": 108.62,
+    "mileage": 17.69,
+    "seats": 5
+  },
+  {
+    "brand": "Volkswagen",
+    "model": "Vento",
+    "fuel_type": "Petrol",
+    "transmission": "Manual",
+    "engine": 1598,
+    "max_power": 103.2,
+    "mileage": 16.09,
+    "seats": 5
+  },
+  {
+    "brand": "Volkswagen",
+    "model": "Vento",
+    "fuel_type": "Petrol",
+    "transmission": "Manual",
+    "engine": 1598,
+    "max_power": 103.6,
+    "mileage": 15.04,
+    "seats": 5
+  },
+  {
+    "brand": "Volkswagen",
+    "model": "Vento",
+    "fuel_type": "Petrol",
+    "transmission": "Manual",
+    "engine": 1598,
+    "max_power": 103.2,
+    "mileage": 15.04,
+    "seats": 5
+  },
+  {
+    "brand": "Volkswagen",
+    "model": "Vento",
+    "fuel_type": "Petrol",
+    "transmission": "Manual",
+    "engine": 1598,
+    "max_power": 105.0,
+    "mileage": 15.8,
+    "seats": 5
+  },
+  {
+    "brand": "Volkswagen",
+    "model": "Vento",
+    "fuel_type": "Petrol",
+    "transmission": "Manual",
+    "engine": 1598,
+    "max_power": 103.5,
+    "mileage": 16.09,
+    "seats": 5
+  },
+  {
+    "brand": "Volvo",
+    "model": "S90",
+    "fuel_type": "Diesel",
+    "transmission": "Automatic",
+    "engine": 1969,
+    "max_power": 190.0,
+    "mileage": 18.0,
+    "seats": 5
+  },
+  {
+    "brand": "Volvo",
+    "model": "XC",
+    "fuel_type": "Diesel",
+    "transmission": "Automatic",
+    "engine": 1969,
+    "max_power": 235.0,
+    "mileage": 17.2,
+    "seats": 7
+  },
+  {
+    "brand": "Volvo",
+    "model": "XC",
+    "fuel_type": "Diesel",
+    "transmission": "Automatic",
+    "engine": 2400,
+    "max_power": 200.0,
+    "mileage": 11.1,
+    "seats": 7
+  },
+  {
+    "brand": "Volvo",
+    "model": "XC",
+    "fuel_type": "Diesel",
+    "transmission": "Manual",
+    "engine": 2400,
+    "max_power": 200.0,
+    "mileage": 11.1,
+    "seats": 7
+  },
+  {
+    "brand": "Volvo",
+    "model": "XC60",
+    "fuel_type": "Diesel",
+    "transmission": "Automatic",
+    "engine": 1984,
+    "max_power": 181.0,
+    "mileage": 14.7,
+    "seats": 5
+  },
+  {
+    "brand": "Volvo",
+    "model": "XC60",
+    "fuel_type": "Diesel",
+    "transmission": "Automatic",
+    "engine": 1985,
+    "max_power": 163.0,
+    "mileage": 14.7,
+    "seats": 5
+  },
+  {
+    "brand": "Volvo",
+    "model": "XC60",
+    "fuel_type": "Diesel",
+    "transmission": "Automatic",
+    "engine": 2400,
+    "max_power": 215.0,
+    "mileage": 11.2,
+    "seats": 5
+  },
+  {
+    "brand": "Volvo",
+    "model": "XC90",
+    "fuel_type": "Diesel",
+    "transmission": "Automatic",
+    "engine": 1969,
+    "max_power": 235.0,
+    "mileage": 17.2,
+    "seats": 7
+  }
+]

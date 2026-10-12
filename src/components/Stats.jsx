@@ -1,32 +1,31 @@
 import React from 'react';
-import { motion } from 'framer-motion';
-import { Zap, ShieldCheck, GitCompare, FileText } from 'lucide-react';
+import { Zap, ShieldCheck, Cpu, FileText } from 'lucide-react';
 
 export default function Stats() {
   const stats = [
     {
       id: 1,
       icon: <Zap className="w-4.5 h-4.5 text-brand-primary" />,
-      title: 'Instant Valuation',
-      sublabel: 'Get estimated resale value in seconds',
+      title: 'Resale Value Prediction',
+      sublabel: 'Estimate used car prices from specifications',
     },
     {
       id: 2,
       icon: <ShieldCheck className="w-4.5 h-4.5 text-emerald-400" />,
-      title: 'Fair Price Analysis',
-      sublabel: 'Evaluate overpriced vs underpriced deals',
+      title: 'Input Validation Engine',
+      sublabel: 'Validates vehicle attribute completeness',
     },
     {
       id: 3,
-      icon: <GitCompare className="w-4.5 h-4.5 text-brand-accent" />,
-      title: 'Compare Vehicles',
-      sublabel: 'Compare listings side by side',
+      icon: <Cpu className="w-4.5 h-4.5 text-brand-accent" />,
+      title: 'Data-Driven Valuation',
+      sublabel: 'Comprehensive used-car market analytics',
     },
     {
       id: 4,
       icon: <FileText className="w-4.5 h-4.5 text-indigo-400" />,
-      title: 'Secure Reports',
-      sublabel: 'Download PDF appraisal certificates',
+      title: 'PDF Valuation Reports',
+      sublabel: 'Download appraisal reports immediately',
     },
   ];
 
