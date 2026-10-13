@@ -125,19 +125,26 @@ export default function PredictPage() {
     }
   }, [brand]);
 
+  // 2b. Validate model against available options
   useEffect(() => {
+    if (!brand) {
+      if (model) setModel('');
+      return;
+    }
     if (model && modelOptions.length > 0 && !modelOptions.includes(model)) {
       setModel('');
+    } else if (!model && modelOptions.length === 1) {
+      setModel(modelOptions[0]);
     }
   }, [brand, modelOptions, model]);
 
-  // 3. Fuel Types for selected Brand + Model
-  const fuelOptions = useMemo(() => getFuelOptions(brand, model), [brand, model]);
+  // 3. Fuel Types for selected Brand + Model (optionally narrowed by engine if already selected)
+  const fuelOptions = useMemo(() => getFuelOptions(brand, model, engine), [brand, model, engine]);
 
-  // 4. Transmissions for selected Brand + Model + Fuel
+  // 4. Transmissions for selected Brand + Model + Fuel (optionally narrowed by engine)
   const transmissionOptions = useMemo(
-    () => getTransmissionOptions(brand, model, fuelType),
-    [brand, model, fuelType]
+    () => getTransmissionOptions(brand, model, fuelType, engine),
+    [brand, model, fuelType, engine]
   );
 
   // 5. Engines (CC) for selected Brand + Model + Fuel + Transmission
@@ -158,111 +165,106 @@ export default function PredictPage() {
     [brand, model, fuelType, transmission, engine, maxPower]
   );
 
-  // Auto-selection helpers when exactly 1 option exists for next step
+  // Cascading validity guards: Reset downstream ONLY when current selection is no longer valid
+  // If exactly 1 valid option remains for downstream, auto-select it; if multiple, preserve valid or prompt selection.
   useEffect(() => {
-    if (modelOptions.length === 1 && model !== modelOptions[0]) {
-      setModel(modelOptions[0]);
+    if (!model) {
+      if (fuelType) setFuelType('');
+      return;
     }
-  }, [modelOptions, model]);
-
-  useEffect(() => {
-    if (fuelOptions.length === 1 && fuelType !== fuelOptions[0]) {
+    if (fuelType && fuelOptions.length > 0 && !fuelOptions.includes(fuelType)) {
+      setFuelType('');
+    } else if (!fuelType && fuelOptions.length === 1) {
       setFuelType(fuelOptions[0]);
     }
-  }, [fuelOptions, fuelType]);
+  }, [model, fuelOptions, fuelType]);
 
   useEffect(() => {
-    if (
-      transmissionOptions.length === 1 &&
-      transmission !== transmissionOptions[0]
-    ) {
+    if (!model) {
+      if (transmission) setTransmission('');
+      return;
+    }
+    if (transmission && transmissionOptions.length > 0 && !transmissionOptions.includes(transmission)) {
+      setTransmission('');
+    } else if (!transmission && transmissionOptions.length === 1) {
       setTransmission(transmissionOptions[0]);
     }
-  }, [transmissionOptions, transmission]);
+  }, [model, transmissionOptions, transmission]);
 
   useEffect(() => {
-    if (
-      engineOptions.length === 1 &&
-      String(engine) !== String(engineOptions[0])
-    ) {
+    if (!model) {
+      if (engine) setEngine('');
+      return;
+    }
+    const engineStrList = engineOptions.map(String);
+    if (engine && engineStrList.length > 0 && !engineStrList.includes(String(engine))) {
+      setEngine('');
+    } else if (!engine && engineOptions.length === 1) {
       setEngine(String(engineOptions[0]));
     }
-  }, [engineOptions, engine]);
+  }, [model, engineOptions, engine]);
 
   useEffect(() => {
-    if (
-      maxPowerOptions.length === 1 &&
-      String(maxPower) !== String(maxPowerOptions[0])
-    ) {
+    if (!engine) {
+      if (maxPower) setMaxPower('');
+      return;
+    }
+    const powerStrList = maxPowerOptions.map(String);
+    if (maxPower && powerStrList.length > 0 && !powerStrList.includes(String(maxPower))) {
+      setMaxPower('');
+    } else if (!maxPower && maxPowerOptions.length === 1) {
       setMaxPower(String(maxPowerOptions[0]));
     }
-  }, [maxPowerOptions, maxPower]);
+  }, [engine, maxPowerOptions, maxPower]);
 
-  // Handle Seats: auto-populate if 1 option, require selection if multiple
   useEffect(() => {
-    if (seatsOptions.length === 1) {
-      setSeats(String(seatsOptions[0]));
-    } else if (seatsOptions.length > 1) {
-      if (!seats || !seatsOptions.map(String).includes(String(seats))) {
-        setSeats('');
-      }
-    } else {
-      setSeats('');
+    if (!engine && !maxPower) {
+      if (seats) setSeats('');
+      return;
     }
-  }, [seatsOptions]);
+    const seatsStrList = seatsOptions.map(String);
+    if (seats && seatsStrList.length > 0 && !seatsStrList.includes(String(seats))) {
+      setSeats('');
+    } else if (!seats && seatsOptions.length === 1) {
+      setSeats(String(seatsOptions[0]));
+    }
+  }, [engine, maxPower, seatsOptions, seats]);
 
-  // Cascading Change Handlers with Reset Downstream
+  // Non-destructive Cascading Change Handlers: only update target field, allowing validity guards to preserve compatible selections
   const handleBrandChange = (val) => {
     setBrand(val);
-    setModel('');
-    setFuelType('');
-    setTransmission('');
-    setEngine('');
-    setMaxPower('');
-    setSeats('');
     setResult(null);
     setError('');
   };
 
   const handleModelChange = (val) => {
     setModel(val);
-    setFuelType('');
-    setTransmission('');
-    setEngine('');
-    setMaxPower('');
-    setSeats('');
     setResult(null);
     setError('');
   };
 
   const handleFuelChange = (val) => {
     setFuelType(val);
-    setTransmission('');
-    setEngine('');
-    setMaxPower('');
-    setSeats('');
     setResult(null);
+    setError('');
   };
 
   const handleTransmissionChange = (val) => {
     setTransmission(val);
-    setEngine('');
-    setMaxPower('');
-    setSeats('');
     setResult(null);
+    setError('');
   };
 
   const handleEngineChange = (val) => {
     setEngine(val);
-    setMaxPower('');
-    setSeats('');
     setResult(null);
+    setError('');
   };
 
   const handleMaxPowerChange = (val) => {
     setMaxPower(val);
-    setSeats('');
     setResult(null);
+    setError('');
   };
 
   const validateInputs = () => {
@@ -280,10 +282,29 @@ export default function PredictPage() {
     }
 
     if (!fuelType) return 'Please select a Fuel Type.';
+    if (fuelOptions.length > 0 && !fuelOptions.includes(fuelType)) {
+      return `Fuel type "${fuelType}" is not valid for ${brand} ${model}.`;
+    }
+
     if (!transmission) return 'Please select a Transmission.';
+    if (transmissionOptions.length > 0 && !transmissionOptions.includes(transmission)) {
+      return `Transmission "${transmission}" is not valid for ${brand} ${model} (${fuelType}).`;
+    }
+
     if (!engine) return 'Please select Engine capacity.';
+    if (engineOptions.length > 0 && !engineOptions.map(String).includes(String(engine))) {
+      return `Engine capacity "${engine} CC" is not valid for the selected vehicle.`;
+    }
+
     if (!maxPower) return 'Please select Max Power.';
+    if (maxPowerOptions.length > 0 && !maxPowerOptions.map(String).includes(String(maxPower))) {
+      return `Max Power "${maxPower} bhp" is not compatible with ${brand} ${model} ${engine} CC.`;
+    }
+
     if (!seats) return 'Please select Seats count.';
+    if (seatsOptions.length > 0 && !seatsOptions.map(String).includes(String(seats))) {
+      return `Seats count "${seats}" is not valid for the selected vehicle specification.`;
+    }
 
     const ageNum = Number(vehicleAge);
     if (vehicleAge === '' || isNaN(ageNum) || ageNum < 0) return 'Vehicle Age must be a valid non-negative number.';
@@ -525,8 +546,8 @@ export default function PredictPage() {
                       value={transmission}
                       onChange={handleTransmissionChange}
                       options={transmissionOptions}
-                      placeholder={!fuelType ? 'Select Fuel Type first' : 'Select Transmission'}
-                      disabled={!fuelType}
+                      placeholder={!model ? 'Select Model first' : (!fuelType ? 'Select Fuel Type first' : 'Select Transmission')}
+                      disabled={!model}
                     />
 
                     {/* Engine Capacity */}
@@ -539,8 +560,8 @@ export default function PredictPage() {
                         label: `${e} CC`,
                         value: String(e),
                       }))}
-                      placeholder={!transmission ? 'Select Transmission first' : 'Select Engine'}
-                      disabled={!transmission}
+                      placeholder={!model ? 'Select Model first' : 'Select Engine'}
+                      disabled={!model}
                     />
 
                     {/* Max Power */}

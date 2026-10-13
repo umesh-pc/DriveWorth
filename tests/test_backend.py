@@ -123,5 +123,61 @@ class TestBackendIntegration(unittest.TestCase):
             self.assertEqual(data['vehicle']['model'], sample['model'])
             print(f"Predicted {sample['brand']} {sample['model']}: Rs. {pred:,.0f}")
 
+    def test_08_predict_multiple_power_variants_same_engine(self):
+        """Verifies that different power outputs for the same engine capacity are both accepted and evaluated by the model."""
+        variant_pairs = [
+            # Swift 1248cc Diesel Manual: 74 bhp vs 75 bhp
+            (
+                {'brand': 'Maruti', 'model': 'Swift', 'vehicle_age': 4, 'km_driven': 40000, 'seller_type': 'Individual', 'fuel_type': 'Diesel', 'transmission': 'Manual', 'mileage': 25.2, 'engine': 1248, 'max_power': 74.0, 'seats': 5},
+                {'brand': 'Maruti', 'model': 'Swift', 'vehicle_age': 4, 'km_driven': 40000, 'seller_type': 'Individual', 'fuel_type': 'Diesel', 'transmission': 'Manual', 'mileage': 25.2, 'engine': 1248, 'max_power': 75.0, 'seats': 5}
+            ),
+            # Renault Duster 1461cc Diesel Manual: 85 PS (83.8 bhp) vs 110 PS (108.45 bhp)
+            (
+                {'brand': 'Renault', 'model': 'Duster', 'vehicle_age': 5, 'km_driven': 50000, 'seller_type': 'Individual', 'fuel_type': 'Diesel', 'transmission': 'Manual', 'mileage': 19.87, 'engine': 1461, 'max_power': 83.8, 'seats': 5},
+                {'brand': 'Renault', 'model': 'Duster', 'vehicle_age': 5, 'km_driven': 50000, 'seller_type': 'Individual', 'fuel_type': 'Diesel', 'transmission': 'Manual', 'mileage': 19.87, 'engine': 1461, 'max_power': 108.45, 'seats': 5}
+            ),
+            # Volkswagen Polo 999cc Petrol Manual: MPI (75.0 bhp) vs TSI (108.62 bhp)
+            (
+                {'brand': 'Volkswagen', 'model': 'Polo', 'vehicle_age': 3, 'km_driven': 30000, 'seller_type': 'Individual', 'fuel_type': 'Petrol', 'transmission': 'Manual', 'mileage': 18.24, 'engine': 999, 'max_power': 75.0, 'seats': 5},
+                {'brand': 'Volkswagen', 'model': 'Polo', 'vehicle_age': 3, 'km_driven': 30000, 'seller_type': 'Individual', 'fuel_type': 'Petrol', 'transmission': 'Manual', 'mileage': 18.24, 'engine': 999, 'max_power': 108.62, 'seats': 5}
+            ),
+        ]
+
+        for v1, v2 in variant_pairs:
+            res1 = self.client.post('/api/predict', json=v1)
+            self.assertEqual(res1.status_code, 200, f"Failed for {v1['brand']} {v1['model']} {v1['max_power']} bhp")
+            pred1 = res1.get_json()['predicted_price']
+
+            res2 = self.client.post('/api/predict', json=v2)
+            self.assertEqual(res2.status_code, 200, f"Failed for {v2['brand']} {v2['model']} {v2['max_power']} bhp")
+            pred2 = res2.get_json()['predicted_price']
+
+            self.assertGreater(pred1, 0)
+            self.assertGreater(pred2, 0)
+            print(f"Verified variant pricing: {v1['brand']} {v1['model']} {v1['engine']}cc ({v1['max_power']} bhp: Rs. {pred1:,.0f} vs {v2['max_power']} bhp: Rs. {pred2:,.0f})")
+
+    def test_09_predict_canonical_hyundai_i20_diesel(self):
+        """Verifies prediction with the audited and verified canonical Hyundai i20 1396cc Diesel (88.76 bhp)."""
+        payload = {
+            'brand': 'Hyundai',
+            'model': 'i20',
+            'vehicle_age': 5,
+            'km_driven': 45000,
+            'seller_type': 'Individual',
+            'fuel_type': 'Diesel',
+            'transmission': 'Manual',
+            'mileage': 22.54,
+            'engine': 1396,
+            'max_power': 88.76,
+            'seats': 5
+        }
+        res = self.client.post('/api/predict', json=payload)
+        self.assertEqual(res.status_code, 200)
+        data = res.get_json()
+        self.assertTrue(data['success'])
+        pred = data['predicted_price']
+        self.assertGreater(pred, 200000)
+        print(f"Verified canonical Hyundai i20 Diesel (88.76 bhp): Rs. {pred:,.0f}")
+
 if __name__ == '__main__':
     unittest.main()
