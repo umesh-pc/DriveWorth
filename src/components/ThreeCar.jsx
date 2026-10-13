@@ -105,13 +105,11 @@ function WebGLCar({ onLoad, onError, onProgress }) {
     let animationFrameId;
     let renderer, scene, camera, carGroup;
     let bodyMaterial;
-    let mouseX = 0, mouseY = 0;
-    let targetRotX = 0, targetRotY = 0;
-    let currentRotX = 0, currentRotY = 0;
     let isHovered = false;
 
-    const width = containerRef.current.clientWidth;
-    const height = containerRef.current.clientHeight;
+    const containerEl = containerRef.current;
+    const width = containerEl.clientWidth;
+    const height = containerEl.clientHeight;
 
     // 1. Scene setup
     scene = new THREE.Scene();
@@ -376,9 +374,9 @@ function WebGLCar({ onLoad, onError, onProgress }) {
     // Cleanups
     return () => {
       window.removeEventListener('resize', onResize);
-      if (containerRef.current) {
-        containerRef.current.removeEventListener('mouseenter', onMouseEnter);
-        containerRef.current.removeEventListener('mouseleave', onMouseLeave);
+      if (containerEl) {
+        containerEl.removeEventListener('mouseenter', onMouseEnter);
+        containerEl.removeEventListener('mouseleave', onMouseLeave);
       }
       cancelAnimationFrame(animationFrameId);
       controls.dispose();
@@ -413,7 +411,7 @@ export default function ThreeCar() {
   }, []);
 
   return (
-    <div className="relative w-full h-[360px] md:h-[480px] lg:h-[580px] flex items-center justify-center select-none">
+    <div className="relative w-full h-[280px] sm:h-[340px] md:h-[480px] lg:h-[580px] flex items-center justify-center select-none">
       <ErrorBoundary fallback={<CarFallback />}>
         {!hasError && (
           <WebGLCar 
@@ -431,11 +429,11 @@ export default function ThreeCar() {
       <AnimatePresence>
         {isLoading && !hasError && (
           <motion.div 
-            className="absolute inset-0 flex flex-col items-center justify-center bg-luxury-bg/85 backdrop-blur-md rounded-3xl border border-white/5"
+            className="absolute inset-0 flex flex-col items-center justify-center bg-luxury-bg/85 backdrop-blur-md rounded-2xl sm:rounded-3xl border border-white/5"
             exit={{ opacity: 0, transition: { duration: 0.5 } }}
           >
             {/* Spinning futuristic progress dial */}
-            <div className="relative w-24 h-24 flex items-center justify-center">
+            <div className="relative w-20 h-20 sm:w-24 sm:h-24 flex items-center justify-center">
               <svg className="w-full h-full -rotate-90" viewBox="0 0 100 100">
                 {/* Background Ring */}
                 <circle 
@@ -460,7 +458,7 @@ export default function ThreeCar() {
                 />
               </svg>
               {/* Inner Dial indicator */}
-              <div className="absolute text-sm font-mono font-bold text-white">
+              <div className="absolute text-xs sm:text-sm font-mono font-bold text-white">
                 {progress}%
               </div>
             </div>
@@ -468,11 +466,11 @@ export default function ThreeCar() {
             <motion.h3 
               animate={{ opacity: [0.4, 1, 0.4] }}
               transition={{ repeat: Infinity, duration: 1.5 }}
-              className="mt-6 font-display font-semibold text-white tracking-widest text-xs uppercase"
+              className="mt-5 font-display font-semibold text-white tracking-widest text-[11px] sm:text-xs uppercase"
             >
               INITIALIZING 3D ENGINE
             </motion.h3>
-            <p className="text-secondary-text text-[11px] mt-1.5">Loading scene shaders & lighting indices...</p>
+            <p className="text-secondary-text text-[10px] sm:text-[11px] mt-1">Loading scene shaders & lighting indices...</p>
           </motion.div>
         )}
       </AnimatePresence>
@@ -492,19 +490,19 @@ export default function ThreeCar() {
             scale: { delay: 1.2, duration: 0.5 },
             y: { duration: 5, repeat: Infinity, ease: 'easeInOut' }
           }}
-          className="absolute top-1 md:top-2 lg:top-3 left-1/2 z-20 pointer-events-none flex flex-col items-center filter drop-shadow-[0_12px_24px_rgba(0,0,0,0.5)]"
+          className="absolute top-1 md:top-2 lg:top-3 left-1/2 z-20 pointer-events-none flex flex-col items-center filter drop-shadow-[0_12px_24px_rgba(0,0,0,0.5)] max-w-[90vw]"
         >
           {/* Glass HUD panel */}
-          <div className="glass-panel border border-white/10 rounded-2xl px-6 py-3 bg-[#050816]/90 backdrop-blur-md flex flex-col items-center space-y-1 hover:border-brand-primary/40 transition-colors duration-300">
+          <div className="glass-panel border border-white/10 rounded-2xl px-4 sm:px-6 py-2.5 sm:py-3 bg-[#050816]/90 backdrop-blur-md flex flex-col items-center space-y-0.5 sm:space-y-1 hover:border-brand-primary/40 transition-colors duration-300">
             <div className="flex items-center space-x-1.5">
               <span className="text-[9px] font-bold text-brand-primary font-mono uppercase tracking-widest">
                 Sample Prediction
               </span>
             </div>
-            <span className="font-display font-extrabold text-lg md:text-xl text-gradient-primary tracking-tight">
+            <span className="font-display font-extrabold text-base sm:text-lg md:text-xl text-gradient-primary tracking-tight">
               ₹2,15,00,000
             </span>
-            <span className="text-[9px] font-mono text-secondary-text/80">
+            <span className="text-[8px] sm:text-[9px] font-mono text-secondary-text/80 truncate max-w-[200px]">
               Ferrari 458 Italia (2018)
             </span>
           </div>

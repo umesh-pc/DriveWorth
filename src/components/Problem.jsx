@@ -101,11 +101,11 @@ export default function Problem() {
   ];
 
   return (
-    <section id="problem" className="py-20 md:py-32 relative z-10 overflow-hidden">
-      <div className="max-w-7xl mx-auto px-6 md:px-12">
+    <section id="problem" className="py-16 sm:py-20 md:py-32 relative z-10 overflow-hidden">
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 md:px-12">
         
         {/* Asymmetric 2-Column Grid Split */}
-        <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 lg:gap-16 items-start">
+        <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 sm:gap-12 lg:gap-16 items-start">
           
           {/* Left Column */}
           <motion.div
@@ -113,7 +113,7 @@ export default function Problem() {
             whileInView={{ opacity: 1, x: 0 }}
             viewport={{ once: true }}
             transition={{ duration: 0.8 }}
-            className="lg:col-span-5 text-left space-y-6 lg:sticky lg:top-32"
+            className="lg:col-span-5 text-left space-y-5 sm:space-y-6 lg:sticky lg:top-32"
           >
             <div className="inline-flex items-center space-x-2 px-3.5 py-1 rounded-full bg-rose-500/10 border border-rose-500/20">
               <span className="text-[10px] font-bold text-rose-400 uppercase tracking-widest font-mono">
@@ -121,16 +121,16 @@ export default function Problem() {
               </span>
             </div>
 
-            <h2 className="font-display font-extrabold text-4xl sm:text-5xl text-white tracking-tight leading-[1.08]">
+            <h2 className="font-display font-extrabold text-2xl sm:text-4xl md:text-5xl text-white tracking-tight leading-[1.12] sm:leading-[1.08]">
               Used Car Resale Valuation Shouldn't Be <span className="text-gradient-accent">Guesswork.</span>
             </h2>
 
-            <p className="text-secondary-text text-sm sm:text-base leading-relaxed font-normal">
+            <p className="text-secondary-text text-xs sm:text-base leading-relaxed font-normal">
               Traditional used-car valuation methods are uncertain and inconsistent, making it difficult to establish a fair baseline resale value based on objective vehicle attributes.
             </p>
 
-            <div className="pt-4 border-l-2 border-rose-500/40 pl-5 space-y-1">
-              <span className="text-2xl font-extrabold text-white font-display">68%</span>
+            <div className="pt-3 sm:pt-4 border-l-2 border-rose-500/40 pl-4 sm:pl-5 space-y-1">
+              <span className="text-xl sm:text-2xl font-extrabold text-white font-display">68%</span>
               <p className="text-xs text-secondary-text leading-normal">
                 of used car transactions suffer from unstandardized valuation methods.
               </p>
@@ -138,7 +138,7 @@ export default function Problem() {
           </motion.div>
 
           {/* Right Column */}
-          <div className="lg:col-span-7 space-y-5 sm:space-y-6 w-full min-w-0">
+          <div className="lg:col-span-7 space-y-4 sm:space-y-6 w-full min-w-0">
             {cards.map((card, index) => (
               <motion.div
                 key={card.id}
@@ -151,7 +151,7 @@ export default function Problem() {
                 <GlowCard
                   glowColor={card.glow}
                   variant={card.variant}
-                  className="p-5 sm:p-6 lg:p-7 rounded-2xl sm:rounded-3xl"
+                  className="p-4 sm:p-6 lg:p-7 rounded-2xl sm:rounded-3xl"
                 >
                   <div className="flex flex-col sm:flex-row items-start sm:items-center justify-between gap-4 sm:gap-5 lg:gap-6 text-left w-full box-border">
                     <div className="space-y-2 flex-1 min-w-0 w-full box-border">

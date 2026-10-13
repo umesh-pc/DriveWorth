@@ -17,13 +17,13 @@ export default function Footer() {
       {/* Subtle ambient lighting */}
       <div className="absolute bottom-0 left-1/2 -translate-x-1/2 w-[70%] h-[150px] bg-gradient-to-t from-brand-primary/5 via-transparent to-transparent rounded-full blur-[100px] pointer-events-none -z-10" />
 
-      <div className="max-w-7xl mx-auto px-6 md:px-12">
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 md:px-12">
         {/* Main Footer Layout */}
         <div className="flex flex-col md:flex-row items-start justify-between gap-8 pb-8">
           
           {/* Left Column: Brand Logo, Description, Social Icons */}
           <div className="space-y-3.5 max-w-md text-left">
-            <a href="#home" className="flex items-center space-x-2.5 group w-fit">
+            <a href="#home" className="flex items-center space-x-2.5 group w-fit min-h-[44px]">
               <div className="w-8.5 h-8.5 rounded-xl bg-brand-primary/10 flex items-center justify-center border border-brand-primary/30 group-hover:border-brand-primary/60 transition-all">
                 <Activity className="w-4.5 h-4.5 text-brand-primary" />
               </div>
@@ -43,7 +43,7 @@ export default function Footer() {
                   href={social.href}
                   target="_blank"
                   rel="noreferrer"
-                  className="w-8 h-8 rounded-lg bg-white/[0.03] border border-white/10 flex items-center justify-center text-secondary-text hover:text-white hover:border-white/20 hover:bg-white/[0.08] transition-all duration-200"
+                  className="w-11 h-11 min-w-[44px] min-h-[44px] rounded-xl bg-white/[0.03] border border-white/10 flex items-center justify-center text-secondary-text hover:text-white hover:border-white/20 hover:bg-white/[0.08] transition-all duration-200"
                   aria-label={social.name}
                 >
                   {social.icon}
@@ -62,7 +62,7 @@ export default function Footer() {
                 <li key={link.name}>
                   <a
                     href={link.href}
-                    className="text-secondary-text hover:text-white transition-colors duration-200 text-xs font-medium"
+                    className="min-h-[44px] flex items-center text-secondary-text hover:text-white transition-colors duration-200 text-xs font-medium"
                   >
                     {link.name}
                   </a>
@@ -74,7 +74,7 @@ export default function Footer() {
         </div>
 
         {/* Thin Divider & Subtle Copyright */}
-        <div className="pt-6 border-t border-white/5 flex items-center justify-between text-xs text-secondary-text/60 font-sans">
+        <div className="pt-6 border-t border-white/5 flex flex-col sm:flex-row items-center justify-between gap-3 text-xs text-secondary-text/60 font-sans text-center sm:text-left">
           <p>© 2026 DriveWorth. All rights reserved.</p>
         </div>
 

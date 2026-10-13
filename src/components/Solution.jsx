@@ -52,14 +52,14 @@ export default function Solution() {
   ];
 
   return (
-    <section id="solution" className="py-20 md:py-28 relative z-10 overflow-hidden">
+    <section id="solution" className="py-16 sm:py-20 md:py-28 relative z-10 overflow-hidden">
       {/* Background ambient lighting */}
       <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[70%] h-[350px] bg-gradient-to-r from-brand-primary/10 via-indigo-500/5 to-transparent rounded-full blur-[120px] pointer-events-none -z-10" />
 
-      <div className="max-w-7xl mx-auto px-6 md:px-12">
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 md:px-12">
         
         {/* Asymmetric Header */}
-        <div className="flex flex-col md:flex-row md:items-end justify-between gap-6 mb-16 text-left">
+        <div className="flex flex-col md:flex-row md:items-end justify-between gap-4 sm:gap-6 mb-12 sm:mb-16 text-left">
           <div className="space-y-3 max-w-2xl">
             <motion.div
               initial={{ opacity: 0, scale: 0.95 }}
@@ -72,12 +72,12 @@ export default function Solution() {
               </span>
             </motion.div>
             
-            <h2 className="font-display font-extrabold text-3xl sm:text-5xl text-white tracking-tight leading-[1.08]">
+            <h2 className="font-display font-extrabold text-2xl sm:text-4xl md:text-5xl text-white tracking-tight leading-[1.12] sm:leading-[1.08]">
               How DriveWorth <span className="text-gradient-primary">Works.</span>
             </h2>
           </div>
 
-          <p className="text-secondary-text text-sm max-w-md leading-relaxed font-normal">
+          <p className="text-secondary-text text-xs sm:text-sm max-w-md leading-relaxed font-normal">
             A clear and structured prediction process that transforms vehicle specifications into an accurate resale value estimate.
           </p>
         </div>
