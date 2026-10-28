@@ -1521,16 +1521,6 @@
   },
   {
     "brand": "Hyundai",
-    "model": "Aura",
-    "fuel_type": "Petrol",
-    "transmission": "Manual",
-    "engine": 1197,
-    "max_power": 81.86,
-    "mileage": 20.5,
-    "seats": 5
-  },
-  {
-    "brand": "Hyundai",
     "model": "Creta",
     "fuel_type": "Diesel",
     "transmission": "Automatic",

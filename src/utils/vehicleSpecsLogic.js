@@ -28,11 +28,30 @@ const EXCLUDED_BRANDS_LOWER = new Set(
 );
 
 /**
+ * Excluded vehicle models that must not appear as selectable options in the UI.
+ */
+export const EXCLUDED_MODELS = [
+  'Aura'
+];
+
+const EXCLUDED_MODELS_LOWER = new Set(
+  EXCLUDED_MODELS.map((m) => m.trim().toLowerCase())
+);
+
+/**
  * Check if a brand is in the excluded brands list (case-insensitive).
  */
 export function isBrandExcluded(brand) {
   if (!brand) return false;
   return EXCLUDED_BRANDS_LOWER.has(String(brand).trim().toLowerCase());
+}
+
+/**
+ * Check if a model is in the excluded models list (case-insensitive).
+ */
+export function isModelExcluded(model) {
+  if (!model) return false;
+  return EXCLUDED_MODELS_LOWER.has(String(model).trim().toLowerCase());
 }
 
 /**
@@ -59,7 +78,7 @@ export function getModelOptions(brand) {
 
   for (const item of vehicleSpecs) {
     if (item.brand && item.brand.trim().toLowerCase() === bLower) {
-      if (item.model) {
+      if (item.model && !isModelExcluded(item.model)) {
         modelsSet.add(String(item.model).trim());
       }
     }
@@ -71,7 +90,7 @@ export function getModelOptions(brand) {
  * Matching specs filtered down by provided attributes.
  */
 function getMatchingSpecs(brand, model, filters = {}) {
-  if (!brand || !model || isBrandExcluded(brand)) return [];
+  if (!brand || !model || isBrandExcluded(brand) || isModelExcluded(model)) return [];
   const bLower = String(brand).trim().toLowerCase();
   const mLower = String(model).trim().toLowerCase();
 
@@ -237,7 +256,7 @@ export function getMileageValue(brand, model, engine, fuelType) {
  */
 export function isValidBrandModel(brand, model) {
   if (!brand || !model) return false;
-  if (isBrandExcluded(brand)) return false;
+  if (isBrandExcluded(brand) || isModelExcluded(model)) return false;
   const validModels = getModelOptions(brand);
   return validModels.includes(model);
 }

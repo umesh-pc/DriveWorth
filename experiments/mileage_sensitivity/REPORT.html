@@ -1,0 +1,581 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>DriveWorth: XGBoost Mileage Sensitivity Analysis</title>
+<style>
+    @page {
+        size: A4;
+        margin: 18mm 14mm 18mm 14mm;
+        @bottom-right {
+            content: "Page " counter(page);
+            font-size: 8pt;
+            color: #64748b;
+        }
+    }
+    body {
+        font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+        color: #1e293b;
+        line-height: 1.5;
+        font-size: 9.5pt;
+        background-color: #ffffff;
+        margin: 0;
+        padding: 0;
+    }
+    .header {
+        border-bottom: 2px solid #2563eb;
+        padding-bottom: 12px;
+        margin-bottom: 20px;
+    }
+    h1 {
+        color: #0f172a;
+        font-size: 18pt;
+        margin: 0 0 6px 0;
+        font-weight: 800;
+        letter-spacing: -0.5px;
+    }
+    .subtitle {
+        color: #475569;
+        font-size: 10pt;
+        font-weight: 500;
+        margin: 0;
+    }
+    .metadata-bar {
+        display: flex;
+        justify-content: space-between;
+        background-color: #f8fafc;
+        border: 1px solid #e2e8f0;
+        border-radius: 6px;
+        padding: 8px 14px;
+        margin-top: 12px;
+        font-size: 8.5pt;
+        color: #334155;
+    }
+    h2 {
+        color: #1e3a8a;
+        font-size: 12pt;
+        border-bottom: 1.5px solid #e2e8f0;
+        padding-bottom: 4px;
+        margin-top: 22px;
+        margin-bottom: 10px;
+        page-break-after: avoid;
+    }
+    h3 {
+        color: #0f172a;
+        font-size: 10.5pt;
+        margin-top: 14px;
+        margin-bottom: 6px;
+        page-break-after: avoid;
+    }
+    p, li {
+        margin: 0 0 6px 0;
+        color: #334155;
+    }
+    ul, ol {
+        padding-left: 20px;
+        margin-bottom: 10px;
+    }
+    .badge {
+        display: inline-block;
+        padding: 2px 6px;
+        border-radius: 4px;
+        font-size: 7.5pt;
+        font-weight: 600;
+    }
+    .badge-success { background-color: #dcfce7; color: #15803d; }
+    .badge-ood { background-color: #fee2e2; color: #b91c1c; }
+    .badge-peak { background-color: #fef3c7; color: #b45309; }
+    .badge-trough { background-color: #ede9fe; color: #6d28d9; }
+    .badge-ref { background-color: #e0e7ff; color: #4338ca; }
+
+    table {
+        width: 100%;
+        border-collapse: collapse;
+        margin: 12px 0 16px 0;
+        font-size: 8pt;
+        page-break-inside: auto;
+    }
+    tr {
+        page-break-inside: avoid;
+        page-break-after: auto;
+    }
+    th {
+        background-color: #f1f5f9;
+        color: #0f172a;
+        font-weight: 700;
+        text-align: left;
+        padding: 6px 8px;
+        border: 1px solid #cbd5e1;
+    }
+    td {
+        padding: 5px 8px;
+        border: 1px solid #e2e8f0;
+        color: #1e293b;
+    }
+    tr:nth-child(even) td {
+        background-color: #f8fafc;
+    }
+    .highlight-row {
+        background-color: #eff6ff !important;
+        font-weight: 600;
+    }
+    .img-container {
+        text-align: center;
+        margin: 14px 0;
+        page-break-inside: avoid;
+    }
+    .img-container img {
+        max-width: 98%;
+        height: auto;
+        border: 1px solid #cbd5e1;
+        border-radius: 6px;
+        box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+    }
+    .metric-grid {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        gap: 10px;
+        margin: 12px 0 16px 0;
+    }
+    .metric-card {
+        background: #f8fafc;
+        border: 1px solid #e2e8f0;
+        border-radius: 6px;
+        padding: 10px;
+        text-align: center;
+    }
+    .metric-title {
+        font-size: 7.5pt;
+        color: #64748b;
+        text-transform: uppercase;
+        font-weight: 700;
+        margin-bottom: 4px;
+    }
+    .metric-val {
+        font-size: 13pt;
+        font-weight: 800;
+        color: #0f172a;
+    }
+    .metric-sub {
+        font-size: 7.5pt;
+        color: #059669;
+        font-weight: 600;
+        margin-top: 2px;
+    }
+    .metric-sub.neg { color: #dc2626; }
+    .callout {
+        background-color: #f0f9ff;
+        border-left: 4px solid #0284c7;
+        padding: 10px 14px;
+        margin: 12px 0;
+        border-radius: 0 6px 6px 0;
+        font-size: 8.5pt;
+    }
+    .callout-title {
+        font-weight: 700;
+        color: #0369a1;
+        margin-bottom: 4px;
+    }
+    code {
+        font-family: Consolas, Monaco, "Courier New", monospace;
+        font-size: 8pt;
+        background-color: #f1f5f9;
+        padding: 2px 4px;
+        border-radius: 3px;
+        color: #0f172a;
+    }
+</style>
+</head>
+<body>
+
+<div class="header">
+    <h1>DriveWorth: XGBoost Mileage Sensitivity Analysis</h1>
+    <div class="subtitle">Controlled Feature Perturbation Experiment & Prediction Pipeline Report</div>
+    <div class="metadata-bar">
+        <span><strong>Target Model:</strong> XGBoost Regressor (300 Trees)</span>
+        <span><strong>Dataset:</strong> cardekho_cleaned_filtered.csv (14,331 rows)</span>
+        <span><strong>Evaluation Date:</strong> October 16, 2026</span>
+        <span><strong>Status:</strong> Verified Empirical Result</span>
+    </div>
+</div>
+
+<div class="metric-grid">
+    <div class="metric-card">
+        <div class="metric-title">Reference Baseline</div>
+        <div class="metric-val">₹6,22,727</div>
+        <div class="metric-sub" style="color: #4338ca;">22.54 km/l (i20 Median)</div>
+    </div>
+    <div class="metric-card">
+        <div class="metric-title">Global Peak Price</div>
+        <div class="metric-val">₹6,54,011</div>
+        <div class="metric-sub">+₹31,284 (+5.02% @ 12.5 km/l)</div>
+    </div>
+    <div class="metric-card">
+        <div class="metric-title">Global Trough Price</div>
+        <div class="metric-val">₹6,01,417</div>
+        <div class="metric-sub neg">-₹21,310 (-3.42% @ 28.0 km/l)</div>
+    </div>
+    <div class="metric-card">
+        <div class="metric-title">Peak-to-Trough Spread</div>
+        <div class="metric-val">₹52,594</div>
+        <div class="metric-sub neg">8.75% Total Sensitivity</div>
+    </div>
+</div>
+
+<h2>1. Executive Summary & Core Insights</h2>
+<p>This report documents a controlled sensitivity experiment conducted on the production XGBoost resale valuation pipeline of DriveWorth. By keeping every vehicle attribute constant and varying only <code>mileage</code> across 26 discrete values from 5.0 to 30.0 km/l, we observe:</p>
+<ul>
+    <li><strong>Strong Non-Monotonicity:</strong> The model does not exhibit a continuous or monotonic relationship between mileage and resale price. Predicted price fluctuates across 8 separate local peaks and valleys.</li>
+    <li><strong>Counter-Intuitive Efficiency Valuations:</strong> An inefficient car at <strong>10.0 km/l</strong> is predicted at <strong>₹6,47,552</strong> (+₹24,825 higher than the 22.54 km/l baseline).</li>
+    <li><strong>Tree Split Invariance:</strong> Outputs are mathematically flat at <strong>₹6,47,552</strong> across all inputs from 5.0 to 10.0 km/l because no tree split exists below 10.91 km/l.</li>
+</ul>
+
+<h2>2. Complete Experimental Results Table</h2>
+<table>
+    <thead>
+        <tr>
+            <th>#</th>
+            <th>Mileage (km/l)</th>
+            <th>Predicted Price (₹)</th>
+            <th>Price Diff (₹)</th>
+            <th>Price Change (%)</th>
+            <th>Previous Step Diff (₹)</th>
+            <th>Training Range Status</th>
+            <th>Status</th>
+        </tr>
+    </thead>
+    <tbody>
+
+        <tr>
+            <td>1</td>
+            <td><strong>5.00</strong></td>
+            <td><strong>₹647,552</strong></td>
+            <td>+₹24,825</td>
+            <td>+3.99%</td>
+            <td>—</td>
+            <td><span class="badge badge-ood">Out-of-Distribution</span></td>
+            <td><span class="badge badge-success">Success</span></td>
+        </tr>
+    
+        <tr>
+            <td>2</td>
+            <td><strong>8.00</strong></td>
+            <td><strong>₹647,552</strong></td>
+            <td>+₹24,825</td>
+            <td>+3.99%</td>
+            <td>₹0</td>
+            <td><span class="badge badge-ood">Out-of-Distribution</span></td>
+            <td><span class="badge badge-success">Success</span></td>
+        </tr>
+    
+        <tr>
+            <td>3</td>
+            <td><strong>10.00</strong></td>
+            <td><strong>₹647,552</strong></td>
+            <td>+₹24,825</td>
+            <td>+3.99%</td>
+            <td>₹0</td>
+            <td><span class="badge badge-ood">Out-of-Distribution</span></td>
+            <td><span class="badge badge-success">Success</span></td>
+        </tr>
+    
+        <tr>
+            <td>4</td>
+            <td><strong>11.00</strong></td>
+            <td><strong>₹649,355</strong></td>
+            <td>+₹26,628</td>
+            <td>+4.28%</td>
+            <td>+₹1,803</td>
+            <td><span class="badge badge-ood">Out-of-Distribution</span></td>
+            <td><span class="badge badge-success">Success</span></td>
+        </tr>
+    
+        <tr>
+            <td>5</td>
+            <td><strong>12.00</strong></td>
+            <td><strong>₹640,349</strong></td>
+            <td>+₹17,622</td>
+            <td>+2.83%</td>
+            <td>-₹9,006</td>
+            <td><span class="badge badge-ood">Out-of-Distribution</span></td>
+            <td><span class="badge badge-success">Success</span></td>
+        </tr>
+    
+        <tr class="highlight-row">
+            <td>6</td>
+            <td><strong>12.50</strong></td>
+            <td><strong>₹654,011</strong></td>
+            <td>+₹31,284</td>
+            <td>+5.02%</td>
+            <td>+₹13,662</td>
+            <td><span class="badge badge-ood">Out-of-Distribution</span></td>
+            <td><span class="badge badge-peak">Global Peak</span></td>
+        </tr>
+    
+        <tr>
+            <td>7</td>
+            <td><strong>12.80</strong></td>
+            <td><strong>₹647,954</strong></td>
+            <td>+₹25,227</td>
+            <td>+4.05%</td>
+            <td>-₹6,057</td>
+            <td><span class="badge badge-ood">Out-of-Distribution</span></td>
+            <td><span class="badge badge-success">Success</span></td>
+        </tr>
+    
+        <tr>
+            <td>8</td>
+            <td><strong>12.90</strong></td>
+            <td><strong>₹631,678</strong></td>
+            <td>+₹8,951</td>
+            <td>+1.44%</td>
+            <td>-₹16,276</td>
+            <td><span class="badge badge-ood">Out-of-Distribution</span></td>
+            <td><span class="badge badge-success">Success</span></td>
+        </tr>
+    
+        <tr>
+            <td>9</td>
+            <td><strong>13.00</strong></td>
+            <td><strong>₹632,271</strong></td>
+            <td>+₹9,544</td>
+            <td>+1.53%</td>
+            <td>+₹593</td>
+            <td><span class="badge badge-ood">Out-of-Distribution</span></td>
+            <td><span class="badge badge-success">Success</span></td>
+        </tr>
+    
+        <tr>
+            <td>10</td>
+            <td><strong>14.00</strong></td>
+            <td><strong>₹627,004</strong></td>
+            <td>+₹4,277</td>
+            <td>+0.69%</td>
+            <td>-₹5,267</td>
+            <td><span class="badge badge-ood">Out-of-Distribution</span></td>
+            <td><span class="badge badge-success">Success</span></td>
+        </tr>
+    
+        <tr>
+            <td>11</td>
+            <td><strong>15.00</strong></td>
+            <td><strong>₹623,252</strong></td>
+            <td>+₹525</td>
+            <td>+0.08%</td>
+            <td>-₹3,752</td>
+            <td><span class="badge badge-ood">Out-of-Distribution</span></td>
+            <td><span class="badge badge-success">Success</span></td>
+        </tr>
+    
+        <tr>
+            <td>12</td>
+            <td><strong>16.00</strong></td>
+            <td><strong>₹632,053</strong></td>
+            <td>+₹9,326</td>
+            <td>+1.50%</td>
+            <td>+₹8,801</td>
+            <td><span class="badge badge-ood">Out-of-Distribution</span></td>
+            <td><span class="badge badge-success">Success</span></td>
+        </tr>
+    
+        <tr>
+            <td>13</td>
+            <td><strong>17.00</strong></td>
+            <td><strong>₹629,328</strong></td>
+            <td>+₹6,601</td>
+            <td>+1.06%</td>
+            <td>-₹2,725</td>
+            <td><span class="badge badge-ood">Out-of-Distribution</span></td>
+            <td><span class="badge badge-success">Success</span></td>
+        </tr>
+    
+        <tr>
+            <td>14</td>
+            <td><strong>18.00</strong></td>
+            <td><strong>₹625,981</strong></td>
+            <td>+₹3,254</td>
+            <td>+0.52%</td>
+            <td>-₹3,347</td>
+            <td><span class="badge badge-ood">Out-of-Distribution</span></td>
+            <td><span class="badge badge-success">Success</span></td>
+        </tr>
+    
+        <tr>
+            <td>15</td>
+            <td><strong>19.00</strong></td>
+            <td><strong>₹613,351</strong></td>
+            <td>-₹9,376</td>
+            <td>-1.51%</td>
+            <td>-₹12,630</td>
+            <td><span class="badge badge-ood">Out-of-Distribution</span></td>
+            <td><span class="badge badge-success">Success</span></td>
+        </tr>
+    
+        <tr>
+            <td>16</td>
+            <td><strong>20.00</strong></td>
+            <td><strong>₹632,422</strong></td>
+            <td>+₹9,695</td>
+            <td>+1.56%</td>
+            <td>+₹19,071</td>
+            <td><span class="badge badge-ood">Out-of-Distribution</span></td>
+            <td><span class="badge badge-success">Success</span></td>
+        </tr>
+    
+        <tr>
+            <td>17</td>
+            <td><strong>21.00</strong></td>
+            <td><strong>₹631,142</strong></td>
+            <td>+₹8,415</td>
+            <td>+1.35%</td>
+            <td>-₹1,280</td>
+            <td><span class="badge badge-ood">Out-of-Distribution</span></td>
+            <td><span class="badge badge-success">Success</span></td>
+        </tr>
+    
+        <tr>
+            <td>18</td>
+            <td><strong>21.19</strong></td>
+            <td><strong>₹645,231</strong></td>
+            <td>+₹22,504</td>
+            <td>+3.61%</td>
+            <td>+₹14,089</td>
+            <td><span class="badge badge-success">In Range [21.19–25.20]</span></td>
+            <td><span class="badge badge-success">Success</span></td>
+        </tr>
+    
+        <tr>
+            <td>19</td>
+            <td><strong>22.00</strong></td>
+            <td><strong>₹622,727</strong></td>
+            <td>₹0</td>
+            <td>0.00%</td>
+            <td>-₹22,504</td>
+            <td><span class="badge badge-success">In Range [21.19–25.20]</span></td>
+            <td><span class="badge badge-success">Success</span></td>
+        </tr>
+    
+        <tr class="highlight-row">
+            <td>20</td>
+            <td><strong>22.54</strong></td>
+            <td><strong>₹622,727</strong></td>
+            <td>₹0</td>
+            <td>0.00%</td>
+            <td>₹0</td>
+            <td><span class="badge badge-success">In Range [21.19–25.20]</span></td>
+            <td><span class="badge badge-ref">Reference Baseline</span></td>
+        </tr>
+    
+        <tr>
+            <td>21</td>
+            <td><strong>23.00</strong></td>
+            <td><strong>₹618,306</strong></td>
+            <td>-₹4,421</td>
+            <td>-0.71%</td>
+            <td>-₹4,421</td>
+            <td><span class="badge badge-success">In Range [21.19–25.20]</span></td>
+            <td><span class="badge badge-success">Success</span></td>
+        </tr>
+    
+        <tr>
+            <td>22</td>
+            <td><strong>24.00</strong></td>
+            <td><strong>₹612,157</strong></td>
+            <td>-₹10,570</td>
+            <td>-1.70%</td>
+            <td>-₹6,149</td>
+            <td><span class="badge badge-success">In Range [21.19–25.20]</span></td>
+            <td><span class="badge badge-success">Success</span></td>
+        </tr>
+    
+        <tr>
+            <td>23</td>
+            <td><strong>25.00</strong></td>
+            <td><strong>₹619,881</strong></td>
+            <td>-₹2,846</td>
+            <td>-0.46%</td>
+            <td>+₹7,724</td>
+            <td><span class="badge badge-success">In Range [21.19–25.20]</span></td>
+            <td><span class="badge badge-success">Success</span></td>
+        </tr>
+    
+        <tr>
+            <td>24</td>
+            <td><strong>26.00</strong></td>
+            <td><strong>₹611,446</strong></td>
+            <td>-₹11,281</td>
+            <td>-1.81%</td>
+            <td>-₹8,435</td>
+            <td><span class="badge badge-ood">Out-of-Distribution</span></td>
+            <td><span class="badge badge-success">Success</span></td>
+        </tr>
+    
+        <tr class="highlight-row">
+            <td>25</td>
+            <td><strong>28.00</strong></td>
+            <td><strong>₹601,417</strong></td>
+            <td>-₹21,310</td>
+            <td>-3.42%</td>
+            <td>-₹10,029</td>
+            <td><span class="badge badge-ood">Out-of-Distribution</span></td>
+            <td><span class="badge badge-trough">Global Trough</span></td>
+        </tr>
+    
+        <tr>
+            <td>26</td>
+            <td><strong>30.00</strong></td>
+            <td><strong>₹618,855</strong></td>
+            <td>-₹3,872</td>
+            <td>-0.62%</td>
+            <td>+₹17,438</td>
+            <td><span class="badge badge-ood">Out-of-Distribution</span></td>
+            <td><span class="badge badge-success">Success</span></td>
+        </tr>
+    
+    </tbody>
+</table>
+
+<div style="page-break-before: always;"></div>
+
+<h2>3. High-Resolution Model Sensitivity Visualisation</h2>
+<div class="img-container">
+    <img src="mileage_sensitivity_chart.png" alt="DriveWorth XGBoost Sensitivity Visualisation">
+</div>
+
+<h2>4. Detailed Analysis & Behavioral Phenotype</h2>
+<h3>A. Key Comparison: 10 km/l vs 18 km/l vs 22.54 km/l</h3>
+<ul>
+    <li><strong>10.0 km/l:</strong> ₹6,47,552 (+₹24,825 or +3.99% relative to baseline).</li>
+    <li><strong>18.0 km/l:</strong> ₹6,25,981 (+₹3,254 or +0.52% relative to baseline).</li>
+    <li><strong>22.54 km/l (Factory Baseline):</strong> ₹6,22,727 (Primary Reference).</li>
+    <li><strong>Comparative Spread:</strong> 10.0 km/l yields ₹21,571 (+3.45%) more than 18.0 km/l, and ₹24,825 (+3.99%) more than 22.54 km/l.</li>
+</ul>
+
+<h3>B. Largest Point-to-Point Steps</h3>
+<ul>
+    <li><strong>Largest Adjacent Drop:</strong> Between 21.19 km/l and 22.00 km/l, falling by <strong>-₹22,504</strong> (-3.49%).</li>
+    <li><strong>Largest Adjacent Gain:</strong> Between 19.00 km/l and 20.00 km/l, rising by <strong>+₹19,071</strong> (+3.11%).</li>
+</ul>
+
+<h3>C. Confounding and Tree Split Mechanics</h3>
+<div class="callout">
+    <div class="callout-title">The Automotive Confounding Hypothesis</div>
+    In used car datasets, mileage negatively correlates with selling price overall (r = -0.308) because luxury vehicles (2000–3000cc engines) have low mileage (9–13 km/l) but very high price tags. When testing a hatchback at 12.5 km/l, trees split on low mileage assign positive residual weights meant for larger engine classes.
+    Furthermore, within the 334 Hyundai i20 Diesel samples, 21.19 km/l cars were newer models (mean age 4.57 years, avg price ₹6,81,714) compared to older 21.90/23.00 km/l cars (mean age 8.2 years, avg price ₹4,10,000–₹4,40,000). The model memorized these generational price shifts.
+</div>
+
+<h2>5. Validation and Parity Verification</h2>
+<ul>
+    <li><strong>Reproducibility:</strong> Tested 7 points across 3 runs. Variance was exactly 0.00% (100% deterministic).</li>
+    <li><strong>Pipeline Parity:</strong> API endpoint <code>/api/predict</code> and standalone raw XGBoost calculation produced identical numbers for every case.</li>
+    <li><strong>Input Validation:</strong> Negative (-5) and zero (0) mileage yielded <code>400 Bad Request</code> with message <em>"Please provide a valid positive Mileage."</em> String input yielded <code>400 Bad Request</code> with message <em>"Mileage must be a valid number."</em></li>
+</ul>
+
+<h2>6. Recommendations for Engineering Team</h2>
+<ol>
+    <li><strong>Train with Monotonicity Constraints:</strong> Set <code>monotone_constraints</code> in XGBoost to enforce monotonic behavior where appropriate.</li>
+    <li><strong>Add Production Range Guardrails:</strong> Check vehicle mileage inputs against variant-specific manufacturing ranges and flag extreme out-of-distribution entries.</li>
+</ol>
+
+</body>
+</html>

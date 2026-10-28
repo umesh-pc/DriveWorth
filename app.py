@@ -236,6 +236,64 @@ def get_specs():
         'options': models
     }), 200
 
+# ----------------------------------------------------------------------
+# Seller-Type Price Adjustments
+# Baseline is always Individual (0% adjustment).
+# Multipliers applied after obtaining baseline prediction:
+# - Individual: baseline (multiplier 1.0)
+# - Dealer: +1.9% (multiplier 1.019)
+# - Trustmark Dealer: +2.2% (multiplier 1.022)
+# ----------------------------------------------------------------------
+SELLER_TYPE_ADJUSTMENTS = {
+    'Individual': 1.0,         # 0% baseline
+    'Dealer': 1.019,           # +1.9%
+    'Trustmark Dealer': 1.022  # +2.2%
+}
+
+def apply_seller_type_adjustment(price_or_result, seller_type=None):
+    """
+    Applies seller-type adjustment multiplier to baseline price:
+    - Individual: 0% baseline (1.0)
+    - Dealer: +1.9% (1.019)
+    - Trustmark Dealer: +2.2% (1.022)
+
+    Validates seller_type against the three supported options:
+    Individual, Dealer, Trustmark Dealer.
+
+    Prevents double adjustment by operating strictly from baseline_price.
+    """
+    if isinstance(price_or_result, dict):
+        baseline = price_or_result.get('baseline_price')
+        if baseline is None:
+            baseline = price_or_result.get('predicted_price', 0.0)
+        st = seller_type or price_or_result.get('vehicle', {}).get('seller_type') or price_or_result.get('seller_type')
+        adjusted = apply_seller_type_adjustment(baseline, st)
+        price_or_result['predicted_price'] = adjusted
+        price_or_result['baseline_price'] = round(float(baseline))
+        price_or_result['is_seller_adjusted'] = True
+        return price_or_result
+
+    baseline_price = float(price_or_result) if price_or_result is not None else 0.0
+    if not np.isfinite(baseline_price) or baseline_price < 0:
+        baseline_price = 0.0
+
+    canonical = None
+    if seller_type:
+        st_lower = str(seller_type).strip().lower()
+        for valid_type in SELLER_TYPE_ADJUSTMENTS:
+            if valid_type.lower() == st_lower:
+                canonical = valid_type
+                break
+
+    if not canonical:
+        raise ValueError(
+            f"Invalid seller type '{seller_type}'. Supported options: {list(SELLER_TYPE_ADJUSTMENTS.keys())}"
+        )
+
+    multiplier = SELLER_TYPE_ADJUSTMENTS[canonical]
+    adjusted_price = baseline_price * multiplier
+    return round(adjusted_price)
+
 @app.route('/api/predict', methods=['POST'])
 def predict():
     if xgb_model is None:
@@ -295,7 +353,7 @@ def predict():
     valid_sellers = {'Individual', 'Dealer', 'Trustmark Dealer'}
     canonical_seller = next((s for s in valid_sellers if s.lower() == seller_type.lower()), None)
     if not canonical_seller:
-        canonical_seller = 'Individual'
+        return jsonify({'success': False, 'message': 'Please select a valid Seller Type (Individual, Dealer, Trustmark Dealer).'}), 400
 
     # 4. Validate Numerical Attributes
     try:
@@ -345,8 +403,12 @@ def predict():
         brand_encoded = float(brand_map.get(canonical_brand, global_mean))
         model_encoded = float(model_map.get(canonical_model, global_mean))
 
-        seller_ind = 1 if canonical_seller == 'Individual' else 0
-        seller_tm = 1 if canonical_seller == 'Trustmark Dealer' else 0
+        # Baseline model prediction: ALWAYS pass seller_type = "Individual" to ML model.
+        # The ML model must receive seller_type = "Individual" for every prediction,
+        # regardless of the seller type selected by the user.
+        # For 'Individual': seller_type_Individual = 1, seller_type_Trustmark Dealer = 0
+        seller_ind = 1
+        seller_tm = 0
         fuel_diesel = 1 if canonical_fuel == 'Diesel' else 0
         fuel_lpg = 1 if canonical_fuel == 'LPG' else 0
         fuel_petrol = 1 if canonical_fuel == 'Petrol' else 0
@@ -376,11 +438,18 @@ def predict():
         if not np.isfinite(raw_price) or raw_price < 0:
             raw_price = 0.0
 
-        predicted_price = round(raw_price)
+        baseline_price = round(raw_price)
+        predicted_price = apply_seller_type_adjustment(baseline_price, canonical_seller)
 
         return jsonify({
             'success': True,
             'predicted_price': predicted_price,
+            'baseline_price': baseline_price,
+            'seller_adjustment': {
+                'seller_type': canonical_seller,
+                'multiplier': SELLER_TYPE_ADJUSTMENTS[canonical_seller],
+                'is_adjusted': canonical_seller != 'Individual'
+            },
             'vehicle': {
                 'brand': canonical_brand,
                 'model': canonical_model,

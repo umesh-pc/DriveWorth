@@ -13,7 +13,8 @@ import {
   getEngineOptions,
   getMaxPowerOptions,
   getSeatsOptions,
-  isBrandExcluded
+  isBrandExcluded,
+  isModelExcluded
 } from '../utils/vehicleSpecsLogic';
 
 export default function PredictPage() {
@@ -107,7 +108,8 @@ export default function PredictPage() {
       })
       .then((data) => {
         if (isMounted && data.success && Array.isArray(data.options)) {
-          setModelOptions(data.options);
+          const safeModels = data.options.filter((m) => !isModelExcluded(m));
+          setModelOptions(safeModels);
         }
       })
       .catch(() => {
@@ -118,13 +120,15 @@ export default function PredictPage() {
     };
   }, [brand]);
 
-  // Prevent excluded brands or stale model states from persisting
+  // Prevent excluded brands or models or stale model states from persisting
   useEffect(() => {
     if (brand && isBrandExcluded(brand)) {
       setBrand('');
       setModel('');
+    } else if (model && isModelExcluded(model)) {
+      setModel('');
     }
-  }, [brand]);
+  }, [brand, model]);
 
   // 2b. Validate model against available options
   useEffect(() => {
@@ -239,6 +243,10 @@ export default function PredictPage() {
   };
 
   const handleModelChange = (val) => {
+    if (isModelExcluded(val)) {
+      setModel('');
+      return;
+    }
     setModel(val);
     setResult(null);
     setError('');
@@ -278,6 +286,9 @@ export default function PredictPage() {
     }
 
     if (!model) return 'Please select a vehicle Model.';
+    if (isModelExcluded(model)) {
+      return `Model "${model}" is no longer supported for resale prediction. Please select a valid model.`;
+    }
     if (!modelOptions.includes(model)) {
       return `Model "${model}" is not valid for ${brand}. Please select a valid model.`;
     }
